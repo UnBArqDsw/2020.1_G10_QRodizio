@@ -1,0 +1,1 @@
+# Tecnica 3
