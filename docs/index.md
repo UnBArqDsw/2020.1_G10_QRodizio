@@ -3,7 +3,7 @@ home: true
 heroImage: /qrcode_scan.png
 tagline: Rodízio direto e simples
 actionText: Documentação
-actionLink: /documentacao/
+actionLink: /documentacao
 features:
 - title: Leitura de QRCode
   details: Basta ler um QRCode e voce já está em uma mesa, pronto para fazer pedidos.
