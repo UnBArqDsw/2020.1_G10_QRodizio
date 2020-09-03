@@ -12,5 +12,6 @@ Esta metodologia é utilizada em questões onde os problemas e suas respectivas 
 
 
 **Referências**
-<br>
-TOLFO, Cristiano. O uso de rich picture como recurso didático baseado no pensamento visual. Research, Society and Development, v. 9, n. 1, p. e79911663-e79911663, 2020.
+<ul>
+<li>TOLFO, Cristiano. O uso de rich picture como recurso didático baseado no pensamento visual. Research, Society and Development, v. 9, n. 1, p. e79911663-e79911663, 2020.</li>
+</ul>
