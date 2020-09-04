@@ -1,0 +1,28 @@
+{
+  "name": "2020.1_g10_qrodizio",
+  "version": "1.0.0",
+  "description": "Um facilitador de rodízios em pizzarias e restaurantes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UnBArqDsw/2020.1_G10_QRodizio.git"
+  },
+  "keywords": [
+    "QRcode",
+    "Rodízio"
+  ],
+  "author": "",
+  "license": "GNU GPL V3",
+  "bugs": {
+    "url": "https://github.com/UnBArqDsw/2020.1_G10_QRodizio/issues"
+  },
+  "homepage": "https://github.com/UnBArqDsw/2020.1_G10_QRodizio#readme",
+  "dependencies": {
+    "vuepress": "^1.5.4"
+  }
+}
