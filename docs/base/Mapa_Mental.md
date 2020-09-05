@@ -40,7 +40,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla turpis sem, laore
 ## Visões individuais
 
 ### Cauê
-[![Mapa Mental](../imgs/Mapa_Mental_Cauê.png)](https://ibb.co/kg4mP95)
+[![Mapa Mental](../images/mindmap/Mapa_Mental_Caue.png)](https://ibb.co/kg4mP95)
 
 ### Mapa mental Fábio
 

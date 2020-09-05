@@ -47,7 +47,7 @@ Esta metodologia é utilizada em questões onde os problemas e suas respectivas 
 ## Visões individuais
 
 ### Cauê
-[![Rich Picture](../imgs/Rich_Picture_Cauê.png)](https://ibb.co/zNzBpWH)
+[![Rich Picture](../images/richpictute/Rich_Picture_Caue.png)](https://ibb.co/zNzBpWH)
 
 
 ### Rich Picture Fábio
