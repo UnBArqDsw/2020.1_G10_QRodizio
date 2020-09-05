@@ -9,7 +9,7 @@
 
 ## Visões individuais
 ### Cauê
-[![Diagrama Ishikawa](../imgs/Diagrama_Ishikawa_Cauê.png)](https://ibb.co/1ZqSfBD)
+[![Diagrama Ishikawa](../images/ishikawa/Diagrama_Ishikawa_Caue.png)](https://ibb.co/1ZqSfBD)
 
 ---
 
