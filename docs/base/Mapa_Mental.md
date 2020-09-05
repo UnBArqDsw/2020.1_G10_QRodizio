@@ -20,6 +20,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla turpis sem, laore
     <tr>
       <td>05/09/2020</td>
       <td>0.1</td>
+      <td>Adicionando um tópico do Mapa Mental</td>
+      <td>
+        Cauê Mateus Oliveira(<a target="blank" href="https://github.com/caue96">Cauê</a>)
+      </td>
+    </tr>
+    <tr>
+      <td>05/09/2020</td>
+      <td>0.2</td>
       <td>Adicionando Mapa Mental aluno Fábio Teixeira</td>
       <td>
         Fábio Teixeira(<a target="blank" href="https://github.com/fabio1079">fabio1079</a>)
@@ -29,10 +37,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla turpis sem, laore
 
 </table>
 
-## Mapa mental QRodízio
+## Visões individuais
 
-## Mapa mental Fábio
+### Cauê
+[![Mapa Mental](../imgs/Mapa_Mental_Cauê.png)](https://ibb.co/kg4mP95)
+
+### Mapa mental Fábio
 
 ![](../images/mindmap/Mind_Map_Fabio.jpg)
+
+## Visão final do grupo
 
 ## Referências
