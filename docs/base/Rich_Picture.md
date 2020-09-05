@@ -7,9 +7,20 @@ Esta metodologia é utilizada em questões onde os problemas e suas respectivas 
 |Data|Versão|Descrição|Autor(es)|
 |----|----|----|----|
 |02/09/2020|0.1|Adicionando introdução de Rich Picture|Caio César Beleza ([Caiocbeleza](https://github.com/Caiocbeleza))|
+|05/09/2020|0.2|Adicionando um tópico do 5w2h|[Cauê Mateus Oliveira](https://github.com/caue96)|
+
+---
+
+## Visões individuais
+### Cauê
+[![Rich Picture](../imgs/Rich_Picture_Cauê.png)](https://ibb.co/zNzBpWH)
+
+---
+
+## Visão final do grupo
 
 
-
+---
 
 **Referências**
 <ul>
