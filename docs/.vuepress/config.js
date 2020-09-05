@@ -19,7 +19,7 @@ module.exports = {
         collapsable: true, // optional, defaults to true
         sidebarDepth: 1, // optional, defaults to 1
         children: [
-          "/base/5W2H", "/base/Mapa_Mental", "/base/Rich_Picture"
+          "/base/5W2H", "/base/Mapa_Mental", "/base/Rich_Picture", "/base/Diagrama_Ishikawa"
         ],
       },
 
