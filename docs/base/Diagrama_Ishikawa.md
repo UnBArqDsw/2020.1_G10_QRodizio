@@ -1,4 +1,4 @@
-# Mapa mental
+# Diagrama Ishikawa
 
 ## Histórico de Revisões
 |Data|Versão|Descrição|Autor(es)|
@@ -9,7 +9,7 @@
 
 ## Visões individuais
 ### Cauê
-[![Mapa Mental](../imgs/Mapa_Mental_Cauê.png)](https://ibb.co/kg4mP95)
+[![Diagrama Ishikawa](../imgs/Diagrama_Ishikawa_Cauê.png)](https://ibb.co/1ZqSfBD)
 
 ---
 
