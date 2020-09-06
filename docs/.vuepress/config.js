@@ -5,7 +5,13 @@ module.exports = {
 
   themeConfig: {
     logo: "/qr_code_icon.png",
-    nav: [{ text: "Documentação", link: "/documentacao" }],
+    nav: [
+      { text: "Documentação", link: "/documentacao" },
+      {
+        text: "Github",
+        link: "https://github.com/UnBArqDsw/2020.1_G10_QRodizio",
+      },
+    ],
 
     /*
     sidebar: {
@@ -14,12 +20,20 @@ module.exports = {
     */
     sidebar: [
       {
+        title: "Termo de Abertura",
+        path: "/Termo_de_Abertura",
+      },
+
+      {
         title: "Base", // required
         // path: "/base/", // optional, link of the title, which should be an absolute path and must exist
         collapsable: true, // optional, defaults to true
         sidebarDepth: 1, // optional, defaults to 1
         children: [
-          "/base/5W2H", "/base/Mapa_Mental", "/base/Rich_Picture", "/base/Diagrama_Ishikawa"
+          "/base/5W2H",
+          "/base/Mapa_Mental",
+          "/base/Rich_Picture",
+          "/base/Diagrama_Ishikawa",
         ],
       },
 
@@ -27,9 +41,11 @@ module.exports = {
         title: "Elicitação",
         collapsable: true,
         children: [
-          "/Elicitacao/tecnica1", "/Elicitacao/tecnica2", "/Elicitacao/tecnica3"
+          "/Elicitacao/tecnica1",
+          "/Elicitacao/tecnica2",
+          "/Elicitacao/tecnica3",
         ],
-      }
+      },
     ],
   },
 };
