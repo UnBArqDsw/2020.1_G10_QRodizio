@@ -41,18 +41,30 @@ Esta metodologia é utilizada em questões onde os problemas e suas respectivas 
         Fábio Teixeira(<a target="blank" href="https://github.com/fabio1079">fabio1079</a>)
       </td>
     </tr>
+    <tr>
+      <td>05/09/2020</td>
+      <td>0.4</td>
+      <td>Adicionando Rich Picture versão 1 do cliente do aluno Caio César Beleza</td>
+      <td>
+        Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>)
+      </td>
+    </tr>
   </tbody>
 </table>
 
 ## Visões individuais
 
-### Cauê
+### Rich Picture Cauê
 [![Rich Picture](../images/richpictute/Rich_Picture_Caue.png)](https://ibb.co/zNzBpWH)
 
 
 ### Rich Picture Fábio
 
 ![](../images/richpictute/rich_picture_fabio.jpg)
+
+### Rich Picture Caio(Cliente)
+
+![](../images/richpictute/RPQRodizioCliente.png)
 
 ---
 
