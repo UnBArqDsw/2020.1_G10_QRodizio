@@ -1,7 +1,10 @@
 # Mapa mental
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla turpis sem, laoreet id facilisis a, aliquam quis ante. Fusce sed ipsum feugiat, volutpat tortor non, luctus nibh. Curabitur mi purus, accumsan ut risus feugiat, interdum feugiat massa. Phasellus varius dolor non vulputate suscipit. Mauris mauris nisi, porttitor eget est et, euismod commodo libero. Aliquam sagittis at tellus viverra elementum. Duis vel sagittis odio. Quisque molestie iaculis vestibulum. Praesent a scelerisque metus. Fusce luctus, erat et fringilla rhoncus, nulla ipsum pharetra eros, volutpat egestas nisl lacus nec mauris. Fusce ac luctus felis. Nam sit amet sapien id tellus ultricies sagittis et eget tellus. Ut at mollis leo. Maecenas tellus dolor, eleifend eget vulputate quis, lacinia sed lorem. Phasellus non viverra velit.
+Mapa mental é uma ferramenta que auxilia na sistematização e na visualização das relações e conexões entre ideias e conceitos. E por isso é muito útil para a transmissão de conhecimentos, dados e informações.<br>
+A idéia de um mapa mental é focalizar as ideias centrais e mostrar as relações entre essas ideias e os aspectos secundários, que também tem sua importância na construção geral do tema proposto. Em sua construção, é comum a utilização de imagens, cores e pouco texto, com frases objetivas e sucintas.<br>
+
+Nós utilizamos os mapas mentais para termos um apanhado geral de quais funcionalidades cada membro do grupo acha que seriam interessantes no sistema e, com isso, definir e organizar o escopo do projeto.
 </p>
 
 ## Histórico de Revisões
@@ -50,6 +53,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla turpis sem, laore
         Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>)
       </td>
     </tr>
+    <tr>
+      <td>06/09/2020</td>
+      <td>0.5</td>
+      <td>Adicionando Introdução de Mapa Mental </td>
+      <td>
+        Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>)
+      </td>
+    </tr>
   </tbody>
 
 </table>
@@ -72,3 +83,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla turpis sem, laore
 ![](../images/mindmap/Mind_Map_Grupo.jpg)
 
 ## Referências
+<ul>
+  <li>LCM TREINAMENTO. Mapa mental: pra que serve?. Disponível em https://lcmtreinamento.com.br/mapa-mental-para-que-serve/ . Acesso em: 06 set. 2020</li>
+</ul>
