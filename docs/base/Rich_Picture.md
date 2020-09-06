@@ -49,6 +49,14 @@ Esta metodologia é utilizada em questões onde os problemas e suas respectivas 
         Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>)
       </td>
     </tr>
+    <tr>
+      <td>05/09/2020</td>
+      <td>0.5</td>
+      <td>Adicionando Rich Picture versão 1 do gerente do aluno Caio César Beleza</td>
+      <td>
+        Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>)
+      </td>
+    </tr>
   </tbody>
 </table>
 
@@ -65,6 +73,10 @@ Esta metodologia é utilizada em questões onde os problemas e suas respectivas 
 ### Rich Picture Caio(Cliente)
 
 ![](../images/richpictute/RPQRodizioCliente.png)
+
+### Rich Picture Caio(Gerente)
+
+![](../images/richpictute/RPQrodizioGerente.png)
 
 ---
 
