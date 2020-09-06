@@ -42,6 +42,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla turpis sem, laore
         Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>)
       </td>
     </tr>
+    <tr>
+      <td>06/09/2020</td>
+      <td>0.4</td>
+      <td>Adicionando Mapa Mental do Grupo</td>
+      <td>
+        Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>)
+      </td>
+    </tr>
   </tbody>
 
 </table>
@@ -60,5 +68,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla turpis sem, laore
 ![](../images/mindmap/MapaMentalCaio.png)
 
 ## Visão final do grupo
+
+![](../images/mindmap/Mind_Map_Grupo.jpg)
 
 ## Referências
