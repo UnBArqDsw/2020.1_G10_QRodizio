@@ -1,7 +1,7 @@
 # Mapa mental
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla turpis sem, laoreet id facilisis a, aliquam quis ante. Fusce sed ipsum feugiat, volutpat tortor non, luctus nibh. Curabitur mi purus, accumsan ut risus feugiat, interdum feugiat massa. Phasellus varius dolor non vulputate suscipit. Mauris mauris nisi, porttitor eget est et, euismod commodo libero. Aliquam sagittis at tellus viverra elementum. Duis vel sagittis odio. Quisque molestie iaculis vestibulum. Praesent a scelerisque metus. Fusce luctus, erat et fringilla rhoncus, nulla ipsum pharetra eros, volutpat egestas nisl lacus nec mauris. Fusce ac luctus felis. Nam sit amet sapien id tellus ultricies sagittis et eget tellus. Ut at mollis leo. Maecenas tellus dolor, eleifend eget vulputate quis, lacinia sed lorem. Phasellus non viverra velit. 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla turpis sem, laoreet id facilisis a, aliquam quis ante. Fusce sed ipsum feugiat, volutpat tortor non, luctus nibh. Curabitur mi purus, accumsan ut risus feugiat, interdum feugiat massa. Phasellus varius dolor non vulputate suscipit. Mauris mauris nisi, porttitor eget est et, euismod commodo libero. Aliquam sagittis at tellus viverra elementum. Duis vel sagittis odio. Quisque molestie iaculis vestibulum. Praesent a scelerisque metus. Fusce luctus, erat et fringilla rhoncus, nulla ipsum pharetra eros, volutpat egestas nisl lacus nec mauris. Fusce ac luctus felis. Nam sit amet sapien id tellus ultricies sagittis et eget tellus. Ut at mollis leo. Maecenas tellus dolor, eleifend eget vulputate quis, lacinia sed lorem. Phasellus non viverra velit.
 </p>
 
 ## Histórico de Revisões
@@ -33,18 +33,31 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla turpis sem, laore
         Fábio Teixeira(<a target="blank" href="https://github.com/fabio1079">fabio1079</a>)
       </td>
     </tr>
+    </tr>
+    <tr>
+      <td>05/09/2020</td>
+      <td>0.3</td>
+      <td>Adicionando Mapa Mental do aluno Caio César Beleza</td>
+      <td>
+        Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>)
+      </td>
+    </tr>
   </tbody>
 
 </table>
 
 ## Visões individuais
 
-### Cauê
+### Autor: Cauê
 [![Mapa Mental](../images/mindmap/Mapa_Mental_Caue.png)](https://ibb.co/kg4mP95)
 
-### Mapa mental Fábio
+### Autor: Fábio
 
 ![](../images/mindmap/Mind_Map_Fabio.jpg)
+
+### Autor: Caio
+
+![](../images/mindmap/MapaMentalCaio.png)
 
 ## Visão final do grupo
 
