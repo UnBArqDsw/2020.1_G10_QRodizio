@@ -62,21 +62,23 @@ Esta metodologia é utilizada em questões onde os problemas e suas respectivas 
 
 ## Visões individuais
 
-### Rich Picture Cauê
+### Autor: Cauê
 [![Rich Picture](../images/richpictute/Rich_Picture_Caue.png)](https://ibb.co/zNzBpWH)
 
 
-### Rich Picture Fábio
+### Autor: Fábio
 
 ![](../images/richpictute/rich_picture_fabio.jpg)
 
-### Rich Picture Caio(Cliente)
+### Autor: Caio
 
 ![](../images/richpictute/RPQRodizioCliente.png)
+Versão do cliente
 
-### Rich Picture Caio(Gerente)
+### Autor: Caio
 
 ![](../images/richpictute/RPQrodizioGerente.png)
+Versão do gerente
 
 ---
 
