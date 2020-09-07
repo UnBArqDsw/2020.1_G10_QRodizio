@@ -25,7 +25,7 @@ Nós utilizamos os mapas mentais para termos um apanhado geral de quais funciona
       <td>0.1</td>
       <td>Adicionando um tópico do Mapa Mental</td>
       <td>
-        Cauê Mateus Oliveira(<a target="blank" href="https://github.com/caue96">Cauê</a>)
+        Cauê Mateus Oliveira(<a target="blank" href="https://github.com/caue96">caue96</a>)
       </td>
     </tr>
     <tr>
@@ -68,19 +68,19 @@ Nós utilizamos os mapas mentais para termos um apanhado geral de quais funciona
 ## Visões individuais
 
 ### Autor: Cauê
-[![Mapa Mental](../images/mindmap/Mapa_Mental_Caue.png)](https://ibb.co/kg4mP95)
+[![Mapa Mental](../images/mindmap/mapa_mental_caue.png)](https://ibb.co/kg4mP95)
 
 ### Autor: Fábio
 
-![](../images/mindmap/Mind_Map_Fabio.jpg)
+[![Mapa Mental](../images/mindmap/mind_map_fabio.jpg)](https://ibb.co/YDNNwbN)
 
 ### Autor: Caio
 
-![](../images/mindmap/MapaMentalCaio.png)
+[![Mapa Mental](../images/mindmap/mapa_mental_caio.png)](https://ibb.co/HD7rzPx)
 
 ## Visão final do grupo
 
-![](../images/mindmap/Mind_Map_Grupo.jpg)
+[![Mapa Mental](../images/mindmap/mind_map_grupo.jpg)](https://ibb.co/N96kG4L)
 
 ## Referências
 <ul>

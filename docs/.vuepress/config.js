@@ -15,13 +15,13 @@ module.exports = {
 
     /*
     sidebar: {
-      "/Base/":["5W2H", "Mapa_Mental.md", "Rich_Picture.md"],
+      "/Base/":["5W2H", "mapa_mental.md", "rich_picture.md"],
     },
     */
     sidebar: [
       {
         title: "Termo de Abertura",
-        path: "/Termo_de_Abertura",
+        path: "/termo_de_abertura",
       },
 
       {
@@ -31,9 +31,9 @@ module.exports = {
         sidebarDepth: 1, // optional, defaults to 1
         children: [
           "/base/5W2H",
-          "/base/Mapa_Mental",
-          "/base/Rich_Picture",
-          "/base/Diagrama_Ishikawa",
+          "/base/mapa_mental",
+          "/base/rich_picture",
+          "/base/diagrama_ishikawa",
         ],
       },
 
@@ -41,9 +41,9 @@ module.exports = {
         title: "Elicitação",
         collapsable: true,
         children: [
-          "/Elicitacao/tecnica1",
-          "/Elicitacao/tecnica2",
-          "/Elicitacao/tecnica3",
+          "/elicitacao/tecnica1",
+          "/elicitacao/tecnica2",
+          "/elicitacao/tecnica3",
         ],
       },
     ],

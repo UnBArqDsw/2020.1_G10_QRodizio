@@ -11,16 +11,16 @@
 
 ## Visões individuais
 ### Autor: Cauê
-[![Diagrama Ishikawa](../images/ishikawa/Diagrama_Ishikawa_Caue.png)](https://ibb.co/1ZqSfBD)
+[![Diagrama Ishikawa](../images/ishikawa/diagrama_ishikawa_caue.png)](https://ibb.co/1ZqSfBD)
 
 
 ### Autor: Fábio
 
-![](../images/ishikawa/Fishbone_Fabio.jpg)
+[![Diagrama Ishikawa](../images/ishikawa/fishbone_fabio.jpg)](https://ibb.co/LvXVwWy)
 
 ### Autor: Caio
 
-![](../images/ishikawa/IshikawaCaio.png)
+[![Diagrama Ishikawa](../images/ishikawa/ishikawa_caio.png)](https://ibb.co/xSYCfff)
 
 ---
 

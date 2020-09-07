@@ -63,21 +63,21 @@ Esta metodologia é utilizada em questões onde os problemas e suas respectivas 
 ## Visões individuais
 
 ### Autor: Cauê
-[![Rich Picture](../images/richpictute/Rich_Picture_Caue.png)](https://ibb.co/zNzBpWH)
+[![Rich Picture](../images/richpictute/rich_picture_caue.png)](https://ibb.co/zNzBpWH)
 
 
 ### Autor: Fábio
 
-![](../images/richpictute/rich_picture_fabio.jpg)
+[![Rich Picture](../images/richpictute/rich_picture_fabio.jpg)](https://ibb.co/qFh9bXH)
 
 ### Autor: Caio
 
-![](../images/richpictute/RPQRodizioCliente.png)
+[![Rich Picture](../images/richpictute/rich_picture_QRodizio_cliente.png)](https://ibb.co/LtwQd26)
 Versão do cliente
 
 ### Autor: Caio
 
-![](../images/richpictute/RPQrodizioGerente.png)
+[![Rich Picture](../images/richpictute/rich_picture_Qrodizio_gerente.png)](https://ibb.co/2s8KLLN)
 Versão do gerente
 
 ---
