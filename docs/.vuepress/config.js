@@ -34,16 +34,27 @@ module.exports = {
           "/base/mapa_mental",
           "/base/rich_picture",
           "/base/diagrama_ishikawa",
+          "/base/brainstorming",
+          "/base/design_sprint",
         ],
       },
 
       {
-        title: "Elicitação",
+        title: "1.2 Módulo Processos/Metodologias/Abordagens(Apresentação)",
         collapsable: true,
         children: [
-          "/elicitacao/tecnica1",
-          "/elicitacao/tecnica2",
-          "/elicitacao/tecnica3",
+          "/elicitacao/metodologia",
+
+        ],
+      },
+
+      {
+        title: "1.3 Módulo Processos/Metodologias/Abordagens(Modelagem BPMN)",
+        collapsable: true,
+        children: [
+          "/modelagem/BPMN1",
+          "/modelagem/BPMN2",
+          "/modelagem/BPMN3",
         ],
       },
     ],
