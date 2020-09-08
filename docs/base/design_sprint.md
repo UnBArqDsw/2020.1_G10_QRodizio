@@ -9,7 +9,7 @@
 
 * <p align="justify">2º dia - Desenhar: Etapa em que se esboça as ideias mapeadas no dia 1, revisando as ideias existentes, mesclando e refinando-as.</p>
 
-* <p align="justify">3º dia - Decidir: Etapa na qual se escolhe qual das ideias é a melhor rota para a solução do problema, onde se escolhe o que será utilizado e o que será descartado, assim chegando a um plano detalhado, que será o protótipo.
+* <p align="justify">3º dia - Decidir: Etapa na qual se escolhe qual das ideias é a melhor rota para a solução do problema, onde se escolhe o que será utilizado e o que será descartado, assim chegando a um plano detalhado, que será o protótipo.</p>
 
 * <p align="justify">4º dia - Prototipar: Construir um protótipo baseado no plano feito no dia anterior.</p>
 
