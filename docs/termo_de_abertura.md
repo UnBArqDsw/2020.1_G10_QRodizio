@@ -61,6 +61,24 @@ A seguir são apresentadas as premissas do projeto QRodízio:
 
 ## Custos
 
+O objetivo dessa seção é trazer uma visão geral do custo estimado do projeto. Teve-se por base o custo hora/aula do aluno da Universidade de Brasília, uma vez que o grupo é composto por estudantes da universidade. Além do custo dos materiais/ferramentas utilizadas no decorrer do projeto.
+
+### Pessoal
+
+Primeiramente precisamos determinar o custo de um aluno do curso de Engenharia de Software da Universidade de Brasília, como base tomamos as informações do [Relatório de Gestão 2016](http://dpo.unb.br/index.php?option=com_phocadownload&view=category&download=558:relatorio-2016&id=1:relatorio-de-gestao&Itemid=675), disponibilizado pelo Decanato de Planejamento e Orçamento, que trás o custo médio de um aluno da Faculdade do Gama entre os anos 2010 e 2016. Por se tratar de valores bem disparates utilizaremos um custo médio entre todos eles, logo assumimos que **o custo médio de um aluno de Engenharia de Software da Universidade de Brasília é de R$ 15.410,00 por ano.**
+
+Tabela em valores de Reais (R$)
+| Custos por Instituto ou Faculdade | 2010      | 2011      | 2012      | 2013      | 2014     | 2015      | 2016      | Valor Médio |
+|-----------------------------------|-----------|-----------|-----------|-----------|----------|-----------|-----------|-------------|
+| Faculdade do Gama                 | 12.300,00 | 14.710,00 | 12.460,00 | 14.490,00 | 9.610,00 | 18.260,00 | 26.040,00 | 15.410,00   |
+
+Assumindo que uma disciplina de 4 créditos correspondem a cerca de 60 horas aula, temos que cada crédito corresponde a 15 horas aula. Se considerarmos que o curso possui 240 créditos para sua conclusão e que o aluno médio cursa cerca de 48 créditos por ano, temos que **o esforço, em horas, de um aluno do curso de Engenharia de Software da Universidade de Brasília é de 720 horas por ano.**
+
+Fazendo uma divisão simples do custo anual com o esforço, em horas, total de um aluno temos que **o custo da hora de um aluno do curso de Engenharia de Software da Universidade de Brasília é de R$ 21,40.**
+
+Considerando que o projeto consiste de 5 alunos e que cada um trabalhe em média 3 horas no projeto por dia tirando o domingo, temos um **custo semanal de R$ 1.626.**
+
+
 ## Cronograma
 
 ## Envolvidos
