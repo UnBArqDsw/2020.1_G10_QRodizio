@@ -24,7 +24,7 @@
     <tr>
       <td>08/09/2020</td>
       <td>0.2</td>
-      <td>Adiciona tópico escopo</td>
+      <td>Adiciona tópicos escopo e custos</td>
       <td>
         Fábio Teixeira(<a target="blank" href="https://github.com/fabio1079">fabio1079</a>)
       </td>
@@ -78,6 +78,21 @@ Fazendo uma divisão simples do custo anual com o esforço, em horas, total de u
 
 Considerando que o projeto consiste de 5 alunos e que cada um trabalhe em média 3 horas no projeto por dia tirando o domingo, temos um **custo semanal de R$ 1.626.**
 
+### Materiais, Equipamentos e Serviços
+
+Tendo como estimativa o valor de R$ 3.000,00 para o computador pessoal de cada aluno, o valor total de equipamentos fica em R$ 15.000,00.
+
+Como conexão de internet é um item essencial para o desenvolvimento do projeto, consideramos o custo de uma conexão de R$ 80,00/mês(valor da internet [banda larga da net](https://www.net.com.br/internet-banda-larga) para conexão de 10 mega). Levando em conta o total de alunos, temos R$ 400,00 por mês.
+
+### Tabela de custos
+
+| Descrição       | Quantidade | Valor unitário | Custo total     |
+|-----------------|------------|----------------|-----------------|
+| Custo aluno FGA | 5          | R$ 21,40/hora  | R$ 6.504,00/mês |
+| Equipamentos    | 5          | R$ 3.000,00    | R$ 3.000,00     |
+| Internet        | 5          | R$ 80,00       | R$ 400,00/mês   |
+
+Considerando uma duração de 3 meses para o projeto, o custo total do será de R$ 23.712,00.
 
 ## Cronograma
 
