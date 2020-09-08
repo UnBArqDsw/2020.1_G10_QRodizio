@@ -21,6 +21,14 @@
         Fábio Teixeira(<a target="blank" href="https://github.com/fabio1079">fabio1079</a>)
       </td>
     </tr>
+    <tr>
+      <td>08/09/2020</td>
+      <td>0.2</td>
+      <td>Adiciona tópico escopo</td>
+      <td>
+        Fábio Teixeira(<a target="blank" href="https://github.com/fabio1079">fabio1079</a>)
+      </td>
+    </tr>
   </tbody>
 </table>
 
@@ -40,6 +48,16 @@ A ideia base deste sistema consiste na leitura de um um Qr Code que linka para u
 Visa agilizar e facilitar o atendimento de serviços de rodízio, uma vez que cada usuário pode facilmente realizar pedidos sem estar necessitando a presença de um atendente. Em tempos de pandemia, o QRodízio auxilia na redução de contato/proximidade entre clientes e funcionários.
 
 ## Escopo
+
+O Escopo do projeto QRodízio tem como base as funcionalidades essenciais para o gerenciamento de diversas mesas e atendimento de clientes simultaneamente. Sempre visando facilitar a compra e a produção de rodízios para ambos os interessados(clientes compradores e funcionário cuidando dos atendimentos).
+
+### Premissas do Projeto
+
+A seguir são apresentadas as premissas do projeto QRodízio:
+
+* A plataforma *QRodízio* facilitará o gerenciamento e atendimento de múltiplas mesas;
+* A plataforma *QRodízio* tornará fácil a consulta do valor total da mesa e individual;
+* A plataforma *QRodízio* irá facilitar o gerenciamento dos recursos do estabelecimento, uma vez que a plataforma irá gerar gráficos e relatórios sobre o que está mais em demanda no dia/semana/mês etc.
 
 ## Custos
 
