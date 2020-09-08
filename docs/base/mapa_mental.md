@@ -61,6 +61,14 @@ Nós utilizamos os mapas mentais para termos um apanhado geral de quais funciona
         Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>)
       </td>
     </tr>
+      <tr>
+    <td>08/09/2020</td>
+    <td>0.6</td>
+    <td>Adicionando Mapa Mental </td>
+    <td>
+      João Pedro(<a target="blank" href="https://github.com/Jppgomes">Jppgomes</a>)
+    </td>
+  </tr>
   </tbody>
 
 </table>
@@ -77,6 +85,10 @@ Nós utilizamos os mapas mentais para termos um apanhado geral de quais funciona
 ### Autor: Caio
 
 [![Mapa Mental](../images/mindmap/mapa_mental_caio.png)](https://ibb.co/HD7rzPx)
+
+### Autor: Joao Pedro
+
+[![Mapa Mental](../images/mindmap/MapaMentalCliente.png)](https://ibb.co/B60Q2Fh)
 
 ## Visão final do grupo
 
