@@ -1,3 +1,4 @@
+
 # Mapa mental
 
 <p>
@@ -18,7 +19,6 @@ Nós utilizamos os mapas mentais para termos um apanhado geral de quais funciona
       <th>Autor(es)</th>
     </tr>
   </thead>
-
   <tbody>
     <tr>
       <td>05/09/2020</td>
@@ -61,8 +61,15 @@ Nós utilizamos os mapas mentais para termos um apanhado geral de quais funciona
         Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>)
       </td>
     </tr>
+      <tr>
+      <td>08/09/2020</td>
+      <td>0.6</td>
+      <td>Adicionando Mapa Mental do aluno Lucas Midlhey</td>
+      <td>
+        Lucas Midlhey(<a target="blank" href="https://github.com/lucasmidlhey">Lucas Midlhey</a>)
+      </td>
+    </tr>
   </tbody>
-
 </table>
 
 ## Visões individuais
@@ -77,6 +84,10 @@ Nós utilizamos os mapas mentais para termos um apanhado geral de quais funciona
 ### Autor: Caio
 
 [![Mapa Mental](../images/mindmap/mapa_mental_caio.png)](https://ibb.co/HD7rzPx)
+
+### Autor: Lucas
+
+[![Mapa Mental](../images/mindmap/mental_Lucas.png)](https://ibb.co/Ss6v23Z)
 
 ## Visão final do grupo
 
