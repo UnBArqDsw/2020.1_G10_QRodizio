@@ -80,6 +80,11 @@ Versão do cliente
 [![Rich Picture](../images/richpictute/rich_picture_Qrodizio_gerente.png)](https://ibb.co/2s8KLLN)
 Versão do gerente
 
+### Autor: João Pedro
+
+[![Rich Picture](../images/richpictute/RichPicture.png)](https://ibb.co/Qcq8yJf)
+Versão do gerente
+
 ---
 
 ## Visão final do grupo
