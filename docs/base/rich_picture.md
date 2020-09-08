@@ -1,3 +1,4 @@
+
 # Rich Picture
 
 <p>Rich Picture é uma técnica de representação de informações através do pensamento visual e tem o propósito de expressar de modo sistêmico cenários e situações-problema onde não se tem uma solução única, já que esta técnica pode ilustrar vários pontos de vista diferentes.<br>
@@ -15,7 +16,6 @@ Esta metodologia é utilizada em questões onde os problemas e suas respectivas 
       <th>Autor(es)</th>
     </tr>
   </thead>
-
   <tbody>
     <tr>
       <td>02/09/2020</td>
@@ -57,6 +57,14 @@ Esta metodologia é utilizada em questões onde os problemas e suas respectivas 
         Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>)
       </td>
     </tr>
+        <tr>
+      <td>08/09/2020</td>
+      <td>0.6</td>
+      <td>Adicionando Rich Picture versao 1 geral do aluno Lucas Midlhey</td>
+      <td>
+        Lucas Midlhey(<a target="blank" href="https://github.com/lucasmidlhey">lucasmidlhey</a>)
+      </td>
+    </tr>
   </tbody>
 </table>
 
@@ -64,6 +72,9 @@ Esta metodologia é utilizada em questões onde os problemas e suas respectivas 
 
 ### Autor: Cauê
 [![Rich Picture](../images/richpictute/rich_picture_caue.png)](https://ibb.co/zNzBpWH)
+
+### Autor: Lucas
+[![Rich Picture](../images/richpictute/rich_picture_lucas.png)](https://ibb.co/fkRvccF)
 
 
 ### Autor: Fábio
