@@ -40,10 +40,21 @@ module.exports = {
       },
 
       {
+        title: "Elicitação",
+        collapsable: true,
+        children: [
+          "/elicitacao/tecnica1",
+          "/elicitacao/tecnica2",
+          "/elicitacao/tecnica3",
+
+        ],
+      },
+
+      {
         title: "1.2 Módulo Processos/Metodologias/Abordagens(Apresentação)",
         collapsable: true,
         children: [
-          "/elicitacao/metodologia",
+          "/metodologia/metodologia_apresentacao",
 
         ],
       },
