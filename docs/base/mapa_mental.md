@@ -69,6 +69,13 @@ Nós utilizamos os mapas mentais para termos um apanhado geral de quais funciona
         Lucas Midlhey(<a target="blank" href="https://github.com/lucasmidlhey">Lucas Midlhey</a>)
       </td>
     </tr>
+    <td>08/09/2020</td>
+    <td>0.6</td>
+    <td>Adicionando Mapa Mental </td>
+    <td>
+      João Pedro(<a target="blank" href="https://github.com/Jppgomes">Jppgomes</a>)
+    </td>
+  </tr>
   </tbody>
 </table>
 
@@ -88,6 +95,10 @@ Nós utilizamos os mapas mentais para termos um apanhado geral de quais funciona
 ### Autor: Lucas
 
 [![Mapa Mental](../images/mindmap/mental_Lucas.png)](https://ibb.co/Ss6v23Z)
+
+### Autor: Joao Pedro
+
+[![Mapa Mental](../images/mindmap/MapaMentalCliente.png)](https://ibb.co/B60Q2Fh)
 
 ## Visão final do grupo
 
