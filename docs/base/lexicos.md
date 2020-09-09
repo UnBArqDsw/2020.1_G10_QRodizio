@@ -143,7 +143,7 @@ Todos os léxicos estão organizados respeitando a seguinte tabela:
 |--|--|
 |**Classificação**|Sujeito|
 |**Noção**   | - [Usuário](#L08) que utiliza o sistema com a finalidade de usufruir dos serviços oferecidos por um restaurante.|
-|**Impacto**  | - O [cliente](#L08) pode Ler o [QRCode](#L01) de sua mesa para acessar o sistema;<br> - Um [cliente](#L08) pode ver o [cardápio](#L02) do restaurante;<br> - O [cliente](#L08) pode [Fazer Pedidos](#L03);<br> - O [cliente](#L08) pode Pedir a Conta;<br> - O [cliente](#L08) pode Chamar um garçoom;<br> - ) cliente pode [Avaliar](#L07) o retaurante;<br> - O cliente pode [Fazer o Pagamento](#L12);<br> - O [cliente](#L08) pode ver a lista de seus [pedidos](#L13).   |
+|**Impacto**  | - O [cliente](#L08) pode Ler o [QRCode](#L01) de sua mesa para acessar o sistema;<br> - Um [cliente](#L08) pode ver o [cardápio](#L02) do restaurante;<br> - O [cliente](#L08) pode [Fazer Pedidos](#L03);<br> - O [cliente](#L08) pode Pedir a Conta;<br> - O [cliente](#L08) pode Chamar um [garçom](#L09);<br> - O cliente pode [Avaliar](#L07) o retaurante;<br> - O cliente pode [Fazer o Pagamento](#L12);<br> - O [cliente](#L08) pode ver a lista de seus [pedidos](#L13).   |
 |**Sinônimo**|[Usuário](#L08)|
 |**Rastreabilidade**||
 
