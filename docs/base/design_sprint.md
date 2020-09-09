@@ -45,4 +45,4 @@
 
 
 ## Referências
-* CHIEF OF DESIGN. O que é e para que serve o Design Sprint Google?. Disponível em https://www.chiefofdesign.com.br/design-sprint/. Acesso em: 07 de set. 2020.
+* CHIEF OF DESIGN. O que é e para que serve o Design Sprint Google?. Disponível em https://www.chiefofdesign.com.br/design-sprint/. Acesso em: 07 de setembro. 2020.
