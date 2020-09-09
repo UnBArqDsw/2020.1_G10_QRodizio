@@ -44,7 +44,7 @@ Cada léxico(termo) feito é estruturado segundo as seguintes definições:<br>
 - Noção: Significado e contexto do termo;
 - Impacto: Quais são os impactos referentes ao acontecimento do termo;
 - Sinônimos: Termos que tem o mesmo significado no projeto;
-- Rastreabilidade: Link da ideia de onde surgiu a inspiração do termo descrito.<br>
+- Rastreabilidade: Link da ideia de onde surgiu a inspiração do termo descrito.
 </p>
 
 <p align="justify">&emsp;

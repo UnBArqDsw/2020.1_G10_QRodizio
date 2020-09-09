@@ -25,6 +25,11 @@ module.exports = {
       },
 
       {
+        title: "Plano de Gerenciamento de Riscos",
+        path: "/gerenciamento_risco",
+      },
+
+      {
         title: "Base", // required
         // path: "/base/", // optional, link of the title, which should be an absolute path and must exist
         collapsable: true, // optional, defaults to true

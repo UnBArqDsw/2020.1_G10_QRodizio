@@ -26,7 +26,7 @@
 [![Diagrama Ishikawa](../images/ishikawa/ishikawa_caio.png)](https://ibb.co/xSYCfff)
 
 ### Autor: Lucas
-[![Diagrama Ishikawa](../images/ishikawa/Causa-efeito_Lucas)](https://ibb.co/tDXrfgx)
+[![Diagrama Ishikawa](../images/ishikawa/Causa-efeito_Lucas.png)](https://ibb.co/tDXrfgx)
 
 
 ---
