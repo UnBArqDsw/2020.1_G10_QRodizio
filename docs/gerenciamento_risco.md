@@ -23,7 +23,7 @@ Portanto, a EAR é uma estrutura hierárquica de possíveis fontes de risco.
 
 ### Descrição
 
-[![EAR](../images/EAR.png)](https://ibb.co/J2M5wqB)
+[![EAR](./images/EAR.png)](https://ibb.co/J2M5wqB)
 
 #### Externos
 

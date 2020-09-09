@@ -1,5 +1,3 @@
-
-
 # Rich Picture
 ## Histórico de versão
 
@@ -78,7 +76,7 @@ Esta metodologia é utilizada em questões onde os problemas e suas respectivas 
 [![Rich Picture](../images/richpictute/rich_picture_caue.png)](https://ibb.co/zNzBpWH)
 
 ### Autor: Lucas
-[![Rich Picture](../images/richpictute/rich_picture_lucas.png)](https://ibb.co/fkRvccF)
+[![Rich Picture](../images/richpictute/rich_picture_lucas.jpeg)](https://ibb.co/fkRvccF)
 
 
 ### Autor: Fábio
