@@ -3,9 +3,9 @@
 
 | Data     | Autor         | Descrição            | Versão |
 | -------- | ------------- | -------------------- | ------ |
-| 08/09/20 | Lucas Midlhey | Criação do documento | 0.1    |
-| 08/09/20 | João Pedro    | Introdução e EAR | 0.2 |
-| 08/09/20 | Lucas Midlhey   |Análise quantitativa de riscos e  riscos levantados| 0.3 |
+| 08/09/20 | Lucas Midlhey(<a target="blank" href="https://github.com/lucasmidlhey">Lucas Midlhey</a>)| Criação do documento | 0.1    |
+| 08/09/20 | João Pedro(<a target="blank" href="https://github.com/jppgomess">João Pedro</a>)    | Introdução e EAR | 0.2 |
+| 08/09/20 | Lucas Midlhey(<a target="blank" href="https://github.com/lucasmidlhey">Lucas Midlhey</a>)   |Análise quantitativa de riscos e  riscos levantados| 0.3 |
 
 ## Introdução
 
@@ -22,6 +22,8 @@ sendo que cada nível detalha a fonte de riscos para seu projeto, atividade, ár
 Portanto, a EAR é uma estrutura hierárquica de possíveis fontes de risco.
 
 ### Descrição
+
+[![EAR](../images/EAR.png)](https://ibb.co/J2M5wqB)
 
 #### Externos
 

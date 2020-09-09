@@ -1,32 +1,32 @@
+
 # Termo de Abertura
 
-## Histórico de Revisões
+## Histórico de versão
 
 <table>
   <thead>
     <tr>
       <th>Data</th>
-      <th>Versão</th>
-      <th>Descrição</th>
       <th>Autor(es)</th>
+      <th>Descrição</th>
+      <th>Versão</th>
     </tr>
   </thead>
-
   <tbody>
     <tr>
       <td>06/09/2020</td>
-      <td>0.1</td>
+      <td>Fábio Teixeira(<a target="blank" href="https://github.com/fabio1079">fabio1079</a>)</td>
       <td>Criação documento no github/docs</td>
       <td>
-        Fábio Teixeira(<a target="blank" href="https://github.com/fabio1079">fabio1079</a>)
+      0.1  
       </td>
     </tr>
     <tr>
       <td>08/09/2020</td>
-      <td>0.2</td>
+      <td> Fábio Teixeira(<a target="blank" href="https://github.com/fabio1079">fabio1079</a>)</td>
       <td>Adiciona tópicos escopo e custos</td>
       <td>
-        Fábio Teixeira(<a target="blank" href="https://github.com/fabio1079">fabio1079</a>)
+       0.2
       </td>
     </tr>
   </tbody>
@@ -127,7 +127,6 @@ A comunicação da equipe é realizada totalmente de forma online com reuniões 
       <th>Descrição</th>
     </tr>
   </thead>
-
   <tbody>
     <tr>
       <td>Telegram</td>
