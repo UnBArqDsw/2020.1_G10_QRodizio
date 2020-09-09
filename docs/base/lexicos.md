@@ -30,6 +30,14 @@
       0.2  
       </td>
     </tr>
+    <tr>
+      <td>09/09/2020</td>
+      <td>Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>)</td>
+      <td>Adicionando Léxicos Chamar Garçom, Avaliar restaurante e Cliente</td>
+      <td>
+      0.3  
+      </td>
+    </tr>
 
 
   </tbody>
@@ -64,7 +72,7 @@ Todos os léxicos estão organizados respeitando a seguinte tabela:
 |--|--|
 |**Classificação**| Verbo|
 |**Noção**   | - Primeira ação do [Usuário](#L08).<br>- [Usuário](#L08) lê o QRCode de sua mesa com seu dispositivo.<br>- [Usuário](#L08) acessa o sistema QRodízio.|
-|**Impacto**  | - O [Usuário](#L08) agora tem acesso às funcionalidades do sistema, como: Ver [cardápio](#L02), Fazer [Pedidos](#L03), Cancelar [Pedidos](#L03), Pedir a [Conta](#L05), Chamar [Garçom](#L09), [Avaliar](#L07) restaurante e [Fazer Pagamento](#L12).|
+|**Impacto**  | - O [Usuário](#L08) agora tem acesso às funcionalidades do sistema, como: Ver [cardápio](#L02), [Fazer Pedidos](#L03), Cancelar [Pedidos](#L03), Pedir a [Conta](#L05), Chamar [Garçom](#L09), [Avaliar](#L07) restaurante e [Fazer Pagamento](#L12).|
 |**Sinônimo**| Acessar o sistema |
 |**Rastreabilidade**||
 
@@ -82,7 +90,7 @@ Todos os léxicos estão organizados respeitando a seguinte tabela:
 |--|--|
 |**Classificação**| Verbo|
 |**Noção**   | - Ação realizada pelo [cliente](#L08) de escolher itens no [cardápio](#L02) do restaurante e pedir para que sejam trazidos até sua mesa.|
-|**Impacto**  | - Os itens serão adicionado aos [Pedidos](#L03) do [cliente](#L08);<br> - Os valores dos itens serão somados na [Conta](#L05) do [cliente](#L08);<br> - Os itens,depois de preparados, serão levados até à mesa do [cliente](#L08) que os solicitou.|
+|**Impacto**  | - Os itens serão adicionado aos [Pedidos](#L13) do [cliente](#L08);<br> - Os valores dos itens serão somados na [Conta](#L05) do [cliente](#L08);<br> - Os itens,depois de preparados, serão levados até à mesa do [cliente](#L08) que os solicitou.|
 |**Sinônimo**|Pedir|
 |**Rastreabilidade**||
 
@@ -90,8 +98,8 @@ Todos os léxicos estão organizados respeitando a seguinte tabela:
 |L04 | Cancelar Pedidos|
 |----|----|
 |**Classificação**| Verbo|
-|**Noção**   | - Ação realizada pelo [cliente](#L08) de remover um ou mais itens dos [Pedidos](#L03) que fez.|
-|**Impacto**  | - Os itens cancelados serão retirados dos [Pedidos](#L03) a serem entregues.<br> - Os valores dos itens retirados serão subtraídos da [Conta](#L05).<br> - Os itens retirados não serão entregues na mesa do [cliente](#L08).|
+|**Noção**   | - Ação realizada pelo [cliente](#L08) de remover um ou mais itens dos [Pedidos](#L13) que fez.|
+|**Impacto**  | - Os itens cancelados serão retirados dos [Pedidos](#L13) a serem entregues.<br> - Os valores dos itens retirados serão subtraídos da [Conta](#L05).<br> - Os itens retirados não serão entregues na mesa do [cliente](#L08).|
 |**Sinônimo**|Retirar pedido, Remover pedido|
 |**Rastreabilidade**||
 
@@ -99,7 +107,34 @@ Todos os léxicos estão organizados respeitando a seguinte tabela:
 |L05 | Pedir a Conta|
 |----|----|
 |**Classificação**|Verbo |
-|**Noção**   | - Ação realizada pelo [cliente](#L08) de encerrar os [Pedidos](#L03) e ter o somatório total dos gastos que fez.|
-|**Impacto**  | - A [Conta](#L05) será fechada;<br> - Não serão feitos mais [Pedidos](#L03);<br> - O sistema irá gerar uma lista dos [Pedidos](#L03) e a soma final dos preços desses [Pedidos](#L03).|
+|**Noção**   | - Ação realizada pelo [cliente](#L08) de encerrar os [Pedidos](#L13) e ter o somatório total dos gastos que fez.|
+|**Impacto**  | - A [Conta](#L05) será fechada;<br> - Não serão feitos mais [Pedidos](#L13);<br> - O sistema irá gerar uma lista dos [Pedidos](#L13) e a soma final dos preços desses [Pedidos](#L13).|
 |**Sinônimo**|Fechar a [Conta](#L05)|
+|**Rastreabilidade**||
+
+### L06
+|L06 | Chamar Garçom|
+|----|----|
+|**Classificação**| Verbo|
+|**Noção**   | - Ação realizada pelo [cliente](#L08) de requisitar a presença de um [Garçom](#L09) à sua mesa. |
+|**Impacto**  | - Um [Garçom](#L09) vê a solicitação;<br> - O [Garçom](#L09) vai até a mesa onde o [cliente](#L08) está o chamando.|
+|**Sinônimo**| - |
+|**Rastreabilidade**||
+
+### L07
+|L07| Avaliar Restaurante|
+|----|----|
+|**Classificação**|Verbo|
+|**Noção**   | - Ação realizada pelo [cliente](#L08) de dar uma nota pela sua experiência geral com o restaurante. |
+|**Impacto**  | - Outras pessoas poderão ver as avaliações feitas sobre o restaurante.|
+|**Sinônimo**| - |
+|**Rastreabilidade**||
+
+### L08
+|L08 | Cliente|
+|----|----|
+|**Classificação**|Sujeito|
+|**Noção**   | - [Usuário](#L08) que utiliza o sistema com a finalidade de usufruir dos serviços oferecidos por um restaurante.|
+|**Impacto**  | - O [cliente](#L08) pode Ler o [QRCode](#L01) de sua mesa para acessar o sistema;<br> - Um [cliente](#L08) pode ver o [cardápio](#L02) do restaurante;<br> - O [cliente](#L08) pode [Fazer Pedidos](#L03);<br> - O [cliente](#L08) pode Pedir a Conta;<br> - O [cliente](#L08) pode Chamar um garçoom;<br> - ) cliente pode [Avaliar](#L07) o retaurante;<br> - O cliente pode [Fazer o Pagamento](#L12);<br> - O [cliente](#L08) pode ver a lista de seus [pedidos](#L13).   |
+|**Sinônimo**|[Usuário](#L08)|
 |**Rastreabilidade**||
