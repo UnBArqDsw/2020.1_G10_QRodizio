@@ -1,4 +1,5 @@
 
+
 ## Léxicos
 
 ## Histórico de versão
@@ -14,12 +15,22 @@
   </thead>
   <tbody>
     <tr>
-      <td>08/09/2020</td>
-      <td>0.1</td>
-      <td>Adicionando Léxicos Ler QRcode, Ver Cardápio e Fazer Pedido</td>
+      <td>07/09/2020</td>
       <td>Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>)</td>
+      <td>Adicionando Documento de Léxico</td>
+      <td>
+       0.1
       </td>
     </tr>
+    <tr>
+      <td>08/09/2020</td>
+      <td>Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>)</td>
+      <td>Adicionando Léxicos Cancelar pedido e Pedir Conta</td>
+      <td>
+      0.2  
+      </td>
+    </tr>
+
 
   </tbody>
 </table>
@@ -73,4 +84,22 @@ Todos os léxicos estão organizados respeitando a seguinte tabela:
 |**Noção**   | - Ação realizada pelo [cliente](#L08) de escolher itens no [cardápio](#L02) do restaurante e pedir para que sejam trazidos até sua mesa.|
 |**Impacto**  | - Os itens serão adicionado aos [Pedidos](#L03) do [cliente](#L08);<br> - Os valores dos itens serão somados na [Conta](#L05) do [cliente](#L08);<br> - Os itens,depois de preparados, serão levados até à mesa do [cliente](#L08) que os solicitou.|
 |**Sinônimo**|Pedir|
+|**Rastreabilidade**||
+
+### L04
+|L04 | Cancelar Pedidos|
+|----|----|
+|**Classificação**| Verbo|
+|**Noção**   | - Ação realizada pelo [cliente](#L08) de remover um ou mais itens dos [Pedidos](#L03) que fez.|
+|**Impacto**  | - Os itens cancelados serão retirados dos [Pedidos](#L03) a serem entregues.<br> - Os valores dos itens retirados serão subtraídos da [Conta](#L05).<br> - Os itens retirados não serão entregues na mesa do [cliente](#L08).|
+|**Sinônimo**|Retirar pedido, Remover pedido|
+|**Rastreabilidade**||
+
+### L05
+|L05 | Pedir a Conta|
+|----|----|
+|**Classificação**|Verbo |
+|**Noção**   | - Ação realizada pelo [cliente](#L08) de encerrar os [Pedidos](#L03) e ter o somatório total dos gastos que fez.|
+|**Impacto**  | - A [Conta](#L05) será fechada;<br> - Não serão feitos mais [Pedidos](#L03);<br> - O sistema irá gerar uma lista dos [Pedidos](#L03) e a soma final dos preços desses [Pedidos](#L03).|
+|**Sinônimo**|Fechar a [Conta](#L05)|
 |**Rastreabilidade**||
