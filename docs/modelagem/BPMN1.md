@@ -1,3 +1,4 @@
+
 # Modelagem BPMN
 
 ## Histórico de versão
@@ -112,6 +113,12 @@ Nós utilizaremos a modelagem BPMN para conseguirmos mapear, de forma que seja d
 ### Autor: [Caio](https://github.com/Caiocbeleza)
 
 ![BPMN Sprint Review](../images/BPMN/BPMN-SprintReview.png)
+
+### Definição de escopo
+
+### Autor: [Lucas] (https://github.com/lucasmidlhey)
+
+![BPMN definição escopo](../images/BPMN/bpmn_escopo.png)
 
 
 ## Referências
