@@ -108,7 +108,7 @@ Nós utilizaremos a modelagem BPMN para conseguirmos mapear, de forma que seja d
 
 ### Autor: [Caio](https://github.com/Caiocbeleza)
 
-![BPMN Definição Tema](../images/BPMN/BPMN-DefiniçãoProjeto.png)
+![BPMN Definição Tema](../images/BPMN/BPMN-DefinicaoProjeto.png)
 
 ### Definição de metodologia
 
