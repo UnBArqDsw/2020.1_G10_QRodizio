@@ -41,17 +41,7 @@ module.exports = {
           "/base/diagrama_ishikawa",
           "/base/brainstorming",
           "/base/design_sprint",
-        ],
-      },
-
-      {
-        title: "Elicitação",
-        collapsable: true,
-        children: [
-          "/elicitacao/tecnica1",
-          "/elicitacao/tecnica2",
-          "/elicitacao/tecnica3",
-
+          "/base/lexicos"
         ],
       },
 
@@ -68,9 +58,7 @@ module.exports = {
         title: "1.3 Módulo Processos/Metodologias/Abordagens(Modelagem BPMN)",
         collapsable: true,
         children: [
-          "/modelagem/BPMN1",
-          "/modelagem/BPMN2",
-          "/modelagem/BPMN3",
+          "/modelagem/Modelagem_BPMN",
         ],
       },
     ],
