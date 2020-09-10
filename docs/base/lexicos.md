@@ -25,7 +25,7 @@
       <td>Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>)</td>
       <td>Adicionando Léxicos Cancelar pedido e Pedir Conta</td>
       <td>
-      0.2  
+      0.2
       </td>
     </tr>
     <tr>
@@ -33,7 +33,7 @@
       <td>Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>)</td>
       <td>Adicionando Léxicos Chamar Garçom, Avaliar restaurante e Cliente</td>
       <td>
-      0.3  
+      0.3
       </td>
     </tr>
     <tr>
@@ -41,21 +41,29 @@
       <td>Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>)</td>
       <td>Adicionando Léxicos Funcionário, mesa livre, mesa ocupada, fazer pagamento e pedidos</td>
       <td>
-      0.4  
+      0.4
       </td>
     </tr>
-     <tr>
+    <tr>
       <td>10/09/2020</td>
       <td>Lucas Midlhey(<a target="blank" href="https://github.com/lucasmidlhey">Lucasmidlhey</a>)</td>
       <td>Adicionando Léxicos Internet, localização e smarthpone</td>
       <td>
-      0.5  
+      0.5
+      </td>
+    </tr>
+    <tr>
+      <td>10/09/2020</td>
+      <td>Fábio Teixeira(<a target="blank" href="https://github.com/fabio1079">fabio1079</a>)</td>
+      <td>Adicionando Léxicos Status pedido(L17), Alterar pedido(L18)</td>
+      <td>
+      0.6
       </td>
     </tr>
   </tbody>
 </table>
 
-## Estrutura
+## Definições
 
 <p align="justify">&emsp;
 Cada léxico(termo) feito é estruturado segundo as seguintes definições:<br>
@@ -82,9 +90,7 @@ Todos os léxicos estão organizados respeitando a seguinte tabela:
 |**Sinônimo**||
 |**Rastreabilidade**||
 
-## Definições
-
-### L01
+## L01
 |L01| Ler QRCode|
 |--|--|
 |**Classificação**| Verbo|
@@ -93,7 +99,7 @@ Todos os léxicos estão organizados respeitando a seguinte tabela:
 |**Sinônimo**| Acessar o sistema |
 |**Rastreabilidade**||
 
-### L02
+## L02
 |L02| Ver Cardápio|
 |--|--|
 |**Classificação**|Verbo|
@@ -102,7 +108,7 @@ Todos os léxicos estão organizados respeitando a seguinte tabela:
 |**Sinônimo**| -Olhar [cardápio](#L02);<br>- Acessar [cardápio](#L02). |
 |**Rastreabilidade**||
 
-### L03
+## L03
 |L03 | Fazer Pedidos|
 |--|--|
 |**Classificação**| Verbo|
@@ -111,7 +117,7 @@ Todos os léxicos estão organizados respeitando a seguinte tabela:
 |**Sinônimo**|Pedir|
 |**Rastreabilidade**||
 
-### L04
+## L04
 |L04 | Cancelar Pedidos|
 |--|--|
 |**Classificação**| Verbo|
@@ -120,7 +126,7 @@ Todos os léxicos estão organizados respeitando a seguinte tabela:
 |**Sinônimo**|Retirar pedido, Remover pedido|
 |**Rastreabilidade**||
 
-### L05
+## L05
 |L05 | Pedir a Conta|
 |--|--|
 |**Classificação**|Verbo |
@@ -129,7 +135,7 @@ Todos os léxicos estão organizados respeitando a seguinte tabela:
 |**Sinônimo**|Fechar a [Conta](#L05)|
 |**Rastreabilidade**||
 
-### L06
+## L06
 |L06 | Chamar Garçom|
 |--|--|
 |**Classificação**| Verbo|
@@ -138,7 +144,7 @@ Todos os léxicos estão organizados respeitando a seguinte tabela:
 |**Sinônimo**| - |
 |**Rastreabilidade**||
 
-### L07
+## L07
 |L07| Avaliar Restaurante|
 |--|--|
 |**Classificação**|Verbo|
@@ -147,7 +153,7 @@ Todos os léxicos estão organizados respeitando a seguinte tabela:
 |**Sinônimo**| - |
 |**Rastreabilidade**||
 
-### L08
+## L08
 |L08 | Cliente|
 |--|--|
 |**Classificação**|Sujeito|
@@ -156,7 +162,7 @@ Todos os léxicos estão organizados respeitando a seguinte tabela:
 |**Sinônimo**|[Usuário](#L08)|
 |**Rastreabilidade**||
 
-### L09
+## L09
 |L09 | Funcionário|
 |--|--|
 |**Classificação**|Sujeito|
@@ -165,7 +171,7 @@ Todos os léxicos estão organizados respeitando a seguinte tabela:
 |**Sinônimo**|[Garçom](#L09)|
 |**Rastreabilidade**||
 
-### L10
+## L10
 |L10| Mesa livre|
 |--|--|
 |**Classificação**|Estado|
@@ -174,7 +180,7 @@ Todos os léxicos estão organizados respeitando a seguinte tabela:
 |**Sinônimo**| -
 |**Rastreabilidade**||
 
-### L11
+## L11
 |L11| Mesa ocupada|
 |--|--|
 |**Classificação**|Estado|
@@ -183,7 +189,7 @@ Todos os léxicos estão organizados respeitando a seguinte tabela:
 |**Sinônimo**| - |
 |**Rastreabilidade**||
 
-### L12
+## L12
 |L12| Fazer pagamento|
 |--|--|
 |**Classificação**|Verbo|
@@ -192,7 +198,7 @@ Todos os léxicos estão organizados respeitando a seguinte tabela:
 |**Sinônimo**|[pagar](#L12) [Conta](#L05)|
 |**Rastreabilidade**||
 
-### L13
+## L13
 |L13|Pedidos|
 |--|--|
 |**Classificação**|Objeto|
@@ -201,7 +207,7 @@ Todos os léxicos estão organizados respeitando a seguinte tabela:
 |**Sinônimo**| - |
 |**Rastreabilidade**||
 
-### L14
+## L14
 |L14|Internet|
 |--|--|
 |**Classificação**|Objeto|
@@ -210,7 +216,7 @@ Todos os léxicos estão organizados respeitando a seguinte tabela:
 |**Sinônimo**| web, rede |
 |**Rastreabilidade**||
 
-### L15
+## L15
 |L15|Smarthpone|
 |--|--|
 |**Classificação**|Objeto|
@@ -219,11 +225,29 @@ Todos os léxicos estão organizados respeitando a seguinte tabela:
 |**Sinônimo**| celular |
 |**Rastreabilidade**||
 
-### L16
+## L16
 |L16|Localização|
 |--|--|
 |**Classificação**|Objeto|
 |**Noção**   | - Localização geográfica de onde o [celular](#L14) do [Usuário](#L03) está|
 |**Impacto**  | - Permite ao [Usuário](#L08) fazer interações com o restaurante apenas quando se encontra dentro dele e antes de [pedir a conta](#L05) |
 |**Sinônimo**| onde, local, endereço |
+|**Rastreabilidade**||
+
+## L17
+|L16|Ver Status do pedido|
+|--|--|
+|**Classificação**|Estado|
+|**Noção**   | - Vizualizar se o [pedido](#L13) já está sendo processado pelo restaurante.|
+|**Impacto**  | - Permite ao [Usuário](#L08) ver o status do seu [pedido](#L13) e assim poder fazer alterações, caso este ainda não foi processado pelo restaurante. |
+|**Sinônimo**| Situação do pedido |
+|**Rastreabilidade**||
+
+## L18
+|L18|Modificar pedido|
+|--|--|
+|**Classificação**|Estado|
+|**Noção**   | - Alterar um [pedido](#L13) que ainda não foi processado pelo restaurante.|
+|**Impacto**  | - Permite ao [Usuário](#L08) alterar um [pedido](#L13) que ainda não foi processado pelo restaurante.|
+|**Sinônimo**| Alterar pedido, Substituir pedido |
 |**Rastreabilidade**||
