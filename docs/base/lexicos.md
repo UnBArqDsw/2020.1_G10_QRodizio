@@ -1,7 +1,4 @@
-
-
-
-## Léxicos
+# Léxicos
 
 ## Histórico de versão
 
@@ -58,6 +55,8 @@
   </tbody>
 </table>
 
+## Estrutura
+
 <p align="justify">&emsp;
 Cada léxico(termo) feito é estruturado segundo as seguintes definições:<br>
 
@@ -82,6 +81,8 @@ Todos os léxicos estão organizados respeitando a seguinte tabela:
 |**Impacto**  ||
 |**Sinônimo**||
 |**Rastreabilidade**||
+
+## Definições
 
 ### L01
 |L01| Ler QRCode|
