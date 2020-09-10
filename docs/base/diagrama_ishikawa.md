@@ -13,25 +13,25 @@
 ---
 
 ## Visões individuais
-### Autor: Cauê
+
+### Autor: [Cauê](https://github.com/caue96)
 [![Diagrama Ishikawa](../images/ishikawa/diagrama_ishikawa_caue.png)](https://ibb.co/1ZqSfBD)
 
 
-### Autor: Fábio
+### Autor: [Fábio](https://github.com/fabio1079)
 
 [![Diagrama Ishikawa](../images/ishikawa/fishbone_fabio.jpg)](https://ibb.co/LvXVwWy)
 
-### Autor: Caio
+### Autor: [Caio](https://github.com/Caiocbeleza)
 
 [![Diagrama Ishikawa](../images/ishikawa/ishikawa_caio.png)](https://ibb.co/xSYCfff)
 
-### Autor: Lucas
+### Autor: [Lucas](https://github.com/lucasmidlhey)
 [![Diagrama Ishikawa](../images/ishikawa/Causa-efeito_Lucas.png)](https://ibb.co/tDXrfgx)
 
 
 ---
 
-## Visão final do grupo
 
 
 ---
