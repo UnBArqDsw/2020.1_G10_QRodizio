@@ -90,164 +90,164 @@ Todos os léxicos estão organizados respeitando a seguinte tabela:
 |**Sinônimo**||
 |**Rastreabilidade**||
 
-## L01
+## L01 - Ler QRCode
 |L01| Ler QRCode|
 |--|--|
 |**Classificação**| Verbo|
-|**Noção**   | - Primeira ação do [Usuário](#L08).<br>- [Usuário](#L08) lê o QRCode de sua mesa com seu dispositivo.<br>- [Usuário](#L08) acessa o sistema QRodízio.|
-|**Impacto**  | - O [Usuário](#L08) agora tem acesso às funcionalidades do sistema, como: Ver [cardápio](#L02), [Fazer Pedidos](#L03), Cancelar [Pedidos](#L03), Pedir a [Conta](#L05), Chamar [Garçom](#L09), [Avaliar](#L07) restaurante e [Fazer Pagamento](#L12).|
+|**Noção**   | - Primeira ação do [Usuário](#l08-cliente).<br>- [Usuário](#l08-cliente) lê o QRCode de sua mesa com seu dispositivo.<br>- [Usuário](#l08-cliente) acessa o sistema QRodízio.|
+|**Impacto**  | - O [Usuário](#l08-cliente) agora tem acesso às funcionalidades do sistema, como: Ver [cardápio](#l02-ver-cardapio), [Fazer Pedidos](#l03-fazer-pedidos), Cancelar [Pedidos](#l03-fazer-pedidos), Pedir a [Conta](#l05-pedir-a-conta), Chamar [Garçom](#l09-funcionario), [Avaliar](#l07-avaliar-restaurante) restaurante e [Fazer Pagamento](#l12-fazer-pagamento).|
 |**Sinônimo**| Acessar o sistema |
 |**Rastreabilidade**||
 
-## L02
+## L02 - Ver Cardápio
 |L02| Ver Cardápio|
 |--|--|
 |**Classificação**|Verbo|
-|**Noção**   |- Ação realizada pelo [cliente](#L08) para acessar o [cardápio](#L02) do restaurante.|
-|**Impacto**  | - O [cliente](#L08) pode ver quais são os itens oferecidos pelo restaurante;<br>- O [cliente](#L08) pode consultar os preços dos produtos que o restaurante oferece;<br>- O [cliente](#L08) pode escolher o que quer pedir.|
-|**Sinônimo**| -Olhar [cardápio](#L02);<br>- Acessar [cardápio](#L02). |
+|**Noção**   |- Ação realizada pelo [cliente](#l08-cliente) para acessar o [cardápio](#l02-ver-cardapio) do restaurante.|
+|**Impacto**  | - O [cliente](#l08-cliente) pode ver quais são os itens oferecidos pelo restaurante;<br>- O [cliente](#l08-cliente) pode consultar os preços dos produtos que o restaurante oferece;<br>- O [cliente](#l08-cliente) pode escolher o que quer pedir.|
+|**Sinônimo**| -Olhar [cardápio](#l02-ver-cardapio);<br>- Acessar [cardápio](#l02-ver-cardapio). |
 |**Rastreabilidade**||
 
-## L03
-|L03 | Fazer Pedidos|
+## L03 - Fazer Pedidos
+| L03 | Fazer Pedidos|
 |--|--|
 |**Classificação**| Verbo|
-|**Noção**   | - Ação realizada pelo [cliente](#L08) de escolher itens no [cardápio](#L02) do restaurante e pedir para que sejam trazidos até sua mesa.|
-|**Impacto**  | - Os itens serão adicionado aos [Pedidos](#L13) do [cliente](#L08);<br> - Os valores dos itens serão somados na [Conta](#L05) do [cliente](#L08);<br> - Os itens,depois de preparados, serão levados até à mesa do [cliente](#L08) que os solicitou.|
+|**Noção**   | - Ação realizada pelo [cliente](#l08-cliente) de escolher itens no [cardápio](#l02-ver-cardapio) do restaurante e pedir para que sejam trazidos até sua mesa.|
+|**Impacto**  | - Os itens serão adicionado aos [Pedidos](#l13-pedidos) do [cliente](#l08-cliente);<br> - Os valores dos itens serão somados na [Conta](#l05-pedir-a-conta) do [cliente](#l08-cliente);<br> - Os itens,depois de preparados, serão levados até à mesa do [cliente](#l08-cliente) que os solicitou.|
 |**Sinônimo**|Pedir|
 |**Rastreabilidade**||
 
-## L04
+## L04 - Cancelar Pedidos
 |L04 | Cancelar Pedidos|
 |--|--|
 |**Classificação**| Verbo|
-|**Noção**   | - Ação realizada pelo [cliente](#L08) de remover um ou mais itens dos [Pedidos](#L13) que fez.|
-|**Impacto**  | - Os itens cancelados serão retirados dos [Pedidos](#L13) a serem entregues.<br> - Os valores dos itens retirados serão subtraídos da [Conta](#L05).<br> - Os itens retirados não serão entregues na mesa do [cliente](#L08).|
+|**Noção**   | - Ação realizada pelo [cliente](#l08-cliente) de remover um ou mais itens dos [Pedidos](#l13-pedidos) que fez.|
+|**Impacto**  | - Os itens cancelados serão retirados dos [Pedidos](#l13-pedidos) a serem entregues.<br> - Os valores dos itens retirados serão subtraídos da [Conta](#l05-pedir-a-conta).<br> - Os itens retirados não serão entregues na mesa do [cliente](#l08-cliente).|
 |**Sinônimo**|Retirar pedido, Remover pedido|
 |**Rastreabilidade**||
 
-## L05
-|L05 | Pedir a Conta|
+## L05 - Pedir a Conta
+| L05 | Pedir a Conta|
 |--|--|
 |**Classificação**|Verbo |
-|**Noção**   | - Ação realizada pelo [cliente](#L08) de encerrar os [Pedidos](#L13) e ter o somatório total dos gastos que fez.|
-|**Impacto**  | - A [Conta](#L05) será fechada;<br> - Não serão feitos mais [Pedidos](#L13);<br> - O sistema irá gerar uma lista dos [Pedidos](#L13) e a soma final dos preços desses [Pedidos](#L13).|
-|**Sinônimo**|Fechar a [Conta](#L05)|
+|**Noção**   | - Ação realizada pelo [cliente](#l08-cliente) de encerrar os [Pedidos](#l13-pedidos) e ter o somatório total dos gastos que fez.|
+|**Impacto**  | - A [Conta](#l05-pedir-a-conta) será fechada;<br> - Não serão feitos mais [Pedidos](#l13-pedidos);<br> - O sistema irá gerar uma lista dos [Pedidos](#l13-pedidos) e a soma final dos preços desses [Pedidos](#l13-pedidos).|
+|**Sinônimo**|Fechar a [Conta](#l05-pedir-a-conta)|
 |**Rastreabilidade**||
 
-## L06
-|L06 | Chamar Garçom|
+## L06 - Chamar Garçom
+| L06 | Chamar Garçom|
 |--|--|
 |**Classificação**| Verbo|
-|**Noção**   | - Ação realizada pelo [cliente](#L08) de requisitar a presença de um [Garçom](#L09) à sua mesa. |
-|**Impacto**  | - Um [Garçom](#L09) vê a solicitação;<br> - O [Garçom](#L09) vai até a mesa onde o [cliente](#L08) está o chamando.|
+|**Noção**   | - Ação realizada pelo [cliente](#l08-cliente) de requisitar a presença de um [Garçom](#l09-funcionario) à sua mesa. |
+|**Impacto**  | - Um [Garçom](#l09-funcionario) vê a solicitação;<br> - O [Garçom](#l09-funcionario) vai até a mesa onde o [cliente](#l08-cliente) está o chamando.|
 |**Sinônimo**| - |
 |**Rastreabilidade**||
 
-## L07
-|L07| Avaliar Restaurante|
+## L07 - Avaliar Restaurante
+| L07 | Avaliar Restaurante|
 |--|--|
 |**Classificação**|Verbo|
-|**Noção**   | - Ação realizada pelo [cliente](#L08) de dar uma nota pela sua experiência geral com o restaurante. |
+|**Noção**   | - Ação realizada pelo [cliente](#l08-cliente) de dar uma nota pela sua experiência geral com o restaurante. |
 |**Impacto**  | - Outras pessoas poderão ver as avaliações feitas sobre o restaurante.|
 |**Sinônimo**| - |
 |**Rastreabilidade**||
 
-## L08
-|L08 | Cliente|
+## L08 - Cliente
+| L08 | Cliente|
 |--|--|
 |**Classificação**|Sujeito|
-|**Noção**   | - [Usuário](#L08) que utiliza o sistema com a finalidade de usufruir dos serviços oferecidos por um restaurante.|
-|**Impacto**  | - O [cliente](#L08) pode Ler o [QRCode](#L01) de sua mesa para acessar o sistema;<br> - Um [cliente](#L08) pode ver o [cardápio](#L02) do restaurante;<br> - O [cliente](#L08) pode [Fazer Pedidos](#L03);<br> - O [cliente](#L08) pode Pedir a Conta;<br> - O [cliente](#L08) pode Chamar um [garçom](#L09);<br> - O cliente pode [Avaliar](#L07) o retaurante;<br> - O cliente pode [Fazer o Pagamento](#L12);<br> - O [cliente](#L08) pode ver a lista de seus [pedidos](#L13).   |
-|**Sinônimo**|[Usuário](#L08)|
+|**Noção**   | - [Usuário](#l08-cliente) que utiliza o sistema com a finalidade de usufruir dos serviços oferecidos por um restaurante.|
+|**Impacto**  | - O [cliente](#l08-cliente) pode Ler o [QRCode](#l01-ler-qrcode) de sua mesa para acessar o sistema;<br> - Um [cliente](#l08-cliente) pode ver o [cardápio](#l02-ver-cardapio) do restaurante;<br> - O [cliente](#l08-cliente) pode [Fazer Pedidos](#l03-fazer-pedidos);<br> - O [cliente](#l08-cliente) pode Pedir a Conta;<br> - O [cliente](#l08-cliente) pode Chamar um [garçom](#l09-funcionario);<br> - O cliente pode [Avaliar](#l07-avaliar-restaurante) o retaurante;<br> - O cliente pode [Fazer o Pagamento](#l12-fazer-pagamento);<br> - O [cliente](#l08-cliente) pode ver a lista de seus [pedidos](#l13-pedidos).   |
+|**Sinônimo**|[Usuário](#l08-cliente)|
 |**Rastreabilidade**||
 
-## L09
-|L09 | Funcionário|
+## L09 - Funcionário
+| L09 | Funcionário|
 |--|--|
 |**Classificação**|Sujeito|
-|**Noção**   | - [Usuário](#L08) que vê e administra as solicitações dos [clientes](#L08).|
-|**Impacto**  | - Um [Funcionário](#L09) pode ver os [Pedidos](#L03) das mesas as quais está responsável;<br> - Um [Funcionário](#L09) pode ver se uma [mesa está livre](#L10);<br> - Um [Funcionário](#L09) pode ver se uma [mesa está ocupada](#L11);<br> - Um [Funcionário](#L09) pode ver as [chamadas](#L06) de [clientes](#L08).|
-|**Sinônimo**|[Garçom](#L09)|
+|**Noção**   | - [Usuário](#l08-cliente) que vê e administra as solicitações dos [clientes](#l08-cliente).|
+|**Impacto**  | - Um [Funcionário](#l09-funcionario) pode ver os [Pedidos](#l03-fazer-pedidos) das mesas as quais está responsável;<br> - Um [Funcionário](#l09-funcionario) pode ver se uma [mesa está livre](#l10-mesa-livre);<br> - Um [Funcionário](#l09-funcionario) pode ver se uma [mesa está ocupada](#l11-mesa-ocupada);<br> - Um [Funcionário](#l09-funcionario) pode ver as [chamadas](#l06-chamar-garcom) de [clientes](#l08-cliente).|
+|**Sinônimo**|[Garçom](#l09-funcionario)|
 |**Rastreabilidade**||
 
-## L10
+## L10 - Mesa livre
 |L10| Mesa livre|
 |--|--|
 |**Classificação**|Estado|
 |**Noção**   | - Mesa do restaurante que atualmente não tem nenhum ocupante. |
-|**Impacto**  | - A mesa pode ser ocupada por novos [clientes](#L08).|
+|**Impacto**  | - A mesa pode ser ocupada por novos [clientes](#l08-cliente).|
 |**Sinônimo**| -
 |**Rastreabilidade**||
 
-## L11
+## L11 - Mesa ocupada
 |L11| Mesa ocupada|
 |--|--|
 |**Classificação**|Estado|
-|**Noção**   | - Mesa do restaurante que atualmente está ocupada com [clientes](#L08). |
-|**Impacto**  | - A mesa não pode ser oferecida a novos [clientes](#L08) enquanto estiver ocupada.|
+|**Noção**   | - Mesa do restaurante que atualmente está ocupada com [clientes](#l08-cliente). |
+|**Impacto**  | - A mesa não pode ser oferecida a novos [clientes](#l08-cliente) enquanto estiver ocupada.|
 |**Sinônimo**| - |
 |**Rastreabilidade**||
 
-## L12
+## L12 - Fazer pagamento
 |L12| Fazer pagamento|
 |--|--|
 |**Classificação**|Verbo|
-|**Noção**   | - Ação realizada pelo [cliente](#L08) de [pagar](#L12) a [Conta](#L05) dos itens consumidos.|
-|**Impacto**  | - A [Conta](#L05) é paga;<br> - A mesa pode ser liberada para outros [clientes](#L08).|
-|**Sinônimo**|[pagar](#L12) [Conta](#L05)|
+|**Noção**   | - Ação realizada pelo [cliente](#l08-cliente) de [pagar](#l12-fazer-pagamento) a [Conta](#l05-pedir-a-conta) dos itens consumidos.|
+|**Impacto**  | - A [Conta](#l05-pedir-a-conta) é paga;<br> - A mesa pode ser liberada para outros [clientes](#l08-cliente).|
+|**Sinônimo**|[pagar](#l12-fazer-pagamento) [Conta](#l05-pedir-a-conta)|
 |**Rastreabilidade**||
 
-## L13
+## L13 - Pedidos
 |L13|Pedidos|
 |--|--|
 |**Classificação**|Objeto|
-|**Noção**   | - Os itens que foram [pedidos](#L13) pelo cliente.|
-|**Impacto**  | - Um [pedido](#L13) pode ser solicitado por [clientes](#L08);<br> - O  [Garçom](#L09) vê o [pedido](#L13) e manda para a cozinha;<br> - A cozinha prepara o [pedido](#L13);<br> - O [Garçom](#L09) leva o [pedido](#L13) até a [mesa](#L11) do [cliente](#L08);<br> -  O [cliente](#L08) pode ver a lista dos [pedidos](#L13) que fez até o momento.|
+|**Noção**   | - Os itens que foram [pedidos](#l13-pedidos) pelo cliente.|
+|**Impacto**  | - Um [pedido](#l13-pedidos) pode ser solicitado por [clientes](#l08-cliente);<br> - O  [Garçom](#l09-funcionario) vê o [pedido](#l13-pedidos) e manda para a cozinha;<br> - A cozinha prepara o [pedido](#l13-pedidos);<br> - O [Garçom](#l09-funcionario) leva o [pedido](#l13-pedidos) até a [mesa](#l11-mesa-ocupada) do [cliente](#l08-cliente);<br> -  O [cliente](#l08-cliente) pode ver a lista dos [pedidos](#l13-pedidos) que fez até o momento.|
 |**Sinônimo**| - |
 |**Rastreabilidade**||
 
-## L14
+## L14 - Internet
 |L14|Internet|
 |--|--|
 |**Classificação**|Objeto|
-|**Noção**   | - rede de computadores dispersos por todo o planeta que trocam dados e mensagens utilizando um protocolo comum, unindo [Usuários](#L08) |
-|**Impacto**  | - O [Usuário](#L08) conecta seu aparelho a internet para poder acessar o [cardápio](#L02) e submeter seu [pedido](#L03) |
+|**Noção**   | - rede de computadores dispersos por todo o planeta que trocam dados e mensagens utilizando um protocolo comum, unindo [Usuários](#l08-cliente) |
+|**Impacto**  | - O [Usuário](#l08-cliente) conecta seu aparelho a internet para poder acessar o [cardápio](#l02-ver-cardapio) e submeter seu [pedido](#l03-fazer-pedidos) |
 |**Sinônimo**| web, rede |
 |**Rastreabilidade**||
 
-## L15
+## L15 - Smarthpone
 |L15|Smarthpone|
 |--|--|
 |**Classificação**|Objeto|
 |**Noção**   | - telefone celular com recursos de um computador pessoal |
-|**Impacto**  | - O [Usuário](#L08) faz interações todas as interações através do celular. |
+|**Impacto**  | - O [Usuário](#l08-cliente) faz interações todas as interações através do celular. |
 |**Sinônimo**| celular |
 |**Rastreabilidade**||
 
-## L16
+## L16 - Localização
 |L16|Localização|
 |--|--|
 |**Classificação**|Objeto|
-|**Noção**   | - Localização geográfica de onde o [celular](#L14) do [Usuário](#L03) está|
-|**Impacto**  | - Permite ao [Usuário](#L08) fazer interações com o restaurante apenas quando se encontra dentro dele e antes de [pedir a conta](#L05) |
+|**Noção**   | - Localização geográfica de onde o [celular](#l14-internet) do [Usuário](#l08-cliente) está|
+|**Impacto**  | - Permite ao [Usuário](#l08-cliente) fazer interações com o restaurante apenas quando se encontra dentro dele e antes de [pedir a conta](#l05-pedir-a-conta) |
 |**Sinônimo**| onde, local, endereço |
 |**Rastreabilidade**||
 
-## L17
+## L17 - Ver Status do pedido
 |L16|Ver Status do pedido|
 |--|--|
 |**Classificação**|Estado|
-|**Noção**   | - Vizualizar se o [pedido](#L13) já está sendo processado pelo restaurante.|
-|**Impacto**  | - Permite ao [Usuário](#L08) ver o status do seu [pedido](#L13) e assim poder fazer alterações, caso este ainda não foi processado pelo restaurante. |
+|**Noção**   | - Vizualizar se o [pedido](#l13-pedidos) já está sendo processado pelo restaurante.|
+|**Impacto**  | - Permite ao [Usuário](#l08-cliente) ver o status do seu [pedido](#l13-pedidos) e assim poder fazer alterações, caso este ainda não foi processado pelo restaurante. |
 |**Sinônimo**| Situação do pedido |
 |**Rastreabilidade**||
 
-## L18
+## L18 - Modificar pedido
 |L18|Modificar pedido|
 |--|--|
 |**Classificação**|Estado|
-|**Noção**   | - Alterar um [pedido](#L13) que ainda não foi processado pelo restaurante.|
-|**Impacto**  | - Permite ao [Usuário](#L08) alterar um [pedido](#L13) que ainda não foi processado pelo restaurante.|
+|**Noção**   | - Alterar um [pedido](#l13-pedidos) que ainda não foi processado pelo restaurante.|
+|**Impacto**  | - Permite ao [Usuário](#l08-cliente) alterar um [pedido](#l13-pedidos) que ainda não foi processado pelo restaurante.|
 |**Sinônimo**| Alterar pedido, Substituir pedido |
 |**Rastreabilidade**||
