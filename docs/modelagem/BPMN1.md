@@ -31,15 +31,6 @@
   </tbody>
 </table>
 
-## Versões 1.0
-
-### Processo de Escolha do Tema do Projeto
-
-### Autor: [Caio](https://github.com/Caiocbeleza)
-
-![BPMN Definição Tema](../images/BPMN/BPMN-DefiniçãoProjeto.png)
-
-
 ## Introdução
 <p align="justify">&emsp;
 BPMN(Business Process Model and Notation) é uma notação que permite uma ilustração de processos, especificando-os em diagramas que sejam fácies de ler. Isso é feito através da simbologia BPMN, que serve como uma linguagem padrão para essa notação.</p>
@@ -85,6 +76,15 @@ Artefatos são os objetos de dados, que podem ser saída, entrada, armazenamento
 <p align="justify">&emsp;
 Nós utilizaremos a modelagem BPMN para conseguirmos mapear, de forma que seja de fácil entendimento para todos, os fluxos dos processos que serão implementados durante o projeto.
 </p>
+
+## Versões 1.0
+
+### Processo de Escolha do Tema do Projeto
+
+### Autor: [Caio](https://github.com/Caiocbeleza)
+
+![BPMN Definição Tema](../images/BPMN/BPMN-DefiniçãoProjeto.png)
+
 
 ## Referências
 <ul>
