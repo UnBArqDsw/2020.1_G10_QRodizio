@@ -86,22 +86,22 @@ Nós utilizamos os mapas mentais para termos um apanhado geral de quais funciona
 
 ## Visões individuais
 
-### Autor: Cauê
+### Autor: [Cauê](https://github.com/caue96)
 [![Mapa Mental](../images/mindmap/mapa_mental_caue.png)](https://ibb.co/kg4mP95)
 
-### Autor: Fábio
+### Autor: [Fábio](https://github.com/fabio1079)
 
 [![Mapa Mental](../images/mindmap/mind_map_fabio.jpg)](https://ibb.co/YDNNwbN)
 
-### Autor: Caio
+### Autor: [Caio](https://github.com/Caiocbeleza)
 
 [![Mapa Mental](../images/mindmap/mapa_mental_caio.png)](https://ibb.co/HD7rzPx)
 
-### Autor: Lucas
+### Autor: [Lucas](https://github.com/lucasmidlhey)
 
 [![Mapa Mental](../images/mindmap/mental_Lucas.png)](https://ibb.co/Ss6v23Z)
 
-### Autor: Joao Pedro
+### Autor: [João Pedro](https://github.com/jppgomes)
 
 [![Mapa Mental](../images/mindmap/MapaMentalCliente.png)](https://ibb.co/B60Q2Fh)
 
