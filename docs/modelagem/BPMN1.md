@@ -20,8 +20,24 @@
         0.1
       </td>
     </tr>
+    <tr>
+      <td>10/09/2020</td>
+      <td>Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>)</td>
+      <td>Adicionando Diagrama BPMN da escolha do tema</td>
+      <td>
+        0.2
+      </td>
+    </tr>
   </tbody>
 </table>
+
+## Versões 1.0
+
+### Processo de Escolha do Tema do Projeto
+
+### Autor: [Caio](https://github.com/Caiocbeleza)
+
+![BPMN Definição Tema](../images/BPMN/BPMN-DefiniçãoProjeto.png)
 
 
 ## Introdução
