@@ -72,28 +72,28 @@ Esta metodologia é utilizada em questões onde os problemas e suas respectivas 
 
 ## Visões individuais
 
-### Autor: Cauê
+### Autor: [Cauê](https://github.com/caue96)
 [![Rich Picture](../images/richpictute/rich_picture_caue.png)](https://ibb.co/zNzBpWH)
 
-### Autor: Lucas
+### Autor: [Lucas](https://github.com/lucasmidlhey)
 [![Rich Picture](../images/richpictute/rich_picture_lucas.jpeg)](https://ibb.co/fkRvccF)
 
 
-### Autor: Fábio
+### Autor: [Fábio](https://github.com/fabio1079)
 
 [![Rich Picture](../images/richpictute/rich_picture_fabio.jpg)](https://ibb.co/qFh9bXH)
 
-### Autor: Caio
+### Autor: [Caio](https://github.com/Caiocbeleza)
 
 [![Rich Picture](../images/richpictute/rich_picture_QRodizio_cliente.png)](https://ibb.co/LtwQd26)
 Versão do cliente
 
-### Autor: Caio
+### Autor: [Caio](https://github.com/Caiocbeleza)
 
 [![Rich Picture](../images/richpictute/rich_picture_Qrodizio_gerente.png)](https://ibb.co/2s8KLLN)
 Versão do gerente
 
-### Autor: João Pedro
+### Autor: [João Pedro](https://github.com/jppgomes)
 
 [![Rich Picture](../images/richpictute/RichPicture.png)](https://ibb.co/Qcq8yJf)
 Versão do gerente

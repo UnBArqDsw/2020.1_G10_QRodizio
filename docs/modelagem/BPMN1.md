@@ -28,6 +28,22 @@
         0.2
       </td>
     </tr>
+    <tr>
+      <td>10/09/2020</td>
+      <td>Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>)</td>
+      <td>Adicionando Diagrama BPMN de Sprint Planning</td>
+      <td>
+        0.3
+      </td>
+    </tr>
+    <tr>
+      <td>10/09/2020</td>
+      <td>Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>)</td>
+      <td>Adicionando Diagrama BPMN de Sprint Review</td>
+      <td>
+        0.4
+      </td>
+    </tr>
   </tbody>
 </table>
 
@@ -84,6 +100,18 @@ Nós utilizaremos a modelagem BPMN para conseguirmos mapear, de forma que seja d
 ### Autor: [Caio](https://github.com/Caiocbeleza)
 
 ![BPMN Definição Tema](../images/BPMN/BPMN-DefiniçãoProjeto.png)
+
+### Processo de Sprint Planning
+
+### Autor: [Caio](https://github.com/Caiocbeleza)
+
+![BPMN Sprint Planning](../images/BPMN/BPMN-SprintPlanning.png)
+
+### Processo de Sprint Review
+
+### Autor: [Caio](https://github.com/Caiocbeleza)
+
+![BPMN Sprint Review](../images/BPMN/BPMN-SprintReview.png)
 
 
 ## Referências
