@@ -1,5 +1,6 @@
 
 
+
 ## Léxicos
 
 ## Histórico de versão
@@ -46,8 +47,14 @@
       0.4  
       </td>
     </tr>
-
-
+     <tr>
+      <td>10/09/2020</td>
+      <td>Lucas Midlhey(<a target="blank" href="https://github.com/lucasmidlhey">Lucasmidlhey</a>)</td>
+      <td>Adicionando Léxicos Internet, localização e smarthpone</td>
+      <td>
+      0.5  
+      </td>
+    </tr>
   </tbody>
 </table>
 
@@ -190,4 +197,31 @@ Todos os léxicos estão organizados respeitando a seguinte tabela:
 |**Noção**   | - Os itens que foram [pedidos](#L13) pelo cliente.|
 |**Impacto**  | - Um [pedido](#L13) pode ser solicitado por [clientes](#L08);<br> - O  [Garçom](#L09) vê o [pedido](#L13) e manda para a cozinha;<br> - A cozinha prepara o [pedido](#L13);<br> - O [Garçom](#L09) leva o [pedido](#L13) até a [mesa](#L11) do [cliente](#L08);<br> -  O [cliente](#L08) pode ver a lista dos [pedidos](#L13) que fez até o momento.|
 |**Sinônimo**| - |
+|**Rastreabilidade**||
+
+### L14
+|L14|Internet|
+|--|--|
+|**Classificação**|Objeto|
+|**Noção**   | - rede de computadores dispersos por todo o planeta que trocam dados e mensagens utilizando um protocolo comum, unindo [Usuários](#L08) |
+|**Impacto**  | - O [Usuário](#L08) conecta seu aparelho a internet para poder acessar o [cardápio](#L02) e submeter seu [pedido](#L03) |
+|**Sinônimo**| web, rede |
+|**Rastreabilidade**||
+
+### L15
+|L15|Smarthpone|
+|--|--|
+|**Classificação**|Objeto|
+|**Noção**   | - telefone celular com recursos de um computador pessoal |
+|**Impacto**  | - O [Usuário](#L08) faz interações todas as interações através do celular. |
+|**Sinônimo**| celular |
+|**Rastreabilidade**||
+
+### L16
+|L16|Localização|
+|--|--|
+|**Classificação**|Objeto|
+|**Noção**   | - Localização geográfica de onde o [celular](#L14) do [Usuário](#L03) está|
+|**Impacto**  | - Permite ao [Usuário](#L08) fazer interações com o restaurante apenas quando se encontra dentro dele e antes de [pedir a conta](#L05) |
+|**Sinônimo**| onde, local, endereço |
 |**Rastreabilidade**||
