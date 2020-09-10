@@ -61,6 +61,15 @@ module.exports = {
           "/modelagem/Modelagem_BPMN",
         ],
       },
+
+      {
+        title: "1.4 Iniciativas extra",
+        collapsable: true,
+        children: [
+          "/politica/branches",
+          "/politica/issues",
+        ],
+      }
     ],
   },
 };
