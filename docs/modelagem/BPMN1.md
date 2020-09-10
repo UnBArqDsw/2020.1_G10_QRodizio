@@ -45,6 +45,14 @@
         0.4
       </td>
     </tr>
+     <tr>
+      <td>10/09/2020</td>
+      <td>Lucas Midlhey<a target="blank" href="https://github.com/lucasmidlhey">(lucasmidlhey</a>)</td>
+      <td>Adicionando Diagrama BPMN escopo e metodologia</td>
+      <td>
+        0.5
+      </td>
+    </tr>
   </tbody>
 </table>
 
@@ -102,6 +110,12 @@ Nós utilizaremos a modelagem BPMN para conseguirmos mapear, de forma que seja d
 
 ![BPMN Definição Tema](../images/BPMN/BPMN-DefiniçãoProjeto.png)
 
+### Definição de metodologia
+
+### Autor: [Lucas](https://github.com/lucasmidlhey)
+
+![BPMN definição escopo](../images/BPMN/mpmn_metodologia.png)
+
 ### Processo de Sprint Planning
 
 ### Autor: [Caio](https://github.com/Caiocbeleza)
@@ -116,7 +130,7 @@ Nós utilizaremos a modelagem BPMN para conseguirmos mapear, de forma que seja d
 
 ### Definição de escopo
 
-### Autor: [Lucas] (https://github.com/lucasmidlhey)
+### Autor: [Lucas](https://github.com/lucasmidlhey)
 
 ![BPMN definição escopo](../images/BPMN/bpmn_escopo.png)
 
