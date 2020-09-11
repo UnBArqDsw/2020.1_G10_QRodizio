@@ -74,7 +74,17 @@ module.exports = {
           "/politica/issues",
           "/politica/CODE_OF_CONDUCT"
         ],
-      }
+      },
+
+      {
+        title: "1.5 Reuniões",
+        collapsable: true,
+        children: [
+          "/reunioes/sprint0",
+          "/reunioes/sprint1",
+          "/reunioes/sprint2"
+        ],
+      },
     ],
   },
 };
