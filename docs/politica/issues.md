@@ -4,7 +4,7 @@
 
 | Data     | Autor         | Descrição            | Versão |
 | -------- | ------------- | -------------------- | ------ |
-| 29/08/20 | Lucas Midlhey | Criação do documento | 1.0    |
+| 29/08/20 | Lucas Midlhey(<a target="blank" href="https://github.com/lucasmidlhey">Lucas Midlhey</a>)| Criação do documento | 0.1    |
 
 ## Padrão de Issue
 
