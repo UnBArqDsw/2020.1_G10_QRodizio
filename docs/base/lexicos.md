@@ -115,7 +115,7 @@ A rastreabilidade ainda não foi colocada nos léxicos abaixo devido a ainda nã
 |**Noção**   | - Primeira ação do [Usuário](#l08-cliente).<br>- [Usuário](#l08-cliente) lê o QRCode de sua mesa com seu dispositivo.<br>- [Usuário](#l08-cliente) acessa o sistema QRodízio.|
 |**Impacto**  | - O [Usuário](#l08-cliente) agora tem acesso às funcionalidades do sistema, como: Ver [cardápio](#l02-ver-cardapio), [Fazer Pedidos](#l03-fazer-pedidos), Cancelar [Pedidos](#l03-fazer-pedidos), Pedir a [Conta](#l05-pedir-a-conta), Chamar [Garçom](#l09-funcionario), [Avaliar](#l07-avaliar-restaurante) restaurante e [Fazer Pagamento](#l12-fazer-pagamento).|
 |**Sinônimo**| Acessar o sistema |
-|**Rastreabilidade**|c01, s01, f02|
+|**Rastreabilidade**|c01, [S01](#s01), f02|
 
 ## L02 - Ver Cardápio
 |L02| Ver Cardápio|

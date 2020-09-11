@@ -20,7 +20,7 @@ Fizemos um branstorming utilizando a ferramenta de edição online [hackMD](hack
 ## Requisitos elicitados (sistema)
 | ID | Nome | Importância |
 | -------- | -------- | -------- |
-| s01 | O sistema deve Gerar QRCode | Must have |
+| <a href="#s01">S01</a> | O sistema deve Gerar QRCode | Must have |
 | s02 | O sistema deve gerar uma nova URL da mesa para cada sessão aberta | Should have |
 | s03 | O sistema deve ter Papéis de acesso (Administrador/Gerente, Garçom/Funcionário, Cliente) | Could Have |
 | s04 | O sistema deve poder Gerar gráficos(consumo,mais pedidos, etc) | Could have |
