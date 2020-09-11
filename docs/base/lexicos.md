@@ -60,6 +60,14 @@
       0.6
       </td>
     </tr>
+    <tr>
+      <td>11/09/2020</td>
+      <td>Cauê Mateus Oliveira(<a target="blank" href="https://github.com/caue96">caue96</a>)</td>
+      <td>Adicionando Léxicos Gerente(L19), Cardápio(L20), </td>
+      <td>
+      0.7
+      </td>
+    </tr>
   </tbody>
 </table>
 
@@ -251,3 +259,48 @@ Todos os léxicos estão organizados respeitando a seguinte tabela:
 |**Impacto**  | - Permite ao [Usuário](#l08-cliente) alterar um [pedido](#l13-pedidos) que ainda não foi processado pelo restaurante.|
 |**Sinônimo**| Alterar pedido, Substituir pedido |
 |**Rastreabilidade**||
+
+## L19 - Gerente
+| L19 | Gerente |
+| -- | -- |
+| **Classificação** | Sujeito |
+| **Noção**   | - [Usuário](#l08-cliente) que controla os dados do sistema e tem acesso a todas as funcionalidades. |
+| **Impacto**  | - Um [Gerente](#l19-gerente) pode visualizar o histórico de ações dos [Funcionários](#l09-funcionario);<br> - Um [Gerente](#l19-gerente) pode cadastrar [Funcionários](#l09-funcionario);<br> - Um [Gerente](#l19-gerente) pode remover [Funcionários](#l09-funcionario);<br> - Um [Gerente](#l19-gerente) pode visualizar gráficos de consumo;<br> - Um [Gerente](#l19-gerente) pode cadastrar, alterar e deletar o cardápio. |
+| **Sinônimo** | Administrador |
+| **Rastreabilidade** |  |
+
+## L20 - Cardápio
+| L20 | Cardápio |
+| -- | -- |
+| **Classificação** | Objeto |
+| **Noção** | - Um menu com diversos itens e preços de pratos que o restaurante oferece |
+| **Impacto** | - O [Usuário](#l08-cliente) faz seus [pedidos](#l13-pedidos) por ele. |
+| **Sinônimo** | Menu |
+| **Rastreabilidade** |  |
+
+## L21 - Gerar Nova Sessão
+| L21 | Gerar Nova Sessão |
+| -- | -- |
+| **Classificação** | Verbo |
+| **Noção** | - Ação realizada automaticamente pelo sistema após o [Funcionário](#l09-funcionario) ou o [Gerente](#l19-gerente) receberem o [pagamento](#l12-fazer-pagamento) do [cliente](#l08-cliente). |
+| **Impacto** | - Após o [pagamento](#l12-fazer-pagamento) a mesa será liberada para novo [cliente](#l08-cliente) entrar em nova sessão. |
+| **Sinônimo** | Liberar nova conta para novo cliente |
+| **Rastreabilidade** |  |
+
+## L22 - Cadastrar Cardápio
+| L21 | Cadastrar Cardápio |
+| -- | -- |
+| **Classificação** | Verbo |
+| **Noção** | - Cadastro de um novo cardápio ou novos itens e seus preeços para o cardápio já existente. |
+| **Impacto** | - O [Gerente](#l19-gerente) cadastra novo cardápio ou novos itens e seus preços para que os [clientes](#l08-cliente) possam ter sempre um variedade de opções para comer. |
+| **Sinônimo** | Cadastrar menu, cadastrar novos itens |
+| **Rastreabilidade** |  |
+
+## L23 - Alterar Cardápio
+| L23 | Alterar Cardápio |
+| -- | -- |
+| **Classificação** | Verbo |
+| **Noção** | - Alteração de itens e preços no cardápio já existente. |
+| **Impacto** | - O [Gerente](#l19-gerente) altera itens e seus preços para que os [clientes](#l08-cliente) possam ter sempre os pratos e preços atualizados. |
+| **Sinônimo** | Alterar menu, alterar novos itens |
+| **Rastreabilidade** |  |
