@@ -52,6 +52,13 @@
       <td>
         0.5
       </td>
+   <tr>
+      <td>10/09/2020</td>
+      <td>Joao Pedro<a target="blank" href="https://github.com/jppgomes">(jppgomes</a>)</td>
+      <td>Adicionando Diagrama BPMN escopo e metodologia</td>
+      <td>
+        0.6
+      </td>
     </tr>
   </tbody>
 </table>
@@ -133,6 +140,13 @@ Nós utilizaremos a modelagem BPMN para conseguirmos mapear, de forma que seja d
 ### Autor: [Lucas](https://github.com/lucasmidlhey)
 
 ![BPMN definição escopo](../images/BPMN/bpmn_escopo.png)
+
+
+### Definição de escopo
+
+### Autor: [Joao Pedro](https://github.com/jppgomes)
+
+![BPMN definição escopo](../images/BPMN/processoAberturaMesa.png)
 
 
 ## Referências
