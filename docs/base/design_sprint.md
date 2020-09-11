@@ -95,7 +95,7 @@ Fizemos um bainstorming de ideias, onde surgiram 2 ideias e o grupo votou na que
 
 **Cauê** - Mais fácil pro cliente também, que ia poder fazer as coisas sem precisar esperar ser atendido.<br>
 
-**Fábio** - Também não ia ter a necessidade de cardápio impresso, que as vezes falta e os funcionários tem que ficar pegando de uma mesa e levando pra outra toda hora. Nessa época de covid é bom tbm porque aí você só precisaria tocar no seu próprio celular.
+**Fábio** - Também não ia ter a necessidade de cardápio impresso, que as vezes falta e os funcionários tem que ficar pegando de uma mesa e levando pra outra toda hora. Nessa época de covid é melhor evitar esse tipo de contato, sendo melhor olhar seu próprio celular.
 
 <p align="justify">&emsp;
 A partir daí, definimos quais seriam os artefatos que precisaríamos fazer inicialmente para termos uma visão mais concreta da aplicação:
@@ -113,18 +113,16 @@ A partir daí, definimos quais seriam os artefatos que precisaríamos fazer inic
 
 * [Diagrama de Ishikawa ou Fishbone](../base/diagrama_ishikawa.md): Para mapear os riscos do projeto.</p>
 
-* <p align="justify"><b>Termo de Abertura do Projeto(TAP):</b> Para definir os pontos iniciais do projeto</p>
-
+* [Termo de Abertura do Projeto(TAP)](../termo_de_abertura.md): Para definir os pontos iniciais do projeto
 
 
 <p align="justify">&emsp;Todos os artefatos foram documentados e estão disponíveis na Wiki do projeto QRodízio e estão linkados acima.</p>
 
 
-
 ## Dia 2
 07/09/2020
 <p align="justify">&emsp;
-No segundo dia, foi feito um Brainstorming(Linkar documento do backlog), a fim de elicitar os requisitos do sistema e construir o backlog do produto.
+No segundo dia, foi feito um brainstorming, a fim de elicitar os requisitos do sistema e construir o [backlog](../backlog_produto.md) do produto.
 </p>
 
 ## Dia 3

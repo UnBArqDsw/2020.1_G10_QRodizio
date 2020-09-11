@@ -21,12 +21,12 @@ Os seguintes são inprescindíveis para o bom andamento do projeto:<br>
 <p>
 Os seguintes são inaceitáveis em nossa equipe:<br>
 <ul>
-* Desrespeito de qualquer natureza a um companheiro da equipe;<br>
-* Agressão de qualquer natureza;<br>
-* Toda forma de discriminação e/ou assédio;<br>
-* Insultos.<br>
-</p>
+* Desrespeito de qualquer natureza a um companheiro da equipe;
+* Agressão de qualquer natureza;
+* Toda forma de discriminação e/ou assédio;
+* Insultos.
 </ul>
+</p>
 
 ### Responsabilidades de todos
 <p>
