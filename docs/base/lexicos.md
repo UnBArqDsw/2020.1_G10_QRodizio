@@ -314,3 +314,30 @@ A rastreabilidade ainda não foi colocada nos léxicos abaixo devido a ainda nã
 | **Impacto** | - O [Gerente](#l19-gerente) altera itens e seus preços para que os [clientes](#l08-cliente) possam ter sempre os pratos e preços atualizados. |
 | **Sinônimo** | Alterar menu, alterar novos itens |
 | **Rastreabilidade** | f05, a05 |
+
+## L24 - Mesa
+| L24 | Mesa |
+| -- | -- |
+| **Classificação** | Objeto |
+| **Noção** | - Simula uma conta onde os pedidos ficam registrados |
+| **Impacto** | - O [cliente](#l08-cliente) só pode realizar pedidos através da mesa. |
+| **Sinônimo** | Conta |
+| **Rastreabilidade** | f02, a05 |
+
+## L25 - Abrir mesa
+| L25 | Abrir mesa |
+| -- | -- |
+| **Classificação** | Verbo |
+| **Noção** | - Abrir nova mesa para realizar pedidos |
+| **Impacto** | - O [cliente](#l08-cliente) abre uma nova [mesa](l#24mesa). |
+| **Sinônimo** | Abrir conta |
+| **Rastreabilidade** | f05, a05 |
+
+## L26 - Fechar mesa
+| L26 | Abrir mesa |
+| -- | -- |
+| **Classificação** | Verbo |
+| **Noção** | - fechar mesa para realizar pagamento |
+| **Impacto** | - O [cliente](#l08-cliente) fecha a [mesa](l#24mesa) para ir embora. |
+| **Sinônimo** | Fechar conta |
+| **Rastreabilidade** | f05, a05 |
