@@ -28,6 +28,14 @@
         0.2
       </td>
     </tr>
+    <tr>
+      <td>11/09/2020</td>
+      <td>Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>), Cauê Mateus Oliveira(<a target="blank" href="https://github.com/caue96">caue96</a>), Fábio Teixeira(<a target="blank" href="https://github.com/fabio1079">fabio1079</a>),Lucas Midlhey(<a target="blank" href="https://github.com/lucasmidlhey">lucasmidlhey</a>),João Pedro(<a target="blank" href="https://github.com/Jppgomes">Jppgomes</a>)</td>
+      <td>Adicionando Dias 2 e 3 do Design Sprint</td>
+      <td>
+        0.3
+      </td>
+    </tr>
   </tbody>
 </table>
 
@@ -54,6 +62,7 @@
 </p>
 
 ## Dia 1
+04/09/2020
 <p align="justify">&emsp;
 Fizemos um bainstorming de ideias, onde surgiram 2 ideias e o grupo votou na que mais gostou(QRodízio).
 </p>
@@ -88,6 +97,41 @@ Fizemos um bainstorming de ideias, onde surgiram 2 ideias e o grupo votou na que
 
 **Fábio** - Também não ia ter a necessidade de cardápio impresso, que as vezes falta e os funcionários tem que ficar pegando de uma mesa e levando pra outra toda hora. Nessa época de covid é bom tbm porque aí você só precisaria tocar no seu próprio celular.
 
+<p align="justify">&emsp;
+A partir daí, definimos quais seriam os artefatos que precisaríamos fazer inicialmente para termos uma visão mais concreta da aplicação:
+</p>
+
+### 3. Artefatos iniciais
+
+* <p align="justify"><b>Rich Picture:</b> Para termos uma visão geral da aplicação e de suas principais funcionalidades, além de ter uma ideia dos fluxos de funcionamento.</p>
+
+* <p align="justify"><b>Brainstorm:</b> Para levantar requisitos.</p>
+
+* <p align="justify"><b>Mapas mentais:</b> Para elencar as principais funcionalidades que o grupo achou que o sistema deveria ter.</p>
+
+* <p align="justify"><b>5W2H:</b> Para termos um apanhado das ideias que cada membro tinha para o projeto .</p>
+
+* <p align="justify"><b>Diagrama de Ishikawa ou Fishbone:</b> Para mapear os riscos do projeto.</p>
+
+* <p align="justify"><b>Termo de Abertura do Projeto(TAP):</b> Para definir os pontos iniciais do projeto</p>
+
+
+
+<p align="justify">&emsp;Todos os artefatos foram documentados e estão disponíveis na Wiki do projeto QRodízio e estão linkados acima.</p>
+
+
+
+## Dia 2
+07/09/2020
+<p align="justify">&emsp;
+No segundo dia, foi feito um Brainstorming(Linkar documento do backlog), a fim de elicitar os requisitos do sistema e construir o backlog do produto.
+</p>
+
+## Dia 3
+11/09/2020
+<p align="justify">&emsp;
+No terceiro dia, fizemos o protótipo de baixa fidelidade(linkar documento do protótipo), para conseguirmos mapear o fluxo do sistema e mais tarde, no decorrer do semestre, validaremos esse protótipo, para construir o protótipo de alta fidelidade, no qual basearemos o sistema.
+</p>
 
 
 ## Referências
