@@ -31,22 +31,23 @@ Fizemos um branstorming utilizando a ferramenta de edição online [hackMD](hack
 
 | ID | Nome | Importância |
 | -------- | -------- | -------- |
-| c01 | O cliente deve poder acessar o cardádio | Must have |
-| c02 | O cliente deve poder Realizar pedidos | Must have |
-| c03 | O cliente deve poder Cancelar pedidos | Could have |
-| c04 | O cliente deve poder Alterar pedidos | Could have |
-| c05 | O cliente deve poder Visualizar pedidos | Must Have |
-| c06 | O cliente deve poder Abrir mesa | Must Have |
-| c07 | O cliente deve poder Cadastrar forma de pagamento | Must Have |
-| c08 | O cliente deve poder Chamar garçom | Must Have |
-| c09 | O cliente deve poder Alterar forma de pagamento | Could have |
-| c10 | O cliente deve poder Dividir pagamento | Could Have |
-| c11 | O cliente deve poder Visualizar pagamento total(da mesa) | Must have |
-| c12 | O cliente deve poder Visualizar pagamento parcial(só do cliente) | Could Have |
-| c13 | O cliente deve poder Avaliar atentimento | Could have |
-| c14 | O cliente deve poder Avaliar restaurante | Could have |
-| c15 | O cliente deve poder sugerir adições ao cardádio | Could have |
-| c16 | O cliente deve poder Visualizar status do pedido(aguardando,processando,feito) | Must have |
+| c01 | O cliente deve poder Ler QRCode | Must have |
+| c02 | O cliente deve poder acessar o cardádio | Must have |
+| c03 | O cliente deve poder Realizar pedidos | Must have |
+| c04 | O cliente deve poder Cancelar pedidos | Could have |
+| c05 | O cliente deve poder Alterar pedidos | Could have |
+| c06 | O cliente deve poder Visualizar pedidos | Must Have |
+| c07 | O cliente deve poder Abrir mesa | Must Have |
+| c08 | O cliente deve poder Cadastrar forma de pagamento | Must Have |
+| c09 | O cliente deve poder Chamar garçom | Must Have |
+| c10 | O cliente deve poder Alterar forma de pagamento | Could have |
+| c11 | O cliente deve poder Dividir pagamento | Could Have |
+| c12 | O cliente deve poder Visualizar pagamento total(da mesa) | Must have |
+| c13 | O cliente deve poder Visualizar pagamento parcial(só do cliente) | Could Have |
+| c14 | O cliente deve poder Avaliar atentimento | Could have |
+| c15 | O cliente deve poder Avaliar restaurante | Could have |
+| c16 | O cliente deve poder sugerir adições ao cardádio | Could have |
+| c17 | O cliente deve poder Visualizar status do pedido(aguardando,processando,feito) | Must have |
 
 
 ## Requisitos elicitados (funcionário)
@@ -58,6 +59,7 @@ Fizemos um branstorming utilizando a ferramenta de edição online [hackMD](hack
 | f03 |O sistema deve Informar pedido pronto | Could Have |
 | f04 | O sistema deve permitir Fechar mesa | Must Have |
 | f05 | O sistema deve permitir Cadastrar cardápio do dia | Could Have |
+| f06 | O sistema deve permitir ao funcinário ver se a mesa está livre ou ocupada | Should Have |
 
 
 ## Requisitos elicitados (administrador/gerente)

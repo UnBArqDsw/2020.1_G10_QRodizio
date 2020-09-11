@@ -123,7 +123,7 @@ A partir daí, definimos quais seriam os artefatos que precisaríamos fazer inic
 07/09/2020
 <p align="justify">&emsp;
 
-No segundo dia, foi feito um brainstorming, a fim de elicitar os requisitos do sistema e construir o [backlog](../../backlog_produto.md) do produto.
+No segundo dia, foi feito um brainstorming, a fim de elicitar os requisitos do sistema e construir o [backlog](../../base/backlog_produto.md) do produto.
 </p>
 
 ## Dia 3
