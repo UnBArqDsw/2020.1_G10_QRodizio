@@ -98,6 +98,8 @@ Todos os léxicos estão organizados respeitando a seguinte tabela:
 |**Sinônimo**||
 |**Rastreabilidade**||
 
+A rastreabilidade ainda não foi colocada nos léxicos abaixo devido a ainda não termos aberto todas as issues de desenvolvimento do projeto, com isso esse documento será incremental, ou seja, conforme formos abrindo as issues relacionadas a ela vamos colocando a rastreabilidade delas aqui e também os termos importantes a medida com que forem surgindo serão acoplados ao final desse documento.
+
 ## L01 - Ler QRCode
 |L01| Ler QRCode|
 |--|--|
