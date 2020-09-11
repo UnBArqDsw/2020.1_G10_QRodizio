@@ -6,6 +6,7 @@
 |05/09/2020|0.2|Adicionando um tópico do Diagrama Ishikawa|[Cauê Mateus Oliveira](https://github.com/caue96)|
 |05/09/2020|0.3|Adicionando Diagrama Ishikawa Fábio|[Fábio Teixeira](https://github.com/fabio1079)|
 |05/09/2020|0.4|Adicionando Versão 1 Diagrama Ishikawa geral do projeto|[Caio César Beleza](https://github.com/Caiocbeleza)|
+|08/09/2020|0.4|Adicionando Versão 1 Diagrama Ishikawa geral do projeto|[Joao Pedro Gomes](https://github.com/Jppgomes)|
 
 ---
 
@@ -21,6 +22,10 @@
 ### Autor: Caio
 
 [![Diagrama Ishikawa](../images/ishikawa/ishikawa_caio.png)](https://ibb.co/xSYCfff)
+
+### Autor: Joao Pedro
+
+[![Diagrama Ishikawa](../images/ishikawa/DiagramaCausaEfeito.png)](https://ibb.co/xSYCfff)
 
 ---
 
