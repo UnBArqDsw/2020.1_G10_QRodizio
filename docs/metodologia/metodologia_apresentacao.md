@@ -1,3 +1,4 @@
+# Metodologia
 
 ## Histórico de Versão
 
@@ -22,7 +23,6 @@
   </tbody>
 </table>
 
-## Metodologia
 
 <p align="justify">&emsp; Para este projeto será utilizada uma metodologia híbrida, onde o grupo escolheu alguns aspectos de metodologias ágeis e implementou um modo de trabalho adaptado, juntando esses aspectos e os colocando em prática.</p>
 
