@@ -103,15 +103,15 @@ A partir daí, definimos quais seriam os artefatos que precisaríamos fazer inic
 
 ### 3. Artefatos iniciais
 
-* [Rich Picture](base/rich_picture.md): Para termos uma visão geral da aplicação e de suas principais funcionalidades, além de ter uma ideia dos fluxos de funcionamento.</p>
+* [Rich Picture](/base/rich_picture.md): Para termos uma visão geral da aplicação e de suas principais funcionalidades, além de ter uma ideia dos fluxos de funcionamento.</p>
 
-* <p align="justify"><b>Brainstorm:</b> Para levantar requisitos.</p>
+* [Brainstorm](/base/brainstorming.md): Para levantar requisitos.</p>
 
-* <p align="justify"><b>Mapas mentais:</b> Para elencar as principais funcionalidades que o grupo achou que o sistema deveria ter.</p>
+* [Mapas mentais](/base/mapa_mental): Para elencar as principais funcionalidades que o grupo achou que o sistema deveria ter.</p>
 
-* <p align="justify"><b>5W2H:</b> Para termos um apanhado das ideias que cada membro tinha para o projeto .</p>
+* [5W2H](/base/5W2H.md): Para termos um apanhado das ideias que cada membro tinha para o projeto .</p>
 
-* <p align="justify"><b>Diagrama de Ishikawa ou Fishbone:</b> Para mapear os riscos do projeto.</p>
+* [Diagrama de Ishikawa ou Fishbone](/base/diagrama_ishikawa): Para mapear os riscos do projeto.</p>
 
 * <p align="justify"><b>Termo de Abertura do Projeto(TAP):</b> Para definir os pontos iniciais do projeto</p>
 
