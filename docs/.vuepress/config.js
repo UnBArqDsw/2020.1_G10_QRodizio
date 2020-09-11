@@ -72,6 +72,7 @@ module.exports = {
         children: [
           "/politica/branches",
           "/politica/issues",
+          "/politica/CODE_OF_CONDUCT"
         ],
       }
     ],

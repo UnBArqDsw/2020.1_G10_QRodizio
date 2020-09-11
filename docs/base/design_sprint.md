@@ -20,6 +20,22 @@
         0.1
       </td>
     </tr>
+    <tr>
+      <td>11/09/2020</td>
+      <td>Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>), Cauê Mateus Oliveira(<a target="blank" href="https://github.com/caue96">caue96</a>), Fábio Teixeira(<a target="blank" href="https://github.com/fabio1079">fabio1079</a>),Lucas Midlhey(<a target="blank" href="https://github.com/lucasmidlhey">lucasmidlhey</a>),João Pedro(<a target="blank" href="https://github.com/Jppgomes">Jppgomes</a>)</td>
+      <td>Adicionando Dia 1 do Design Sprint</td>
+      <td>
+        0.2
+      </td>
+    </tr>
+    <tr>
+      <td>11/09/2020</td>
+      <td>Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>), Cauê Mateus Oliveira(<a target="blank" href="https://github.com/caue96">caue96</a>), Fábio Teixeira(<a target="blank" href="https://github.com/fabio1079">fabio1079</a>),Lucas Midlhey(<a target="blank" href="https://github.com/lucasmidlhey">lucasmidlhey</a>),João Pedro(<a target="blank" href="https://github.com/Jppgomes">Jppgomes</a>)</td>
+      <td>Adicionando Dias 2 e 3 do Design Sprint</td>
+      <td>
+        0.3
+      </td>
+    </tr>
   </tbody>
 </table>
 
@@ -42,6 +58,78 @@
 
 <p align="justify">&emsp;Pelo fato de nem todas as pessoas do grupo terem muito conhecimento de design sprint e o não termos um tempo hábil para fazermos uma design sprint completa, foi feita uma versão adaptada de design sprint, que incluiu definições base do projeto, discussão e escolha da ideia, o escopo do projeto, o levantamento de requisitos e a confecção dos artefatos iniciais do projeto.</p>
 
+<p align="justify">&emsp; Fizemos um design sprint adaptada em 3 dias, que foram os seguintes:
+</p>
+
+## Dia 1
+04/09/2020
+<p align="justify">&emsp;
+Fizemos um bainstorming de ideias, onde surgiram 2 ideias e o grupo votou na que mais gostou(QRodízio).
+</p>
+
+### 1. Brainstorming de Ideias de Temas
+
+**Cauê** - A ideia que eu pensei consistiria em: por meio de um Qr Code e de um link existente em mesas de restaurantes/pizzarias com rodízio os usuários de cada mesa poderem acessar um sitema de pedidos e marcar os sabores de pizza/petiscos que querem e a central do restaurante/pizzaria poder fazer o controle dos sabores/petiscos mais pedidos e em quais mesas estão sendo desejados. O sistema agilizaria no serviço ao cliente de acordo com o que ele deseja comer, entregando a ele tudo o que foi escolhido durante o rodízio, e o restaurante poderá fazer um controle dos sabores, quantidades e horários que sairam por dia ou até mesmo puxar um histórico de sabores, quantidades e horários por semana, mês e ano.<br>
+
+**Fábio** - Eu pensei em um app que seria como um grupo de pessoas responsáveis por cuidados com um idoso. Poderia ser por exemplo uma família cuidando da avó idosa, onde cada pessoa ficaria responsável por um cuidado e tudo poderia ser acompanhado pelo app, como: Horários de tomar remédios, dias de consultas e outras necessidades. Eles poderiam também incluir nesse grupo profissionais da saúde, como enfermeiras, cuidadores de idosos, médicos, etc.
+
+#### 1.1. Votação do grupo
+|Integrante|Ideia Cauê|Ideia Fábio|
+|--|--|--|
+|Caio|X||
+|Cauê|X||
+|Fábio||X|
+|Jõao Pedro|X||
+|Lucas||X|
+
+<p align="justify">&emsp;Depois de decidido o tema, pelo voto da maioria, o grupo avaliou os problemas que poderiam ser resolvidos com a ideia escolhida.
+</p>
+
+### 2. Quais são os problemas envolvendo esse tema e como nossa ideia ajudaria a resolver?
+
+**Lucas** - Eu acho que alguns restaurantes quando tem muito movimento o atendimento fica muito ruim, então essa ideia agilizaria isso.
+
+**João** - Nesse tempo de pandemia, que os restaurantes já tão abrindo de novo, seria uma boa, porque diminuiria o contato entre as pessoas.<br>
+
+**Caio** - Tembém seria mais fácil pro pessoal que trabalha nos restaurantes, que não precisaria ficar indo de mesa em mesa, anotando um monte de pedido, gastando um tempão atentendendo uma mesa só.<br>
+
+**Cauê** - Mais fácil pro cliente também, que ia poder fazer as coisas sem precisar esperar ser atendido.<br>
+
+**Fábio** - Também não ia ter a necessidade de cardápio impresso, que as vezes falta e os funcionários tem que ficar pegando de uma mesa e levando pra outra toda hora. Nessa época de covid é melhor evitar esse tipo de contato, sendo melhor olhar seu próprio celular.
+
+<p align="justify">&emsp;
+A partir daí, definimos quais seriam os artefatos que precisaríamos fazer inicialmente para termos uma visão mais concreta da aplicação:
+</p>
+
+### 3. Artefatos iniciais
+
+* [Rich Picture](../base/rich_picture.md): Para termos uma visão geral da aplicação e de suas principais funcionalidades, além de ter uma ideia dos fluxos de funcionamento.</p>
+
+* [Brainstorm](../base/brainstorming.md): Para levantar requisitos.</p>
+
+* [Mapas mentais](../base/mapa_mental.md): Para elencar as principais funcionalidades que o grupo achou que o sistema deveria ter.</p>
+
+* [5W2H](../base/5W2H.md): Para termos um apanhado das ideias que cada membro tinha para o projeto .</p>
+
+* [Diagrama de Ishikawa ou Fishbone](../base/diagrama_ishikawa.md): Para mapear os riscos do projeto.</p>
+
+* [Termo de Abertura do Projeto(TAP)](../termo_de_abertura.md): Para definir os pontos iniciais do projeto
+
+
+<p align="justify">&emsp;Todos os artefatos foram documentados e estão disponíveis na Wiki do projeto QRodízio e estão linkados acima.</p>
+
+
+## Dia 2
+07/09/2020
+<p align="justify">&emsp;
+No segundo dia, foi feito um brainstorming, a fim de elicitar os requisitos do sistema e construir o [backlog](../backlog_produto.md) do produto.
+</p>
+
+## Dia 3
+11/09/2020
+<p align="justify">&emsp;
+No terceiro dia, fizemos o protótipo de baixa fidelidade(linkar documento do protótipo), para conseguirmos mapear o fluxo do sistema e mais tarde, no decorrer do semestre, validaremos esse protótipo, para construir o protótipo de alta fidelidade, no qual basearemos o sistema.
+</p>
 
 
 ## Referências

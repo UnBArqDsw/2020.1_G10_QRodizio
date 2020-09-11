@@ -7,7 +7,7 @@ Por meio de um Qr Code e de um link existente em mesas de restaurantes/pizzarias
 <div class="members">
   <div class="member">
     <a href="https://github.com/Caiocbeleza" target="blank">
-      <img src="https://avatars3.githubusercontent.com/u/37124720?s=460&v=4" />
+      <img src="https://avatars3.githubusercontent.com/u/37124720?s=200&v=4" />
       <div class="middle">
         <div class="text">Caio César</div>
       </div>
@@ -16,7 +16,7 @@ Por meio de um Qr Code e de um link existente em mesas de restaurantes/pizzarias
 
   <div class="member">
     <a href="https://github.com/caue96" target="blank">
-      <img src="https://avatars3.githubusercontent.com/u/14495912?s=460&v=4" />
+      <img src="https://avatars3.githubusercontent.com/u/14495912?s=200&v=4" />
       <div class="middle">
         <div class="text">Cauê Mateus</div>
       </div>
@@ -25,7 +25,7 @@ Por meio de um Qr Code e de um link existente em mesas de restaurantes/pizzarias
 
   <div class="member">
     <a href="https://github.com/fabio1079" target="blank">
-      <img src="https://avatars3.githubusercontent.com/u/4295523?s=460&v=4" />
+      <img src="https://avatars3.githubusercontent.com/u/4295523?s=200&v=4" />
       <div class="middle">
         <div class="text">Fábio Teixeira</div>
       </div>
@@ -34,7 +34,7 @@ Por meio de um Qr Code e de um link existente em mesas de restaurantes/pizzarias
 
   <div class="member">
     <a href="https://github.com/jppgomes" target="blank">
-      <img src="https://avatars3.githubusercontent.com/u/23317777?s=460&v=4" />
+      <img src="https://avatars3.githubusercontent.com/u/23317777?s=200&v=4" />
       <div class="middle">
         <div class="text">João Pedro</div>
       </div>
@@ -43,7 +43,7 @@ Por meio de um Qr Code e de um link existente em mesas de restaurantes/pizzarias
 
   <div class="member">
     <a href="https://github.com/lucasmidlhey" target="blank">
-      <img src="https://avatars3.githubusercontent.com/u/13874497?s=460&v=4" />
+      <img src="https://avatars3.githubusercontent.com/u/13874497?s=200&v=4" />
       <div class="middle">
         <div class="text">Lucas Midley</div>
       </div>
