@@ -55,3 +55,8 @@ Tendo como ponto de entrada o tema: “ler QRCode para acessar a aplicação do 
 - O funcionário poderá visualizar gráficos que lhe auxiliem em saber sobre o que está sendo mais requisitado, quais dias, horários de pico, insatisfação, etc;
 - O sistema não poderá permitir o acesso de usuários fora de uma certa área de alcance;
 
+<p align="justify">&emsp;
+
+Os requisitos levantados por este brainstorming e pelo realizado no dia 07/09 estão presentes no [backlog](../base/backlog_produto.md).
+
+</p>
