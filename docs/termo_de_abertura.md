@@ -30,11 +30,11 @@
     </tr>
     <tr>
       <td>10/09/2020</td>
-      <td>0.3</td>
-      <td>Restruturação/finalização de tópicos e documento</td>
       <td>
         Cauê Mateus Oliveira(<a target="blank" href="https://github.com/caue96">caue96</a>)
       </td>
+      <td>Restruturação/finalização de tópicos e documento</td>
+      <td>0.3</td>
     </tr>
   </tbody>
 </table>
