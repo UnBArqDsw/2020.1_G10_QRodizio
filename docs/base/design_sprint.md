@@ -103,7 +103,7 @@ A partir daí, definimos quais seriam os artefatos que precisaríamos fazer inic
 
 ### 3. Artefatos iniciais
 
-* <p align="justify"><b>[Rich Picture](/base/rich_picture.md):</b> Para termos uma visão geral da aplicação e de suas principais funcionalidades, além de ter uma ideia dos fluxos de funcionamento.</p>
+* [Rich Picture](base/rich_picture.md): Para termos uma visão geral da aplicação e de suas principais funcionalidades, além de ter uma ideia dos fluxos de funcionamento.</p>
 
 * <p align="justify"><b>Brainstorm:</b> Para levantar requisitos.</p>
 
