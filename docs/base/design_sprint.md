@@ -113,7 +113,7 @@ A partir daí, definimos quais seriam os artefatos que precisaríamos fazer inic
 
 * [Diagrama de Ishikawa ou Fishbone](../base/diagrama_ishikawa.md): Para mapear os riscos do projeto.</p>
 
-* [Termo de Abertura do Projeto(TAP)](../../termo_de_abertura.md): Para definir os pontos iniciais do projeto
+* [Termo de Abertura do Projeto(TAP)](../docs/termo_de_abertura.md): Para definir os pontos iniciais do projeto
 
 
 <p align="justify">&emsp;Todos os artefatos foram documentados e estão disponíveis na Wiki do projeto QRodízio e estão linkados acima.</p>
