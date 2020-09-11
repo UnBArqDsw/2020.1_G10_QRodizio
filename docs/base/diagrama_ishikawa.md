@@ -1,25 +1,28 @@
+
+
+
 # Diagrama Ishikawa
 
-## Histórico de Revisões
-|Data|Versão|Descrição|Autor(es)|
+## Histórico de revisao
+|Data|Autor(es)|Descrição|Versão|
 |----|----|----|----|
-|05/09/2020|0.2|Adicionando um tópico do Diagrama Ishikawa|[Cauê Mateus Oliveira](https://github.com/caue96)|
-|05/09/2020|0.3|Adicionando Diagrama Ishikawa Fábio|[Fábio Teixeira](https://github.com/fabio1079)|
-|05/09/2020|0.4|Adicionando Versão 1 Diagrama Ishikawa geral do projeto|[Caio César Beleza](https://github.com/Caiocbeleza)|
-|08/09/2020|0.4|Adicionando Versão 1 Diagrama Ishikawa geral do projeto|[Joao Pedro Gomes](https://github.com/Jppgomes)|
 
----
+|05/09/2020|Cauê Mateus Oliveira(<a target="blank" href="https://github.com/caue96">Cauê Mateus Oliveira</a>)|Adicionando um tópico do Diagrama Ishikawa|0.1|
+|05/09/2020|Fábio Teixeira(<a target="blank" href="https://github.com/fabio1079">Fabio Teixeira</a>)|Adicionando Diagrama Ishikawa Fábio|0.2|
+|05/09/2020|Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>)|Adicionando Versão 1 Diagrama Ishikawa geral do projeto|0.3|
+|08/09/2020|Lucas Midlhey(<a target="blank" href="https://github.com/lucasmidlhey">Lucas Midlhey</a>)|Adicionando Versão 1 Diagrama Ishikawa |0.4|
 
 ## Visões individuais
-### Autor: Cauê
+
+### Autor: [Cauê](https://github.com/caue96)
 [![Diagrama Ishikawa](../images/ishikawa/diagrama_ishikawa_caue.png)](https://ibb.co/1ZqSfBD)
 
 
-### Autor: Fábio
+### Autor: [Fábio](https://github.com/fabio1079)
 
 [![Diagrama Ishikawa](../images/ishikawa/fishbone_fabio.jpg)](https://ibb.co/LvXVwWy)
 
-### Autor: Caio
+### Autor: [Caio](https://github.com/Caiocbeleza)
 
 [![Diagrama Ishikawa](../images/ishikawa/ishikawa_caio.png)](https://ibb.co/xSYCfff)
 
@@ -27,9 +30,12 @@
 
 [![Diagrama Ishikawa](../images/ishikawa/DiagramaCausaEfeito.png)](https://ibb.co/xSYCfff)
 
+### Autor: [Lucas](https://github.com/lucasmidlhey)
+[![Diagrama Ishikawa](../images/ishikawa/Causa-efeito_Lucas.png)](https://ibb.co/tDXrfgx)
+
+
 ---
 
-## Visão final do grupo
 
 
 ---

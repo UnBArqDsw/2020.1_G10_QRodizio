@@ -1,4 +1,29 @@
+
 ## Design Sprint
+## Histórico de versão
+
+<table>
+  <thead>
+    <tr>
+      <th>Data</th>
+           <th>Autor(es)</th>
+      <th>Descrição</th>
+      <th>Versão</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>07/09/2020</td>
+      <td>Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>)</td>
+      <td>Adicionando Introdução de Design Sprint</td>
+      <td>
+        0.1
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+## Introdução
 
 <p align="justify">&emsp;Design Sprint é uma metodologia ágil criada pela Google Ventures e é baseada em cinco etapas, que são divididas em cinco dias, como objetivo de transformar uma ideia em algo tangível.</p>
 <p align="justify">&emsp;Antes de iniciar as etapas, é preciso definir o problema ou desafio a ser resolvido, além de selecionar uma equipe para trabalhar no projeto.</p>
@@ -17,30 +42,7 @@
 
 <p align="justify">&emsp;Pelo fato de nem todas as pessoas do grupo terem muito conhecimento de design sprint e o não termos um tempo hábil para fazermos uma design sprint completa, foi feita uma versão adaptada de design sprint, que incluiu definições base do projeto, discussão e escolha da ideia, o escopo do projeto, o levantamento de requisitos e a confecção dos artefatos iniciais do projeto.</p>
 
-## Histórico de Revisões
 
-<table>
-  <thead>
-    <tr>
-      <th>Data</th>
-      <th>Versão</th>
-      <th>Descrição</th>
-      <th>Autor(es)</th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <tr>
-      <td>07/09/2020</td>
-      <td>0.1</td>
-      <td>Adicionando Introdução de Design Sprint</td>
-      <td>
-        Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>)
-      </td>
-    </tr>
-
-  </tbody>
-</table>
 
 ## Referências
-* CHIEF OF DESIGN. O que é e para que serve o Design Sprint Google?. Disponível em https://www.chiefofdesign.com.br/design-sprint/. Acesso em: 07 de set. 2020.
+* CHIEF OF DESIGN. O que é e para que serve o Design Sprint Google?. Disponível em https://www.chiefofdesign.com.br/design-sprint/. Acesso em: 07 de setembro. 2020.

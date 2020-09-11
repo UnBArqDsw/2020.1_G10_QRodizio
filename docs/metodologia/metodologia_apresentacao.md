@@ -1,30 +1,33 @@
-## Metodologia
 
-<p align="justify">&emsp; Para este projeto será utilizada uma metodologia híbrida, onde o grupo escolheu alguns aspectos de metodologias ágeis e implementou um modo de trabalho adaptado, juntando esses aspectos e os colocando em prática.</p>
-
-## Histórico de Revisões
+## Histórico de Versão
 
 <table>
   <thead>
     <tr>
       <th>Data</th>
-      <th>Versão</th>
+      <th>Autor(es)</th>   
       <th>Descrição</th>
-      <th>Autor(es)</th>
+      <th>Versão</th>  
     </tr>
   </thead>
-
   <tbody>
     <tr>
       <td>08/09/2020</td>
-      <td>0.1</td>
+      <td>Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>)</td>
       <td>Adicionando Documento de metodologia</td>
       <td>
-        Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>)
+     0.1   
       </td>
     </tr>
   </tbody>
 </table>
+
+## Metodologia
+
+<p align="justify">&emsp; Para este projeto será utilizada uma metodologia híbrida, onde o grupo escolheu alguns aspectos de metodologias ágeis e implementou um modo de trabalho adaptado, juntando esses aspectos e os colocando em prática.</p>
+
+
+
 
 #### Scrum
 <p align="justify">&emsp;
