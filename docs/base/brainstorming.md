@@ -8,8 +8,8 @@
       <th>Data</th>
       <th>Autor(es)</th>
       <th>Descrição</th>   
-     <th>Versão</th>
-         </tr>
+      <th>Versão</th>
+    </tr>
   </thead>
   <tbody>
     <tr>
