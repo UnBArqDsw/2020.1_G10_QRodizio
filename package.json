@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/UnBArqDsw/2020.1_G10_QRodizio#readme",
   "dependencies": {
+    "npm-install-missing": "^0.1.4",
     "vuepress": "^1.5.4"
   }
 }
