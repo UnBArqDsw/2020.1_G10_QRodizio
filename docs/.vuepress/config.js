@@ -62,7 +62,7 @@ module.exports = {
         title: "1.3 Módulo Processos/Metodologias/Abordagens(Modelagem BPMN)",
         collapsable: true,
         children: [
-          "/modelagem/Modelagem_BPMN",
+          "/modelagem/modelagem_BPMN",
         ],
       },
 

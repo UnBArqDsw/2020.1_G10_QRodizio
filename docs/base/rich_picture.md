@@ -95,7 +95,7 @@ Versão do gerente
 
 ### Autor: [João Pedro](https://github.com/jppgomes)
 
-[![Rich Picture](../images/richpictute/RichPicture.png)](https://ibb.co/Qcq8yJf)
+[![Rich Picture](../images/richpictute/rich_picture.png)](https://ibb.co/Qcq8yJf)
 Versão do gerente
 
 ---

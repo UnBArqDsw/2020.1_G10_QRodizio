@@ -1,6 +1,3 @@
-
-
-
 # Diagrama Ishikawa
 
 ## Histórico de revisao
@@ -66,10 +63,10 @@
 
 ### Autor: Joao Pedro
 
-[![Diagrama Ishikawa](../images/ishikawa/DiagramaCausaEfeito.png)](https://ibb.co/xSYCfff)
+[![Diagrama Ishikawa](../images/ishikawa/diagrama_causa_efeito.png)](https://ibb.co/xSYCfff)
 
 ### Autor: [Lucas](https://github.com/lucasmidlhey)
-[![Diagrama Ishikawa](../images/ishikawa/Causa-efeito_Lucas.png)](https://ibb.co/tDXrfgx)
+[![Diagrama Ishikawa](../images/ishikawa/causa_efeito_lucas.png)](https://ibb.co/tDXrfgx)
 
 
 ---
