@@ -99,11 +99,11 @@ Nós utilizamos os mapas mentais para termos um apanhado geral de quais funciona
 
 ### Autor: [Lucas](https://github.com/lucasmidlhey)
 
-[![Mapa Mental](../images/mindmap/mental_Lucas.png)](https://ibb.co/Ss6v23Z)
+[![Mapa Mental](../images/mindmap/mental_lucas.png)](https://ibb.co/Ss6v23Z)
 
 ### Autor: [João Pedro](https://github.com/jppgomes)
 
-[![Mapa Mental](../images/mindmap/MapaMentalCliente.png)](https://ibb.co/B60Q2Fh)
+[![Mapa Mental](../images/mindmap/mapa_mental_cliente.png)](https://ibb.co/B60Q2Fh)
 
 ## Visão final do grupo
 
