@@ -129,31 +129,31 @@ Para se inserir princípios da metodologia ágil que utilizaremos em nosso proje
 
 ### Autor: [Cauê](https://github.com/caue96)
 
-![BPMN Processo Geral](../images/BPMN/BPMN-Processo-Geral.png)
+![BPMN Processo Geral](../images/BPMN/bpmn_processo_geral.png)
 
 ### Processo de Escolha do Tema do Projeto
 
 ### Autor: [Caio](https://github.com/Caiocbeleza)
 
-![BPMN Definição Tema](../images/BPMN/BPMN-DefinicaoProjeto.png)
+![BPMN Definição Tema](../images/BPMN/bpmn_definicao_projeto.png)
 
 ### Definição de metodologia
 
 ### Autor: [Lucas](https://github.com/lucasmidlhey)
 
-![BPMN definição escopo](../images/BPMN/mpmn_metodologia.png)
+![BPMN definição escopo](../images/BPMN/bpmn_metodologia.png)
 
 ### Processo de Sprint Planning
 
 ### Autor: [Caio](https://github.com/Caiocbeleza)
 
-![BPMN Sprint Planning](../images/BPMN/BPMN-SprintPlanning.png)
+![BPMN Sprint Planning](../images/BPMN/bpmn_sprint_planning.png)
 
 ### Processo de Sprint Review
 
 ### Autor: [Caio](https://github.com/Caiocbeleza)
 
-![BPMN Sprint Review](../images/BPMN/BPMN-SprintReview.png)
+![BPMN Sprint Review](../images/BPMN/bpmn_sprint_review.png)
 
 ### Definição de escopo
 
@@ -166,7 +166,7 @@ Para se inserir princípios da metodologia ágil que utilizaremos em nosso proje
 
 ### Autor: [Joao Pedro](https://github.com/jppgomes)
 
-![BPMN definição escopo](../images/BPMN/processoAberturaMesa.png)
+![BPMN definição escopo](../images/BPMN/processo_abertura_mesa.png)
 
 
 ## Referências
