@@ -45,19 +45,28 @@
         0.4
       </td>
     </tr>
-     <tr>
+    <tr>
       <td>10/09/2020</td>
       <td>Lucas Midlhey<a target="blank" href="https://github.com/lucasmidlhey">(lucasmidlhey</a>)</td>
       <td>Adicionando Diagrama BPMN escopo e metodologia</td>
       <td>
         0.5
       </td>
-   <tr>
+    </tr> 
+    <tr>
       <td>10/09/2020</td>
       <td>Joao Pedro<a target="blank" href="https://github.com/jppgomes">(jppgomes</a>)</td>
-      <td>Adicionando Diagrama BPMN escopo e metodologia</td>
+      <td>Adicionando Diagrama BPMN cadastro de mesa</td>
       <td>
         0.6
+      </td>
+    </tr>
+    <tr>
+      <td>11/09/2020</td>
+      <td>Cauê Mateus Oliveira<a target="blank" href="https://github.com/caue96">(caue96</a>)</td>
+      <td>Adicionando Diagrama BPMN processo geral e justificativa das modelagens</td>
+      <td>
+        0.7
       </td>
     </tr>
   </tbody>
@@ -109,7 +118,18 @@ Artefatos são os objetos de dados, que podem ser saída, entrada, armazenamento
 Nós utilizaremos a modelagem BPMN para conseguirmos mapear, de forma que seja de fácil entendimento para todos, os fluxos dos processos que serão implementados durante o projeto.
 </p>
 
+## Justificativa Modelagem
+<p align="justify">&emsp;
+Para se inserir princípios da metodologia ágil que utilizaremos em nosso projeto nos modelelos com notação BPMN, as modelagens feitas devem ser modeladas em pequenas partes para que não fique poluído a visualização de mesma. (KOLAR e PITNER, 2013; THIEMICH e PUHLMANN, 2013) Não abordam como a modelagem deve ser feita exatamente para se inserir a metodologia ágil, porém eles sugerem modelar em pequenos processos para que a visualização fique lúcida.
+</p>
+
 ## Versões 1.0
+
+### Processo Geral
+
+### Autor: [Cauê](https://github.com/caue96)
+
+![BPMN Processo Geral](../images/BPMN/BPMN-Processo-Geral.png)
 
 ### Processo de Escolha do Tema do Projeto
 
@@ -142,7 +162,7 @@ Nós utilizaremos a modelagem BPMN para conseguirmos mapear, de forma que seja d
 ![BPMN definição escopo](../images/BPMN/bpmn_escopo.png)
 
 
-### Definição de escopo
+### Definição de Cadastro de Mesa
 
 ### Autor: [Joao Pedro](https://github.com/jppgomes)
 
@@ -150,8 +170,9 @@ Nós utilizaremos a modelagem BPMN para conseguirmos mapear, de forma que seja d
 
 
 ## Referências
-<ul>
-<li>
+
 HEFLO. Notação BPMN, a mais usada para modelar processos. Disponível em https://www.heflo.com/pt-br/bpm/notacao-bpmn/ . Acesso em: 09 de setembro. 2020.
-</li>
-</ul>
+
+KOLAR, J.; PITNER, T., 2013, [“Agile BPM in the age of Cloud technologies“](https://www.scpe.org/index.php/scpe/article/view/810), Scalable Computing: Practice and Experience, v. 13, n. 4 (Jan.)
+
+THIEMICH, C.; PUHLMANN, F., 2013, [“An Agile BPM Project Methodology“](https://link.springer.com/chapter/10.1007/978-3-642-40176-3_25), In: Daniel, F., Wang, J., Weber, B. (eds), Business Process Management,  Springer Berlin Heidelberg, pp. 291–306.
