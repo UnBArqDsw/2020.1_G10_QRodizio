@@ -32,6 +32,10 @@ module.exports = {
         title: "Plano de Gerenciamento de Riscos",
         path: "/gerenciamento_risco",
       },
+      {
+        title: "Protótipo",
+        path: "/prototipo",
+      },
 
       {
         title: "Base", // required
