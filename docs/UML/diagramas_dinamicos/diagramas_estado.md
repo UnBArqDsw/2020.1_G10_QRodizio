@@ -59,6 +59,10 @@ Evento ou Transição: Representa uma ação externa sobre um objeto.</li>
 </ul>
 </p>
 
+<p align="justify">&emsp;
+Utilizamos os diagramas de estados para mostrar as transições de estados dos fluxos principais da aplicação.
+</p>
+
 ## Versões 1.0
 
 ### Autor: [Caio](https://github.com/Caiocbeleza)
