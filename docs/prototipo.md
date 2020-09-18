@@ -16,21 +16,21 @@ Fizemos um mapeamento dos "Must Have" do backlog do produto e levantamos as prim
 
 ### Visão do Cliente
 
-![logo](../images/prototipo/logo.png)
-![Inicial](../images/prototipo/inicial.png)
-![pagina inicial garcom](../images/prototipo/garçom_inicial.png)
-![Menu lateral](../images/prototipo/menu_lateral.png)
-![cardapio](../images/prototipo/cardapio.png)
-![cardapio pag2](../images/prototipo/cardapio1.png)
-![cardapio pag3](../images/prototipo/cardapio2.png)
-![acompanhar pedido](../images/prototipo/acompanhar_pedido.png)
-![pagamento](../images/prototipo/pagamento.png)
-![pagamento garçom aguarde](../images/prototipo/garcom_pagamento.png)
+![logo](./images/prototipo/logo.png)
+![Inicial](./images/prototipo/inicial.png)
+![pagina inicial garcom](./images/prototipo/garçom_inicial.png)
+![Menu lateral](./images/prototipo/menu_lateral.png)
+![cardapio](./images/prototipo/cardapio.png)
+![cardapio pag2](./images/prototipo/cardapio1.png)
+![cardapio pag3](./images/prototipo/cardapio2.png)
+![acompanhar pedido](./images/prototipo/acompanhar_pedido.png)
+![pagamento](./images/prototipo/pagamento.png)
+![pagamento garçom aguarde](./images/prototipo/garcom_pagamento.png)
 
 
 ### Primeiro versão (descontinuada)
 
-![pag1](../images/prototipo/pag1_v1.png)
-![pag2](../images/prototipo/pag2_v1.png)
-![pag3](../images/prototipo/pag3_v1.png)
-![pag4](../images/prototipo/pag4_v1.png)
+![pag1](./images/prototipo/pag1_v1.png)
+![pag2](./images/prototipo/pag2_v1.png)
+![pag3](./images/prototipo/pag3_v1.png)
+![pag4](./images/prototipo/pag4_v1.png)
