@@ -1,6 +1,6 @@
-# Modelagem UML
+# Diagrama de Atividade
 
-## Histórico de Vesão
+## Histórico de Versão
 
 <table>
   <thead>
