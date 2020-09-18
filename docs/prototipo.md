@@ -1,5 +1,5 @@
 
-# Backlog do produto
+# Protótipo
 
 ## Histórico de versões
 
