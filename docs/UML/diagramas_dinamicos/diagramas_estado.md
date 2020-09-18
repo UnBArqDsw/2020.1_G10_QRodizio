@@ -19,6 +19,14 @@
      0.1  
       </td>
     </tr>
+    <tr>
+      <td>17/09/2020</td>
+      <td>Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>)</td>
+      <td>Adicionando diagrama de estados dos pedidos</td>
+      <td>
+     0.2  
+      </td>
+    </tr>
   </tbody>
 </table>
 
@@ -50,6 +58,12 @@ Estado: Representa um dos possíveis estados que um objeto pode ter.</li>
 Evento ou Transição: Representa uma ação externa sobre um objeto.</li>
 </ul>
 </p>
+
+## Versões 1.0
+
+### Autor: [Caio](https://github.com/Caiocbeleza)
+
+![Diagrama estados pedidos](../../images/UML/DiagramaEstadoPedido.png)
 
 ## Referências
 <ul>
