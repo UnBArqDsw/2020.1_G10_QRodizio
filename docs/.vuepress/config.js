@@ -67,6 +67,7 @@ module.exports = {
         collapsable: true,
         children: [
           "/modelagem/modelagem_BPMN",
+          "/modelagem/diagrama_classes",
         ],
       },
 
