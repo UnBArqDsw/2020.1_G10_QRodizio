@@ -1,4 +1,5 @@
 
+
 # Protótipo
 
 ## Histórico de versões
@@ -27,7 +28,14 @@ Fizemos um mapeamento dos "Must Have" do backlog do produto e levantamos as prim
 ![pagamento](./images/prototipo/pagamento.png)
 ![pagamento garçom aguarde](./images/prototipo/garcom_pagamento.png)
 
+### Visão do funcionário
 
+![login](./images/prototipo/funcionario_login.png)
+![menu_lateral](./images/prototipo/menu_lateral_garcom.png)
+![lista de mesas](./images/prototipo/lista_mesa_funcionario.png)
+![pedidos](./images/prototipo/pedidos_mesa_garcom.png)
+![circulacao](./images/prototipo/circulacao_rodizio.png)
+![cardapio adicionar](./images/prototipo/adicionar_cardapio.png)
 ### Primeiro versão (descontinuada)
 
 ![pag1](./images/prototipo/pag1_v1.png)
