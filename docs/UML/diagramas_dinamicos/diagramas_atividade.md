@@ -28,6 +28,14 @@
      0.2   
       </td>
     </tr>
+     <tr>
+      <td>16/09/2020</td>
+      <td>João Pedro Gomes(<a target="blank" href="https://github.com/jppgomes">jppgomes</a>)</td>
+      <td>Adicionando diagrama de atividade (Realizar Pedido)</td>
+      <td>
+     0.3   
+      </td>
+    </tr>
   </tbody>
 </table>
 
@@ -46,6 +54,11 @@ Nós fizemos os diagramas de atividades para mapear os fluxos principais de func
 
 ![Diagrama de Atividades](../../images/UML/DriagramaAtividadeCliente.png)
 Cliente e Funcionário
+
+### Autor: [João Pedro Gomes](https://github.com/jppgomes)
+
+![Diagrama de Atividades](../../images/UML/DiagramaAtividade.png)
+Realizar pedido
 
 
 ## Referências
