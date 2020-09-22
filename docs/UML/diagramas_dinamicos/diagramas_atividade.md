@@ -45,6 +45,57 @@
 Os diagramas de atividade são utilizados para ilustrar um fluxo de um sistema e mapear os passos envolvidos na execução de uma atividade, levando em consideração a sequência e as condições do fluxo da atividade.
 </p>
 <p align="justify">&emsp;
+Seguem as notações do diagrama de atividades:
+</p>
+<p align="justify">&emsp;
+Estado inicial: Onde se inicia o diagrama, antes de qualquer atividade.
+
+![Estado Inicial](../../images/UML/EstadoInicial.png)
+
+</p>
+<p align="justify">&emsp;
+Ação ou Atividade: Representa a execução de uma ação em algum objeto.
+
+![Ação ou Atividade](../../images/UML/atividade.png)
+
+</p>
+<p align="justify">&emsp;
+Controle de fluxo: São utilizados para demonstrar a transição de uma atividade para outra.
+
+![Controle Fluxo](../../images/UML/fluxo.png)
+
+</p>
+<p align="justify">&emsp;
+Nó de decisão: Utilizado quando existe uma condição no fluxo e se precisa escolher um dos caminhos.
+
+![Nó de Decisão](../../images/UML/condição.png)
+
+</p>
+<p align="justify">&emsp;
+Divisor: Utilizado para representar atividades concorrentes.
+
+![Divisor](../../images/UML/divisor.png)
+
+</p>
+<p align="justify">&emsp;
+Junção: Junta atividades concorrentes em uma só.
+
+![Junção](../../images/UML/junção.png)
+
+</p>
+<p align="justify">&emsp;
+Linhas: Agrupa atividades ou grupos relacionados em uma mesma coluna.
+
+![Lanes](../../images/UML/lane.png)
+
+</p>
+<p align="justify">&emsp;
+Estado Final: Marca o fim de um processo no fluxo.
+
+![Estado Final](../../images/UML/EstadoFinal.png)
+
+</p>
+<p align="justify">&emsp;
 Nós fizemos os diagramas de atividades para mapear os fluxos principais de funcionalidades que os usuários do sistema QRodízio poderão utilizar.
 </p>
 
