@@ -27,6 +27,14 @@
      0.2  
       </td>
     </tr>
+    <tr>
+      <td>22/09/2020</td>
+      <td>Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>)</td>
+      <td>Adicionando diagrama de estados do Pagamento</td>
+      <td>
+     0.3  
+      </td>
+    </tr>
   </tbody>
 </table>
 
@@ -39,23 +47,29 @@ Diagrama de estados, também conhecido como diagrama de máquina de estados, é 
 Os diagramas de estado contam com alguns elementos:
 <ul>
 <li>
+Estado inicial: Ponto inicial, onde começa a utilização do objeto.</li>
 
 ![Estado Inicial](../../images/UML/EstadoInicial.png)
-Estado inicial: Ponto inicial, onde começa a utilização do objeto.</li>
+
 <li>
 
-![Estado Inicial](../../images/UML/EstadoFinal.png)
 Estado final: Ponto de saída do objeto.</li>
 
-<li>
+![Estado Inicial](../../images/UML/EstadoFinal.png)
 
-![Estado Inicial](../../images/UML/Estado.png)
+<li>
 Estado: Representa um dos possíveis estados que um objeto pode ter.</li>
 
+![Estado Inicial](../../images/UML/Estado.png)
+
 <li>
+Evento ou Transição: Representa uma ação externa sobre um objeto.</li>
 
 ![Estado Inicial](../../images/UML/Evento.png)
-Evento ou Transição: Representa uma ação externa sobre um objeto.</li>
+
+<li>
+Ações: Processo associado à transição de estados. São representadas por "/", seguidas das ações contidas no estado. As ações são: - Ação de entrada(entry): executada para chegar a algum estado; - Ação de saída(exit): executada quando se sai de um estado; Ação de atividade(do): é executada dentro do estado.
+</li>
 </ul>
 </p>
 
@@ -69,9 +83,15 @@ Utilizamos os diagramas de estados para mostrar as transições de estados dos f
 
 ![Diagrama estados pedidos](../../images/UML/DiagramaEstadoPedido.png)
 
+### Autor: [Caio](https://github.com/Caiocbeleza)
+
+![Diagrama estados pagamento](../../images/UML/DiagramaEstadoPagamento.png)
+
 ## Referências
 <ul>
 <li>LUCIDCHART.
 O que é um diagrama de máquina de estados?. Disponível em: https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-maquina-de-estados-uml . Acesso em: 17 de setembro. 2020. </li>
-<li></li>
+<li>
+Máquina de Estados. Disponível em: http://msoo.pbworks.com/f/Diagrama+de+Estados.pdf . Acesso em: 22 de setembro. 2020.
+</li>
 </ul>
