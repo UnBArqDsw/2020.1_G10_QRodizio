@@ -21,7 +21,7 @@ module.exports = {
     sidebar: [
       {
         title: "Backlog do Produto",
-        path: "/backlog_produto",
+        path: "/base/backlog_produto",
       },
       {
         title: "Termo de Abertura",
