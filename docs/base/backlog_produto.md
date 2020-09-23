@@ -2,25 +2,46 @@
 
 ## Histórico de versões
 
-| Data     | Autor(es)         | Descrição            | Versão |
-| -------- | ------------- | -------------------- | ------ |
-| 11/09/20 | Lucas Midlhey(<a target="blank" href="https://github.com/lucasmidlhey">Lucas Midlhey</a>), Fábio Teixeira(<a target="blank" href="https://github.com/fabio1079">fabio1079</a>), Caio Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caio Beleza</a>), João Pedro(<a target="blank" href="https://github.com/lucasmidlhey">João Pedro</a>), Cauê Mateus(<a target="blank" href="https://github.com/lucasmidlhey">Cauê</a>) | Criação do documento | 0.1    |
+<table>
+  <thead>
+    <tr>
+      <th>Data</th>
+      <th>Autor(es)</th>
+      <th>Descrição</th>
+      <th>Versão</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>11/09/2020</td>
+      <td>
+        Lucas Midlhey(<a target="blank" href="https://github.com/lucasmidlhey">Lucas Midlhey</a>),Fábio Teixeira(<a target="blank" href="https://github.com/fabio1079">fabio1079</a>),
+        Caio Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caio Beleza</a>),
+        João Pedro(<a target="blank" href="https://github.com/lucasmidlhey">João Pedro</a>),
+        Cauê Mateus(<a target="blank" href="https://github.com/lucasmidlhey">Cauê</a>)
+      </td>
+      <td>Criação do documento</td>
+      <td>0.1</td>
+    </tr>
+  </tbody>
+</table>
+
 
 ## Introdução
 
 Este documento tem como objetivo trazer as principais funcionalidades que foram analisadas pela equipe afim de priorizar e implantar em cada sprint do ciclo de desenvolvimento.
 Fizemos um branstorming utilizando a ferramenta de edição online [hackMD](hackmd.io) e o [hangouts](https://hangouts.google.com/) do google, onde foram respondidas as seguintes perguntas:
 
-### 1. O que o cliente deve poder fazer no sistema?
+- 1. O que o cliente deve poder fazer no sistema?
+- 2. Quais seriam as features disponíveis para o restaurante?
+- 3. O que as pessoas com privilégio de admin vão poder fazer?
 
-### 2. Quais seriam as features disponíveis para o restaurante?
-
-### 3. O que as pessoas com provolégio de admin vão poder fazer?
 
 ## Requisitos elicitados (sistema)
 | ID | Nome | Importância |
 | -------- | -------- | -------- |
-| <a href="#s01">S01</a> | O sistema deve Gerar QRCode | Must have |
+| S01 | O sistema deve Gerar QRCode | Must have |
 | s02 | O sistema deve gerar uma nova URL da mesa para cada sessão aberta | Should have |
 | s03 | O sistema deve ter Papéis de acesso (Administrador/Gerente, Garçom/Funcionário, Cliente) | Could Have |
 | s04 | O sistema deve poder Gerar gráficos(consumo,mais pedidos, etc) | Could have |

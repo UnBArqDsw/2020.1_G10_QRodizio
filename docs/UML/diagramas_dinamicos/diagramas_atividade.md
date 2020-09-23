@@ -6,35 +6,36 @@
   <thead>
     <tr>
       <th>Data</th>
-      <th>Autor(es)</th>   
+      <th>Autor(es)</th>
       <th>Descrição</th>
       <th>Versão</th>  
     </tr>
   </thead>
+
   <tbody>
     <tr>
       <td>16/09/2020</td>
-      <td>Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>)</td>
-      <td>Adicionando Introdução de diagramas de atividade</td>
       <td>
-     0.1  
+        Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>)
       </td>
+      <td>Adicionando Introdução de diagramas de atividade</td>
+      <td>0.1</td>
     </tr>
     <tr>
       <td>16/09/2020</td>
-      <td>Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>)</td>
-      <td>Adicionando diagrama de atividade cliente e funcionário</td>
       <td>
-     0.2   
+        Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>)
       </td>
+      <td>Adicionando diagrama de atividade cliente e funcionário</td>
+      <td>0.2</td>
     </tr>
      <tr>
       <td>16/09/2020</td>
-      <td>João Pedro Gomes(<a target="blank" href="https://github.com/jppgomes">jppgomes</a>)</td>
-      <td>Adicionando diagrama de atividade (Realizar Pedido)</td>
       <td>
-     0.3   
+        João Pedro Gomes(<a target="blank" href="https://github.com/jppgomes">jppgomes</a>)
       </td>
+      <td>Adicionando diagrama de atividade (Realizar Pedido)</td>
+      <td>0.3</td>
     </tr>
   </tbody>
 </table>
@@ -68,7 +69,7 @@ Controle de fluxo: São utilizados para demonstrar a transição de uma atividad
 <p align="justify">&emsp;
 Nó de decisão: Utilizado quando existe uma condição no fluxo e se precisa escolher um dos caminhos.
 
-![Nó de Decisão](../../images/UML/condição.png)
+![Nó de Decisão](../../images/UML/condicao.png)
 
 </p>
 <p align="justify">&emsp;
@@ -80,7 +81,7 @@ Divisor: Utilizado para representar atividades concorrentes.
 <p align="justify">&emsp;
 Junção: Junta atividades concorrentes em uma só.
 
-![Junção](../../images/UML/junção.png)
+![Junção](../../images/UML/juncao.png)
 
 </p>
 <p align="justify">&emsp;
@@ -103,12 +104,12 @@ Nós fizemos os diagramas de atividades para mapear os fluxos principais de func
 
 ### Autor: [Caio](https://github.com/Caiocbeleza)
 
-![Diagrama de Atividades](../../images/UML/DriagramaAtividadeCliente.png)
+![Diagrama de Atividades](/images/UML/DriagramaAtividadeCliente.png)
 Cliente e Funcionário
 
 ### Autor: [João Pedro Gomes](https://github.com/jppgomes)
 
-![Diagrama de Atividades](../../images/UML/DiagramaAtividade.png)
+![Diagrama de Atividades](/images/UML/DiagramaAtividade.png)
 Realizar pedido
 
 

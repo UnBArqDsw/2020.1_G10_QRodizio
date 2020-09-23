@@ -85,6 +85,15 @@ module.exports = {
           "/reunioes/sprint2"
         ],
       },
+      {
+        title: "UML",
+        collapsable: true,
+        children: [
+          "/UML/diagramas_dinamicos/diagramas_atividade",
+          "/UML/diagramas_dinamicos/diagramas_estado",
+          "/UML/diagramas_dinamicos/diagramas_pacote",
+        ],
+      },
     ],
   },
 };
