@@ -10,30 +10,30 @@
       <th>Versão</th>  
     </tr>
   </thead>
+
   <tbody>
     <tr>
       <td>17/09/2020</td>
-      <td>Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>)</td>
-      <td>Adicionando Introdução de diagramas de estados</td>
       <td>
-     0.1  
-      </td>
+        Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>)<td>
+      <td>Adicionando Introdução de diagramas de estados</td>
+      <td>0.1</td>
     </tr>
     <tr>
       <td>17/09/2020</td>
-      <td>Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>)</td>
-      <td>Adicionando diagrama de estados dos pedidos</td>
       <td>
-     0.2  
+        Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>)
       </td>
+      <td>Adicionando diagrama de estados dos pedidos</td>
+      <td>0.2</td>
     </tr>
     <tr>
       <td>22/09/2020</td>
-      <td>Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>)</td>
-      <td>Adicionando diagrama de estados do Pagamento</td>
       <td>
-     0.3  
+        Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>)
       </td>
+      <td>Adicionando diagrama de estados do Pagamento</td>
+      <td>0.3</td>
     </tr>
   </tbody>
 </table>
@@ -43,35 +43,38 @@
 <p align="justify">&emsp;
 Diagrama de estados, também conhecido como diagrama de máquina de estados, é um tipo de diagrama UML(Linguagem de Modelagem Unificada), que mostra transições entre objetos. Esse tipo de diagrama armazena os status de um objeto em um determinado momento e pode mudar de status ou causar outras ações baseado na entreda que recebe.
 </p>
+
 <p align="justify">&emsp;
 Os diagramas de estado contam com alguns elementos:
-<ul>
-<li>
-Estado inicial: Ponto inicial, onde começa a utilização do objeto.</li>
+
+Estado inicial: Ponto inicial, onde começa a utilização do objeto.
 
 ![Estado Inicial](../../images/UML/EstadoInicial.png)
 
-<li>
+</p>
 
-Estado final: Ponto de saída do objeto.</li>
+<p>
+Estado final: Ponto de saída do objeto.
 
 ![Estado Inicial](../../images/UML/EstadoFinal.png)
+</p>
 
-<li>
-Estado: Representa um dos possíveis estados que um objeto pode ter.</li>
+<p>
+Estado: Representa um dos possíveis estados que um objeto pode ter.
 
 ![Estado Inicial](../../images/UML/Estado.png)
+</p>
 
-<li>
-Evento ou Transição: Representa uma ação externa sobre um objeto.</li>
+<p>
+Evento ou Transição: Representa uma ação externa sobre um objeto.
 
 ![Estado Inicial](../../images/UML/Evento.png)
-
-<li>
-Ações: Processo associado à transição de estados. São representadas por "/", seguidas das ações contidas no estado. As ações são: - Ação de entrada(entry): executada para chegar a algum estado; - Ação de saída(exit): executada quando se sai de um estado; Ação de atividade(do): é executada dentro do estado.
-</li>
-</ul>
 </p>
+
+<p>
+Ações: Processo associado à transição de estados. São representadas por "/", seguidas das ações contidas no estado. As ações são: - Ação de entrada(entry): executada para chegar a algum estado; - Ação de saída(exit): executada quando se sai de um estado; Ação de atividade(do): é executada dentro do estado.
+</p>
+
 
 <p align="justify">&emsp;
 Utilizamos os diagramas de estados para mostrar as transições de estados dos fluxos principais da aplicação.
