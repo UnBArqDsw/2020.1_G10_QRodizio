@@ -15,8 +15,9 @@
     <tr>
       <td>17/09/2020</td>
       <td>
-        Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>)<td>
-      <td>Adicionando Introdução de diagramas de estados</td>
+        Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>)
+      </td>
+      <td>Adicionando introdução de diagrama de estados </td>
       <td>0.1</td>
     </tr>
     <tr>
@@ -34,6 +35,14 @@
       </td>
       <td>Adicionando diagrama de estados do Pagamento</td>
       <td>0.3</td>
+    </tr>
+    <tr>
+      <td>23/09/2020</td>
+      <td>
+        Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>)
+      </td>
+      <td>Adicionando diagrama de estados do Cadastro de Cardápio</td>
+      <td>0.4</td>
     </tr>
   </tbody>
 </table>
@@ -89,6 +98,10 @@ Utilizamos os diagramas de estados para mostrar as transições de estados dos f
 ### Autor: [Caio](https://github.com/Caiocbeleza)
 
 ![Diagrama estados pagamento](../../images/UML/DiagramaEstadoPagamento.png)
+
+### Autor: [Caio](https://github.com/Caiocbeleza)
+
+![Diagrama estados cardápio](../../images/UML/DiagramaEstadoCardapio.png)
 
 ## Referências
 <ul>
