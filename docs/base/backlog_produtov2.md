@@ -21,6 +21,14 @@
       <td>Criação do documento</td>
       <td>0.1</td>
     </tr>
+    <tr>
+      <td>25/09/2020</td>
+      <td>
+        Fábio Teixeira(<a target="blank" href="https://github.com/fabio1079">fabio1079</a>)
+      </td>
+      <td>Atualiza feat 1</td>
+      <td>0.2</td>
+    </tr>
   </tbody>
 </table>
 
@@ -32,15 +40,12 @@ Features desejadas e suas dependências em relação ao que foi levantado na ver
 
 ##  1. QR Code
 - s01: O sistema deve gerar QR Code
-- s02: O sistema deve gerar uma nova URL da mesa para cada sessão aberta**(também na feat 5)
 - c01: O cliente deve poder ler QR Code
-- c06: O cliente deve poder abrir mesa
 - f02: O sistema deve permitir gerar novo QR Code de mesa
 
 ### Comentários sobre a feature
 * Cabe ao funcionário requisitar ao sistema a geração de QR Code para cada mesa.
-* Cada QR Code está vinculado a uma URL, quando a sessão muda, a URL também muda.
-* A sessão aberta(s02) está vinculada ao cliente poder abrir uma mesa(c06). Já que abrir uma mesa é o mesmo que iniciar uma sessão.
+* Cada QR Code está vinculado a uma URL, quando a sessão muda(mesa é fechada), a URL também muda, mas nao necessáriamente o QRCode, este muda somente quando requisitado por um funcionário.
 
 
 ## 2. Papéis
