@@ -101,7 +101,8 @@ module.exports = {
           "/UML/diagramas_dinamicos/diagramas_atividade",
           "/UML/diagramas_dinamicos/diagramas_estado",
           "/UML/diagramas_dinamicos/diagramas_pacote",
-          "/UML/diagramas_dinamicos/diagrama_classes"
+          "/UML/diagramas_dinamicos/diagrama_classes",
+          "/UML/diagramas_dinamicos/diagrama_sequencia"
         ],
       },
     ],
