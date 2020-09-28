@@ -92,8 +92,9 @@
 - Métodos getters e setters nao estão sendo mostrados no diagrama para evitar poluição visual, mas considera-se que todo atributo privado tem o seu respectivo getter e setter.
 - Até a versão 03 estava sendo usado no Lucidchart, porém, devido a limitação do número de elementos que a versão livre deste permite, uma migração do diagrama para o Astah foi realizada.
 - O sistema de notificações foi pensado para ser extensível, bastando implementar uma estratégia sempre que necessário.
-- Quando um cliente chama por um funcionário, ver [feat 05: Customer, calls employee](diagrama_sequencia.md)
-- Quando algum funcionário muda o status de um pedido: o método setStatus da classe Request passa uma RequestStatusChangeNotification para a sua ActionCaller, esta notifica a mesa(classe Table) que o status do pedido mudou, sendo assim, a classe Table em seu notify chama TableController para mostrar essa mudança de status(método displayRequestStatusChange).
+- uso de observers:
+  - Quando um cliente chama por um funcionário, ver [feat 05: Customer, calls employee](diagrama_sequencia.md)
+  - Quando um funcionário muda o status de um pedido, ver [feat 06: notify request status](diagrama_sequencia.md)
 - ActionCaller está sendo relacionada como uma agregação, já que considera-se que não há necessidade de sempre instanciala. Ex: Se um cliente nunca chamar por um funcionário, não tem por que sempre instanciar uma ActionCaller na CustomerController.
 
 ## Versões anteriores
