@@ -104,12 +104,12 @@ Nós fizemos os diagramas de atividades para mapear os fluxos principais de func
 
 ### Autor: [Caio](https://github.com/Caiocbeleza)
 
-![Diagrama de Atividades](/images/UML/DriagramaAtividadeCliente.png)
+![Diagrama de Atividades Cliente e Funcionário](../../images/UML/DriagramaAtividadeCliente.png)
 Cliente e Funcionário
 
 ### Autor: [João Pedro Gomes](https://github.com/jppgomes)
 
-![Diagrama de Atividades](/images/UML/DiagramaAtividade.png)
+![Diagrama de Atividades](../../images/UML/DiagramaAtividade.png)
 Realizar pedido
 
 
