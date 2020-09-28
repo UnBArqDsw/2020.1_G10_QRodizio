@@ -28,6 +28,14 @@
       <td>Adicionando diagrama de casos de uso do cliente</td>
       <td>0.2</td>
     </tr>
+    <tr>
+      <td>28/09/2020</td>
+      <td>
+        Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>)
+      </td>
+      <td>Adicionando diagrama de casos de uso do administrador</td>
+      <td>0.3</td>
+    </tr>
   </tbody>
 </table>
 
@@ -72,6 +80,10 @@ Relacionamento de herança: Relacionamento entre atores, utilizado para represen
 ### Autor: [Caio](https://github.com/Caiocbeleza)
 
 ![Diagrama casos de uso cliente](../../images/UML/userCase.png)
+
+### Autor: [Caio](https://github.com/Caiocbeleza)
+
+![Diagrama casos de uso cliente](../../images/UML/userCaseAdm.png)
 
 ## Referências
 <ul>
