@@ -48,7 +48,7 @@
 
 ## Introdução
 
-Diagramas de sequência referentes as features do [backlog](../../base/backlog_produtov2.md)
+Diagramas de sequência referentes as features do [backlog](../../backlog/backlog_produtov2.md)
 
 ## Diagramas
 
