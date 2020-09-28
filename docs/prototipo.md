@@ -19,7 +19,7 @@ Fizemos um mapeamento dos "Must Have" do backlog do produto e levantamos as prim
 
 ![logo](./images/prototipo/logo.png)
 ![Inicial](./images/prototipo/inicial.png)
-![pagina inicial garcom](./images/prototipo/garçom_inicial.png)
+![pagina inicial garcom](./images/prototipo/garcom_inicial.png)
 ![Menu lateral](./images/prototipo/menu_lateral.png)
 ![cardapio](./images/prototipo/cardapio.png)
 ![cardapio pag2](./images/prototipo/cardapio1.png)
