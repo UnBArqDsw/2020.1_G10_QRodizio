@@ -56,6 +56,17 @@
       </td>
       <td>0.4</td>
     </tr>
+    <tr>
+      <td>28/09/2020</td>
+      <td>
+        Fábio Teixeira(<a target="blank" href="https://github.com/fabio1079">fabio1079</a>)
+      </td>
+      <td>
+        1 - Atualiza diagrama para ficar de acordo com feat 04 dos diagramas de sequência:<br />
+        Adiciona MenuController, MenuType, atributo daily em menu.
+      </td>
+      <td>0.5</td>
+    </tr>
   </tbody>
 </table>
 
@@ -63,7 +74,7 @@
 
 ### Versão atual
 
-[![Diagrama de classes](../../images/UML/DiaClasses/diagram_classesv04.jpg)](https://ibb.co/9gNWVgF)
+[![Diagrama de classes](../../images/UML/DiaClasses/diagram_classesv05.jpg)](https://ibb.co/TWNMH35)
 
 #### Observações
 
@@ -77,6 +88,7 @@
 
 ## Versões anteriores
 
+- [Versão 04](https://ibb.co/9gNWVgF)
 - [Versão 03](https://ibb.co/JkrCHvc)
 - [Versão 02](https://ibb.co/gP8WzxT)
 - [Versão 01](https://ibb.co/5jqPWw9)
