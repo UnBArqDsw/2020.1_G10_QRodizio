@@ -20,8 +20,12 @@ module.exports = {
     */
     sidebar: [
       {
-        title: "Backlog do Produto",
-        path: "/backlog_produto",
+        title: "Backlog do Produto v1",
+        path: "/base/backlog_produtov1",
+      },
+      {
+        title: "Backlog do Produto v2",
+        path: "/base/backlog_produtov2",
       },
       {
         title: "Termo de Abertura",
@@ -88,6 +92,17 @@ module.exports = {
           "/reunioes/sprint0",
           "/reunioes/sprint1",
           "/reunioes/sprint2"
+        ],
+      },
+      {
+        title: "UML",
+        collapsable: true,
+        children: [
+          "/UML/diagramas_dinamicos/diagramas_atividade",
+          "/UML/diagramas_dinamicos/diagramas_estado",
+          "/UML/diagramas_dinamicos/diagramas_pacote",
+          "/UML/diagramas_dinamicos/diagrama_classes",
+          "/UML/diagramas_dinamicos/diagrama_sequencia"
         ],
       },
     ],
