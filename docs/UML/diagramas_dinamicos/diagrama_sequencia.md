@@ -29,6 +29,14 @@
       <td>Atualiza diagrama feat 01 para versão 03 do diagrama de classes</td>
       <td>0.2</td>
     </tr>
+    <tr>
+      <td>28/09/2020</td>
+      <td>
+        Fábio Teixeira(<a target="blank" href="https://github.com/fabio1079">fabio1079</a>)
+      </td>
+      <td>Adiciona diagrama feat 04</td>
+      <td>0.3</td>
+    </tr>
   </tbody>
 </table>
 
@@ -51,3 +59,19 @@ Diagramas de sequência referentes as features do [backlog](../../base/backlog_p
 #### Versões anteriores
 
 - [Versão 01](https://ibb.co/j8cg9tn)
+
+### Feat 04:  Manter cardápio
+
+#### Employee, creates daily menu
+
+[![DiaSeqFeat04_1](../../images/UML/DiaSeq/DiaSeqFeat04_1.jpg)](https://ibb.co/vqhH8NC)
+
+#### Customer, read menu
+
+[![DiaSeqFeat04_1](../../images/UML/DiaSeq/DiaSeqFeat04_2.jpg)](https://ibb.co/VVJhTNL)
+
+#### Observações
+
+- Só pode haver um cardaṕio do dia, logo quando um novo é criado, o anterior é deletado.
+- <strong>TODO:</strong> É um manter, então tem que modelar o resto do CRUD. <small>É um crud... preciso mesmo modelar ele todo? 😭...é um CRUD...UM CRUD !!!😑</small>
+
