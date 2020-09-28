@@ -13,12 +13,20 @@
 
   <tbody>
     <tr>
-      <td>17/09/2020</td>
+      <td>28/09/2020</td>
       <td>
         Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>)
       </td>
       <td>Adicionando introdução de diagrama de casos de uso </td>
       <td>0.1</td>
+    </tr>
+    <tr>
+      <td>28/09/2020</td>
+      <td>
+        Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>)
+      </td>
+      <td>Adicionando diagrama de casos de uso do cliente</td>
+      <td>0.2</td>
     </tr>
   </tbody>
 </table>
@@ -60,6 +68,10 @@ Relacionamento de herança: Relacionamento entre atores, utilizado para represen
 </p>
 
 ## Versões 1.0
+
+### Autor: [Caio](https://github.com/Caiocbeleza)
+
+![Diagrama casos de uso cliente](../../images/UML/userCase.png)
 
 ## Referências
 <ul>
