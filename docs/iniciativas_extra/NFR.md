@@ -1,4 +1,4 @@
-## NFR
+## NFR Framework
 
 ## Histórico de Revisões
 
@@ -25,6 +25,14 @@
       <td>28/09/2020</td>
       <td>0.2</td>
       <td>Adicionando NFR usabilidade</td>
+      <td>
+        Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>)
+      </td>
+    </tr>
+    <tr>
+      <td>28/09/2020</td>
+      <td>0.3</td>
+      <td>Adicionando NFR Segurança de Pagamento</td>
       <td>
         Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>)
       </td>
@@ -68,6 +76,10 @@ O NFR framework foi utilizado neste projeto para auxiliar na elicitação dos re
 
 ![NFR usabilidade](../images/NFR/NFRUsability.png)
 NFR Usabilidade
+
+### Autor: [Caio](https://github.com/Caiocbeleza)
+
+![NFR Segurança](../images/NFR/NFRSeguranca.png)
 
 ## Referências
 <ul>
