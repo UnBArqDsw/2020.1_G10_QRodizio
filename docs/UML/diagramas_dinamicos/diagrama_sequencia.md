@@ -34,8 +34,20 @@
       <td>
         Fábio Teixeira(<a target="blank" href="https://github.com/fabio1079">fabio1079</a>)
       </td>
-      <td>Adiciona diagrama feat 04</td>
+      <td>
+        Adiciona diagrama feat 04:</br>
+        1. Employee, creates daily menu<br />
+        2. Customer, read menu
+      </td>
       <td>0.3</td>
+    </tr>
+    <tr>
+      <td>28/09/2020</td>
+      <td>
+        Fábio Teixeira(<a target="blank" href="https://github.com/fabio1079">fabio1079</a>)
+      </td>
+      <td>Adiciona diagrama feat 05: Customer, calls employee</td>
+      <td>0.4</td>
     </tr>
   </tbody>
 </table>
@@ -68,10 +80,21 @@ Diagramas de sequência referentes as features do [backlog](../../base/backlog_p
 
 #### Customer, read menu
 
-[![DiaSeqFeat04_1](../../images/UML/DiaSeq/DiaSeqFeat04_2.jpg)](https://ibb.co/VVJhTNL)
+[![DiaSeqFeat04_2](../../images/UML/DiaSeq/DiaSeqFeat04_2.jpg)](https://ibb.co/VVJhTNL)
 
 #### Observações
 
 - Só pode haver um cardaṕio do dia, logo quando um novo é criado, o anterior é deletado.
 - <strong>TODO:</strong> É um manter, então tem que modelar o resto do CRUD. <small>É um crud... preciso mesmo modelar ele todo? 😭...é um CRUD...UM CRUD !!!😑</small>
 
+### Feat 05: Manter mesa
+
+#### Customer, calls employee
+
+[![DiaSeqFeat05_1](../../images/UML/DiaSeq/DiaSeqFeat05_1.jpg)](https://ibb.co/qgjBLrh)
+
+1. Cliente chama funcionário WebApp 
+2. A controladora CustomerController passa uma EmployeeCallNotification para a sua ActionCaller
+3. ActionCaller notifica a classe Employee
+4. Classe Employee que chama pela EmployeeController para exibir a notificação nos funcionários.
+5. Funcionários são notificados
