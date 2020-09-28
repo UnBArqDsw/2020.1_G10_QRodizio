@@ -79,9 +79,9 @@ module.exports = {
         title: "1.4 Iniciativas extra",
         collapsable: true,
         children: [
-          "/politica/branches",
-          "/politica/issues",
-          "/politica/CODE_OF_CONDUCT"
+          "/iniciativas_extra/branches",
+          "/iniciativas_extra/issues",
+          "/iniciativas_extra/CODE_OF_CONDUCT"
         ],
       },
 
@@ -105,6 +105,14 @@ module.exports = {
           "/UML/diagramas_dinamicos/diagrama_sequencia"
         ],
       },
+      {
+        title: "Iniciativas extra",
+        collapsable: true,
+        children: [
+          "/iniciativas_extra/NFR"
+        ],
+      },
+
     ],
   },
 };

@@ -21,6 +21,14 @@
         Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>)
       </td>
     </tr>
+    <tr>
+      <td>28/09/2020</td>
+      <td>0.2</td>
+      <td>Adicionando NFR usabilidade</td>
+      <td>
+        Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>)
+      </td>
+    </tr>
 
   </tbody>
 </table>
@@ -54,6 +62,12 @@ O NFR framework foi utilizado neste projeto para auxiliar na elicitação dos re
 </p>
 
 
+## Versões 1.0
+
+### Autor: [Caio](https://github.com/Caiocbeleza)
+
+![NFR usabilidade](../images/NFR/NFRUsability.png)
+NFR Usabilidade
 
 ## Referências
 <ul>
