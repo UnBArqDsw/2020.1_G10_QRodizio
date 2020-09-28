@@ -1,4 +1,5 @@
-# Diagrama de Estados
+# Diagrama de Pacotes
+
 ## Histórico de Versão
 
 <table>
