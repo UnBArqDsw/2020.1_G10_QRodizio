@@ -35,19 +35,13 @@
         Fábio Teixeira(<a target="blank" href="https://github.com/fabio1079">fabio1079</a>)
       </td>
       <td>
-        Adiciona diagrama feat 04:</br>
-        1. Employee, creates daily menu<br />
-        2. Customer, read menu
+        1. Adiciona diagrama feat 04:</br>
+           &nbsp;&nbsp;&nbsp;&nbsp;- Employee, creates daily menu<br />
+           &nbsp;&nbsp;&nbsp;&nbsp;- Customer, read menu<br />
+        2. Adiciona diagrama feat 05: Customer, calls employee<br/>
+        3. Adiciona diagrama feat 06: notify request status
       </td>
       <td>0.3</td>
-    </tr>
-    <tr>
-      <td>28/09/2020</td>
-      <td>
-        Fábio Teixeira(<a target="blank" href="https://github.com/fabio1079">fabio1079</a>)
-      </td>
-      <td>Adiciona diagrama feat 05: Customer, calls employee</td>
-      <td>0.4</td>
     </tr>
   </tbody>
 </table>
@@ -96,5 +90,17 @@ Diagramas de sequência referentes as features do [backlog](../../base/backlog_p
 1. Cliente chama funcionário WebApp 
 2. A controladora CustomerController passa uma EmployeeCallNotification para a sua ActionCaller
 3. ActionCaller notifica a classe Employee
-4. Classe Employee que chama pela EmployeeController para exibir a notificação nos funcionários.
+4. Classe Employee chama pela EmployeeController para exibir a notificação nos funcionários.
 5. Funcionários são notificados
+
+### Feat 06: Manter pedido
+
+#### notify request status
+
+[![DiaSeqFeat06_1](../../images/UML/DiaSeq/DiaSeqFeat06_1.jpg)](https://ibb.co/G0ywJVm)
+
+1. Funcionário muda o status de um pedido 
+2. setStatus() da classe Request passa uma RequestStatusChangeNotification para a sua ActionCaller
+3. ActionCaller notifica a classe Table
+4. Classe Table chama pela TableController para exibir a mudança do status do pedido
+5. Cliente ve a mudança no status
