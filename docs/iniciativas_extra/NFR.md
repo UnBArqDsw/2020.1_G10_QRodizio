@@ -37,6 +37,14 @@
         Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>)
       </td>
     </tr>
+    <tr>
+      <td>28/09/2020</td>
+      <td>0.4</td>
+      <td>Adicionando NFR eficiência</td>
+      <td>
+        Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>)
+      </td>
+    </tr>
 
   </tbody>
 </table>
@@ -80,6 +88,10 @@ NFR Usabilidade
 ### Autor: [Caio](https://github.com/Caiocbeleza)
 
 ![NFR Segurança](../images/NFR/NFRSeguranca.png)
+
+### Autor: [Caio](https://github.com/Caiocbeleza)
+
+![NFR Segurança](../images/NFR/NFRPerformance.png)
 
 ## Referências
 <ul>
