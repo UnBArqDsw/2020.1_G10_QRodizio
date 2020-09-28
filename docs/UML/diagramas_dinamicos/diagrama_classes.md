@@ -44,6 +44,18 @@
       </td>
       <td>0.3</td>
     </tr>
+    <tr>
+      <td>27/09/2020</td>
+      <td>
+        Fábio Teixeira(<a target="blank" href="https://github.com/fabio1079">fabio1079</a>)
+      </td>
+      <td>
+        1 - Adiciona observer para notificar mesa em mudanças no status dos pedidos<br />
+        2 - Adiciona estratégia no sistema de notificações funcionando em conjunto com o observer, facilitando extensão<br />
+        3 - Adiciona observações
+      </td>
+      <td>0.4</td>
+    </tr>
   </tbody>
 </table>
 
@@ -51,9 +63,20 @@
 
 ### Versão atual
 
-[![Diagrama de classes](../../images/UML/DiaClasses/diagram_classesv03.jpg)](https://ibb.co/JkrCHvc)
+[![Diagrama de classes](../../images/UML/DiaClasses/diagram_classesv04.jpg)](https://ibb.co/9gNWVgF)
+
+#### Observações
+
+- Métodos getters e setters nao estão sendo mostrados no diagrama para evitar poluição visual, mas considera-se que todo atributo privado tem o seu respectivo getter e setter.
+- Até a versão 03 estava sendo usado no Lucidchart, porém, devido a limitação do número de elementos que a versão livre deste permite, uma migração do diagrama para o Astah foi realizada.
+- O sistema de notificações foi pensado para ser extensível, bastando implementar uma estratégia sempre que necessário.
+- Quando um cliente chama por um funcionário: A controladora CustomerController passa uma EmployeeCallNotification para a sua ActionCaller, esta por sua vez, notifica a classe Employee que chama pela EmployeeController para exibir a notificação nos funcionários.
+- Quando algum funcionário muda o status de um pedido: o método setStatus da classe Request passa uma RequestStatusChangeNotification para a sua ActionCaller, esta notifica a mesa(classe Table) que o status do pedido mudou, sendo assim, a classe Table em seu notify chama TableController para mostrar essa mudança de status(método displayRequestStatusChange).
+- ActionCaller está sendo relacionada como uma agregação, já que considera-se que não há necessidade de sempre instanciala. Ex: Se um cliente nunca chamar por um funcionário, não tem por que sempre instanciar uma ActionCaller na CustomerController.
+- <strong>TODO</strong>: Provavelmente uma EmployeePool com todos os funcionários logados vai ser necessária para a logica da callEmplyee(), afinal de contas, de onde ActionCaller vai tirar os funcionários para notificá-los ?
 
 ## Versões anteriores
 
+- [Versão 03](https://ibb.co/JkrCHvc)
 - [Versão 02](https://ibb.co/gP8WzxT)
 - [Versão 01](https://ibb.co/5jqPWw9)
