@@ -73,7 +73,8 @@ module.exports = {
             children: [
               "/modelagem/diagramas_dinamicos/diagramas_atividade",
               "/modelagem/diagramas_dinamicos/diagrama_sequencia",
-              "/modelagem/diagramas_dinamicos/diagramas_estado"
+              "/modelagem/diagramas_dinamicos/diagramas_estado",
+              "/modelagem/diagramas_dinamicos/diagrama_casos_de_uso"
             ]
           },
           {
