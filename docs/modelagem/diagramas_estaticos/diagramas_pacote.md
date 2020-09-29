@@ -32,7 +32,7 @@ O Diagrama de pacotes, ou diagrama de módulos, definido pela UML, descreve os p
 
 ### Autor: [João Pedro Gomes](https://github.com/jppgomes)
 
-![Diagrama estados pedidos](../../images/UML/DiagramaPacotes.png)
+![Diagrama geral de pacotes](../../images/UML/DiagramaPacotes.png)
 
 ## Referências
 <ul>
