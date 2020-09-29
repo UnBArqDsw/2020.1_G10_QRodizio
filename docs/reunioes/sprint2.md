@@ -27,4 +27,4 @@ Foram feitas as seguintes issues na sprint 2:
 
 ## Resultados
 
-Durante a sprint 2 todos os artefatos seguiram sem prooblemas conforme planejado. Ao final da sprint 2 geramos a primeira release do projeto (0.1) para entregarmos uma primeira versão de materiais junto com a primeira entrega da matéria.
+Durante a sprint 2 todos os artefatos seguiram sem problemas conforme planejado. Ao final da sprint 2 geramos a primeira release do projeto (0.1) para entregarmos uma primeira versão de materiais junto com a primeira entrega da matéria.

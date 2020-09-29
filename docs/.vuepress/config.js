@@ -20,19 +20,31 @@ module.exports = {
     */
     sidebar: [
       {
-        title: "Backlog do Produto",
-        path: "/backlog_produto",
+        title: "Backlog",
+        collapsable: true,
+        children: [
+          {
+            title: "Backlog v1",
+            path: "/backlog/backlog_produtov1.md",
+          },
+          {
+            title: "Backlog v2",
+            path: "/backlog/backlog_produtov2.md",
+          },
+        ]
       },
       {
         title: "Termo de Abertura",
         path: "/termo_de_abertura",
       },
-
       {
         title: "Plano de Gerenciamento de Riscos",
         path: "/gerenciamento_risco",
       },
-
+      {
+        title: "Protótipo",
+        path: "/prototipo",
+      },
       {
         title: "Base", // required
         // path: "/base/", // optional, link of the title, which should be an absolute path and must exist
@@ -45,44 +57,57 @@ module.exports = {
           "/base/diagrama_ishikawa",
           "/base/brainstorming",
           "/base/design_sprint",
-          "/base/lexicos"
+          "/base/lexicos",
+          "/base/metodologia",
+          "/base/diagrama_comunicacao",
+          "/base/modelagem_BPMN"
         ],
       },
-
       {
-        title: "1.2 Módulo Processos/Metodologias/Abordagens(Apresentação)",
+        title: "Modelagem",
         collapsable: true,
         children: [
-          "/metodologia/metodologia_apresentacao",
-
+          {
+            title: "Diagramas Dinâmicos",
+            collapsable: true,
+            children: [
+              "/modelagem/diagramas_dinamicos/diagramas_atividade",
+              "/modelagem/diagramas_dinamicos/diagrama_sequencia",
+              "/modelagem/diagramas_dinamicos/diagramas_estado",
+              "/modelagem/diagramas_dinamicos/diagrama_casos_de_uso"
+            ]
+          },
+          {
+            title: "Diagramas Estáticos",
+            collapsable: true,
+            children: [
+              "/modelagem/diagramas_estaticos/diagrama_classes",
+              "/modelagem/diagramas_estaticos/diagramas_pacote",
+            ]
+          }
         ],
       },
 
       {
-        title: "1.3 Módulo Processos/Metodologias/Abordagens(Modelagem BPMN)",
+        title: "Iniciativas extra",
         collapsable: true,
         children: [
-          "/modelagem/modelagem_BPMN",
+          "/iniciativas_extra/branches",
+          "/iniciativas_extra/issues",
+          "/iniciativas_extra/CODE_OF_CONDUCT",
+          "/iniciativas_extra/NFR"
         ],
       },
 
       {
-        title: "1.4 Iniciativas extra",
-        collapsable: true,
-        children: [
-          "/politica/branches",
-          "/politica/issues",
-          "/politica/CODE_OF_CONDUCT"
-        ],
-      },
-
-      {
-        title: "1.5 Reuniões",
+        title: "Reuniões",
         collapsable: true,
         children: [
           "/reunioes/sprint0",
           "/reunioes/sprint1",
-          "/reunioes/sprint2"
+          "/reunioes/sprint2",
+          "/reunioes/sprint3",
+          "/reunioes/sprint4"
         ],
       },
     ],
