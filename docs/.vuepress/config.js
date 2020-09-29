@@ -105,7 +105,9 @@ module.exports = {
         children: [
           "/reunioes/sprint0",
           "/reunioes/sprint1",
-          "/reunioes/sprint2"
+          "/reunioes/sprint2",
+          "/reunioes/sprint3",
+          "/reunioes/sprint4"
         ],
       },
     ],
