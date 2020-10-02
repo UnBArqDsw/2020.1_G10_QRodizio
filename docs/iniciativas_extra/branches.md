@@ -1,3 +1,4 @@
+
 # Política de branches
 
 ## Histórico de versões
@@ -5,6 +6,7 @@
 | Data     | Autor         | Descrição            | Versão |
 | -------- | ------------- | -------------------- | ------ |
 | 29/08/20 | Lucas Midlhey(<a target="blank" href="https://github.com/lucasmidlhey">Lucas Midlhey</a>) | Criação do documento | 0.1    |
+| 29/08/20 | Lucas Midlhey(<a target="blank" href="https://github.com/lucasmidlhey">Lucas Midlhey</a>) | Primeira versão com referência | 1.0    |
 
 ## Fluxo de Branches
 
@@ -51,3 +53,8 @@ Toda branch deve estar necessariamente estar relacionada a uma funcionalidade ou
 - Para correções: `fix#NÚMERO_DA_ISSUE/descrição_curta`
 
 Exemplo: `feat#24/easy_auth`
+
+
+## Referências
+
+[1] Github. Configuring branchs templates for your repository [branch template](https://education.github.community/t/templates-and-branches/49615)
