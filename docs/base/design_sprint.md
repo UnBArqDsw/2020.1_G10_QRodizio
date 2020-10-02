@@ -1,4 +1,5 @@
 
+
 ## Design Sprint
 ## Histórico de versão
 
@@ -34,6 +35,14 @@
       <td>Adicionando Dias 2 e 3 do Design Sprint</td>
       <td>
         0.3
+      </td>
+    </tr>
+     <tr>
+      <td>11/09/2020</td>
+      <td>Lucas Midlhey(<a target="blank" href="https://github.com/lucasmidlhey">lucasmidlhey</a>)</td>
+      <td>Primeira versao com link do prototipo</td>
+      <td>
+        1.0
       </td>
     </tr>
   </tbody>
@@ -129,9 +138,10 @@ No segundo dia, foi feito um brainstorming, a fim de elicitar os requisitos do s
 ## Dia 3
 11/09/2020
 <p align="justify">&emsp;
-No terceiro dia, fizemos o protótipo de baixa fidelidade(linkar documento do protótipo), para conseguirmos mapear o fluxo do sistema e mais tarde, no decorrer do semestre, validaremos esse protótipo, para construir o protótipo de alta fidelidade, no qual basearemos o sistema.
+No terceiro dia, fizemos o protótipo de [baixa fidelidade](../prototipo.md), para conseguirmos mapear o fluxo do sistema e mais tarde, no decorrer do semestre, validaremos esse protótipo, para construir o protótipo de alta fidelidade, no qual basearemos o sistema.
 </p>
 
 
 ## Referências
-* CHIEF OF DESIGN. O que é e para que serve o Design Sprint Google?. Disponível em https://www.chiefofdesign.com.br/design-sprint/. Acesso em: 07 de setembro. 2020.
+[1] CHIEF OF DESIGN. O que é e para que serve o Design Sprint Google?. Disponível em https://www.chiefofdesign.com.br/design-sprint/. Acesso em: 07 de setembro. 2020.
+[2] Videoaulas e materiais complementares presentes no moodle da disciplina Arquitetura e Desenho de Software. Disponível em [moodle de desenho](https://aprender3.unb.br/course/view.php?id=158)
