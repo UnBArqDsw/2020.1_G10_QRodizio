@@ -34,7 +34,7 @@ O diagrama de componentes é essencial para criar um sistema de software. Eles p
 
 ### Versão atual
 
-[![Diagrama de classes](../../images/UML/DiaClasses/DiagramaComponentes.jpg)](https://ibb.co/jDd97Cv)
+[![Diagrama de classes](../../images/UML/DiagramaComponentes.png)](https://ibb.co/jDd97Cv)
 
 
 ## Versões anteriores
