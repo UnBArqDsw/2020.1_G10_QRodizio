@@ -34,6 +34,10 @@ module.exports = {
         ]
       },
       {
+        title: "Documento de Arquitetura",
+        path: "/documento_de_arquitetura"
+      },
+      {
         title: "Termo de Abertura",
         path: "/termo_de_abertura",
       },
