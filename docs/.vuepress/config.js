@@ -83,6 +83,7 @@ module.exports = {
             children: [
               "/modelagem/diagramas_estaticos/diagrama_classes",
               "/modelagem/diagramas_estaticos/diagramas_pacote",
+              "/modelagem/diagramas_estaticos/diagrama_componentes",
             ]
           }
         ],
