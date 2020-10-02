@@ -1,3 +1,4 @@
+
 # Plano de Gerenciamento de Riscos
 ## Histórico de versões
 
@@ -6,6 +7,7 @@
 | 08/09/20 | Lucas Midlhey(<a target="blank" href="https://github.com/lucasmidlhey">Lucas Midlhey</a>)| Criação do documento | 0.1    |
 | 08/09/20 | João Pedro(<a target="blank" href="https://github.com/jppgomess">João Pedro</a>)    | Introdução e EAR | 0.2 |
 | 08/09/20 | Lucas Midlhey(<a target="blank" href="https://github.com/lucasmidlhey">Lucas Midlhey</a>)   |Análise quantitativa de riscos e  riscos levantados| 0.3 |
+| 02/10/20 | Lucas Midlhey(<a target="blank" href="https://github.com/lucasmidlhey">Lucas Midlhey</a>)   |Primeira versão com referencia| 1.0 |
 
 ## Introdução
 
@@ -121,3 +123,9 @@ O valor da prioridade definido na matriz Probabilidade x Impacto deve ser traduz
 | R10 | Falta nas reuniões | Externo- Condições de trabalho | Baixa | Alto | Acompanhar o motivo da falta e buscar recuperar o atraso | 8 |
 | R11 | Pareamento não efetivos | Externo- Fatores Pessoais | Médio | Alto | Tentar aumentar a comunicação entre os membros e se extremamente necessário realocar membros em outras atividades. | 12 |
 | R12 | Conflito de entregas em outras disciplinas | Externo- Fatores pessoais | Muito Alto | Médio | Produzir backlog de sprints reduzidos | 15 |
+
+## Referências
+
+[1] Videoaulas e materiais complementares presentes no moodle da disciplina Arquitetura e Desenho de Software. Disponível em [moodle de desenho](https://aprender3.unb.br/course/view.php?id=158)
+
+[2]PMI. Um guia do conhecimento em gerenciamento de projetos. Guia PMBOK® 6a. ed. – EUA: Project Management Institute, 2017.
