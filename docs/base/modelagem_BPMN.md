@@ -1,5 +1,6 @@
 
 
+
 # Modelagem BPMN
 
 ## Histórico de versão
@@ -182,6 +183,12 @@ Para se inserir princípios da metodologia ágil que utilizaremos em nosso proje
 ### Autores: [Joao Pedro](https://github.com/jppgomes) e [Lucas](https://github.com/lucasmidlhey)
 
 ![BPMN mesa para atendimento ](../images/BPMN/mesa_atendimento.png)
+
+### Contatar cliente
+
+### Autores: [Joao Pedro](https://github.com/jppgomes) e [Lucas](https://github.com/lucasmidlhey)
+
+![BPMN mesa para atendimento ](../images/BPMN/contatar_cliente.png)
 ## Referências
 
 HEFLO. Notação BPMN, a mais usada para modelar processos. Disponível em https://www.heflo.com/pt-br/bpm/notacao-bpmn/ . Acesso em: 09 de setembro. 2020.
