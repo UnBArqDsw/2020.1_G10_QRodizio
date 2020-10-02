@@ -1,3 +1,4 @@
+
 # Léxicos
 
 ## Histórico de versão
@@ -74,6 +75,14 @@
       <td>Adicionando rastrabilidade dos léxicos</td>
       <td>
       0.8
+      </td>
+    </tr>
+    <tr>
+      <td>02/10/2020</td>
+      <td>Lucas Midlhey(<a target="blank" href="https://github.com/lucasmidlhey">Lucasmidlhey</a>)</td>
+      <td>Revendo lexicos L17,L18, L24, L25 </td>
+      <td>
+      1.0
       </td>
     </tr>
   </tbody>
@@ -255,7 +264,7 @@ A rastreabilidade ainda não foi colocada nos léxicos abaixo devido a ainda nã
 ## L17 - Ver Status do pedido
 |L16|Ver Status do pedido|
 |--|--|
-|**Classificação**|Estado|
+|**Classificação**|Verbo|
 |**Noção**   | - Vizualizar se o [pedido](#l13-pedidos) já está sendo processado pelo restaurante.|
 |**Impacto**  | - Permite ao [Usuário](#l08-cliente) ver o status do seu [pedido](#l13-pedidos) e assim poder fazer alterações, caso este ainda não foi processado pelo restaurante. |
 |**Sinônimo**| Situação do pedido |
@@ -264,7 +273,7 @@ A rastreabilidade ainda não foi colocada nos léxicos abaixo devido a ainda nã
 ## L18 - Modificar pedido
 |L18|Modificar pedido|
 |--|--|
-|**Classificação**|Estado|
+|**Classificação**|Verbo|
 |**Noção**   | - Alterar um [pedido](#l13-pedidos) que ainda não foi processado pelo restaurante.|
 |**Impacto**  | - Permite ao [Usuário](#l08-cliente) alterar um [pedido](#l13-pedidos) que ainda não foi processado pelo restaurante.|
 |**Sinônimo**| Alterar pedido, Substituir pedido |
@@ -328,7 +337,7 @@ A rastreabilidade ainda não foi colocada nos léxicos abaixo devido a ainda nã
 | L25 | Abrir mesa |
 | -- | -- |
 | **Classificação** | Verbo |
-| **Noção** | - Abrir nova mesa para realizar pedidos |
+| **Noção** | - Novo cliente chega e deseja uma mesa |
 | **Impacto** | - O [cliente](#l08-cliente) abre uma nova [mesa](l#24mesa). |
 | **Sinônimo** | Abrir conta |
 | **Rastreabilidade** | f05, a05 |
@@ -337,7 +346,7 @@ A rastreabilidade ainda não foi colocada nos léxicos abaixo devido a ainda nã
 | L26 | Abrir mesa |
 | -- | -- |
 | **Classificação** | Verbo |
-| **Noção** | - fechar mesa para realizar pagamento |
+| **Noção** | - fechar conta para realizar pagamento |
 | **Impacto** | - O [cliente](#l08-cliente) fecha a [mesa](l#24mesa) para ir embora. |
 | **Sinônimo** | Fechar conta |
 | **Rastreabilidade** | f05, a05 |
