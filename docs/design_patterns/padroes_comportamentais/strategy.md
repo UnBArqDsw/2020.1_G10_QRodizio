@@ -28,6 +28,14 @@
       <td>Adicionando estrutura do padrão strategy </td>
       <td>0.2</td>
     </tr>
+    <tr>
+      <td>13/10/2020</td>
+      <td>
+        Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>)
+      </td>
+      <td>Adicionando trecho de código do projeto com padrão strategy </td>
+      <td>0.3</td>
+    </tr>
   </tbody>
 </table>
 
@@ -61,6 +69,38 @@ Este padrão sugere que você pegue uma classe que faz algo específico em diver
 
 
 ## Aplicações no Projeto(QRodízio)
+
+```
+def permission_strategy_factory(role):
+    """Given a role, returns a permission strategy for that role"""
+    if role == EmployeeRole.basic:
+        return basic_permission_strategy
+    elif role == EmployeeRole.manager:
+        return manager_permission_strategy
+    else:
+        return no_permission_strategy
+
+
+def no_permission_strategy(*args, **kwargs):
+    """No permission at all"""
+    return False
+
+
+def manager_permission_strategy(employee):
+    """Manager permission user must be a manager"""
+    if employee.role == EmployeeRole.manager:
+        return True
+
+    return False
+
+
+def basic_permission_strategy(employee):
+    """Baasic permission user just need to be logged"""
+    return True
+
+
+```
+
 
 ## Referências
 <ul>
