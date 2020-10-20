@@ -36,6 +36,14 @@
       <td>Adicionando trecho de código do projeto com padrão strategy </td>
       <td>0.3</td>
     </tr>
+    <tr>
+      <td>20/10/2020</td>
+      <td>
+        Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>)
+      </td>
+      <td>Adicionando explicação da aplicação do padrão strategy no projeto e as facilidades que esse padrão oferece.</td>
+      <td>0.4</td>
+    </tr>
   </tbody>
 </table>
 
@@ -100,6 +108,14 @@ def basic_permission_strategy(employee):
 
 
 ```
+
+<p align="justify">&emsp;
+O trecho de código acima descreve um padão strategy utilizado no projeto(QRodízio), onde foram feitas classes que definem as permissões dos diferentes usuários no sistema. Cada classe dessas tem o mesmo objetivo que é definir a permissão do usuário, mas trata esse objetivo de maneiras diferentes, em classes separadas strategy para cada permissão que tem no sistema.
+</p>
+
+<p align="justify">&emsp;
+Algumas das facilidades que esse padrão ofereceu ao projeto foram: o poder de introduzir novas strategy, se necessário, sem mudar o contexto original; Isolar os detalhes da implementação de cada classe.
+</p>
 
 
 ## Referências
