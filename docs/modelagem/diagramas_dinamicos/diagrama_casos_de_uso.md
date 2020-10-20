@@ -44,6 +44,14 @@
       <td>Adicionando versão corrigida do diagrama de casos de uso do cliente e funcionário segundo feedback da entrega e adicionando a rastreabilidade</td>
       <td>0.4</td>
     </tr>
+    <tr>
+      <td>20/10/2020</td>
+      <td>
+        Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>)
+      </td>
+      <td>Adicionando versão corrigida do diagrama de casos de uso do administrador e funcionário</td>
+      <td>0.5</td>
+    </tr>
   </tbody>
 </table>
 
@@ -103,6 +111,10 @@ Os diagramas de casos de uso foram utilizados no projeto para ilustrar a intera�
 ### Autor: [Caio](https://github.com/Caiocbeleza)
 
 ![Diagrama casos de uso cliente corrigido](../../images/UML/userCaseCorrigido.png)
+
+### Autor: [Caio](https://github.com/Caiocbeleza)
+
+![Diagrama casos de uso cliente](../../images/UML/userCaseAdmCorrigido.png)
 
 ### Rastreabilidade
 
