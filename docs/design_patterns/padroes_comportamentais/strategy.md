@@ -110,7 +110,7 @@ def basic_permission_strategy(employee):
 ```
 
 <p align="justify">&emsp;
-O trecho de código acima descreve um padão strategy utilizado no projeto(QRodízio), onde foram feitas classes que definem as permissões dos diferentes usuários no sistema. Cada classe dessas tem o mesmo objetivo que é definir a permissão do usuário, mas trata esse objetivo de maneiras diferentes, em classes separadas strategy para cada permissão que tem no sistema.
+O trecho de código acima descreve um padão strategy utilizado no projeto(QRodízio), onde foram feitas classes que definem as permissões dos diferentes usuários no sistema. Cada classe dessas tem o mesmo objetivo que é definir a permissão do usuário, mas trata esse objetivo de maneiras diferentes, em classes separadas strategy para as permissões básicas do funcionário, as permissões do administrador e a de nenhuma permissão.
 </p>
 
 <p align="justify">&emsp;
