@@ -104,13 +104,23 @@ Nós fizemos os diagramas de atividades para mapear os fluxos principais de func
 
 ### Autor: [Caio](https://github.com/Caiocbeleza)
 
-![Diagrama de Atividades Cliente e Funcionário](../../images/UML/DriagramaAtividadeCliente.png)
+![Diagrama de Atividades Cliente e Funcionário](../../images/UML/DiagramaAtividadeCliente.png)
+
 Cliente e Funcionário
 
 ### Autor: [João Pedro Gomes](https://github.com/jppgomes)
 
 ![Diagrama de Atividades](../../images/UML/DiagramaAtividade.png)
+
 Realizar pedido
+
+## Versões 2.0
+
+### Autor: [Caio](https://github.com/Caiocbeleza)
+
+![Diagrama de Atividades Cliente e Funcionário](../../images/UML/diagramaAtividadeCorrigido.png)
+
+Realizar Pedido
 
 ### Rastreabilidade
 
@@ -130,10 +140,6 @@ Os diagramas acima ilustram as seguintes funcionalidades do [Backlog](/docs/back
 |f06|O sistema deve permitir ao funcionário ver se a mesa está livre ou ocupada|
 |f07|O sistema deve notificar ao funcionário sobre novos pedidos|
 |s01|O sistema deve gerar QR Code|
-
-<p align="justify">&emsp;
-Os diagramas foram feitos para ilustrar o fluxo principal do aplicativo. Sendo assim, não foram ilustradas todas as funcionalidades, apenas as mais importantes, que serão o "core" do sistema.
-</p>
 
 
 
