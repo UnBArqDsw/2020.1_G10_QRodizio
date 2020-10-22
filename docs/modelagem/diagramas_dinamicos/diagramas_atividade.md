@@ -112,6 +112,30 @@ Cliente e Funcionário
 ![Diagrama de Atividades](../../images/UML/DiagramaAtividade.png)
 Realizar pedido
 
+### Rastreabilidade
+
+Os diagramas acima ilustram as seguintes funcionalidades do [Backlog](/docs/backlog/backlog_produtov2.md)
+
+
+|ID|Descrição|
+|--|--|
+|c01|O cliente deve poder ler QR Code|
+|c02|O cliente deve poder acessar o cardápio|
+|c03|O cliente deve poder realizar pedidos|
+|c05|O cliente deve poder visualizar pedidos|
+|c07|O cliente deve poder escolher forma de pagamento|
+|c08|O cliente deve poder Chamar garçom|
+|c16|O cliente deve poder visualizar status do pedido(aguardando,processando,feito)|
+|f04|O sistema deve permitir Fechar mesa|
+|f06|O sistema deve permitir ao funcionário ver se a mesa está livre ou ocupada|
+|f07|O sistema deve notificar ao funcionário sobre novos pedidos|
+|s01|O sistema deve gerar QR Code|
+
+<p align="justify">&emsp;
+Os diagramas foram feitos para ilustrar o fluxo principal do aplicativo. Sendo assim, não foram ilustradas todas as funcionalidades, apenas as mais importantes, que serão o "core" do sistema.
+</p>
+
+
 
 ## Referências
 <ul>

@@ -80,7 +80,7 @@ Relacionamentos: Interação entre os atores e os casos de uso.
 Relacionamento de comunicação ou associação: Representa a interação entre um ator e um caso de uso.
 </li>
 <li>
-Relacionamento de Inclusão: 
+Relacionamento de Inclusão:
 É uma relação direta entre dois casos de uso e é utilizada para mostrar que o comportamento de um caso de uso é incluído dentro do comportamento do outro no qual está relacionado.
 </li>
 <li>
@@ -119,7 +119,7 @@ Os diagramas de casos de uso foram utilizados no projeto para ilustrar a intera�
 
 ### Rastreabilidade
 
-Os diagramas acima ilustram as seguintes funcionalidades do [Backlog](../../docs/backlog/backlog_produtov2.md)
+Os diagramas acima ilustram as seguintes funcionalidades do [Backlog](/docs/backlog/backlog_produtov2.md)
 
 
 |ID|Descrição|
@@ -157,5 +157,8 @@ Diagrama de caso de uso UML: O que é, como fazer e exemplos. Disponível em: ht
 </li>
 <li>
 DEVMEDIA. O que é UML e Diagramas de Caso de Uso: Introdução Prática à UML. Disponível em: https://www.devmedia.com.br/o-que-e-uml-e-diagramas-de-caso-de-uso-introducao-pratica-a-uml/23408 . Acesso em: 28 de setembro. 2020.
+</li>
+<li>
+UML Use Case Include. Disponível em: https://www.uml-diagrams.org/use-case-include.html .Acesso em: 22 de outubro. 2020.
 </li>
 </ul>
