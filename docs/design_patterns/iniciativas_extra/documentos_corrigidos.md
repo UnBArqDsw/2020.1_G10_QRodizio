@@ -27,4 +27,4 @@
 
 |Documento|Link|Correções|
 |--|--|--|
-|Diagramas de Casos de Uso|[Casos de uso](../../docs/modelagem/diagramas_dinamicos/diagrama_casos_de_uso.md)|<ul><li>Foram feitas as versões 2.0 dos diagramas, levando em consideração o feedback da professora;</li><li>Corrigido o texto de introdução explicando o relacionamento de inclusão abordado nos diagramas;</li><li>Adicionada a rastreabilidade dos diagramas.</li></ul> |
+|Diagramas de Casos de Uso|[Casos de uso](/docs/modelagem/diagramas_dinamicos/diagrama_casos_de_uso.md)|<ul><li>Foram feitas as versões 2.0 dos diagramas, levando em consideração o feedback da professora;</li><li>Corrigido o texto de introdução explicando o relacionamento de inclusão abordado nos diagramas;</li><li>Adicionada a rastreabilidade dos diagramas.</li></ul> |
