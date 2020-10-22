@@ -108,6 +108,7 @@ def basic_permission_strategy(employee):
 
 
 ```
+Este trecho de código pode ser encontrado no repositório do backend do projeto QRodízio, no seguinte [arquivo](https://github.com/UnBArqDsw/2020.1_G10_QRodizio_Backend/blob/crud_tables/qrodizio/ext/authentication.py).
 
 <p align="justify">&emsp;
 O trecho de código acima descreve um padão strategy utilizado no projeto(QRodízio), onde foram feitas classes que definem as permissões dos diferentes usuários no sistema. Cada classe dessas tem o mesmo objetivo que é definir a permissão do usuário, mas trata esse objetivo de maneiras diferentes, em classes separadas strategy para as permissões básicas do funcionário, as permissões do administrador e a de nenhuma permissão.

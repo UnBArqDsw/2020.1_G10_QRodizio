@@ -80,7 +80,8 @@ Relacionamentos: Interação entre os atores e os casos de uso.
 Relacionamento de comunicação ou associação: Representa a interação entre um ator e um caso de uso.
 </li>
 <li>
-Relacionamento de Inclusão: Utilizado quando um comportamento se repete em mais de um caso de uso.
+Relacionamento de Inclusão: 
+É uma relação direta entre dois casos de uso e é utilizada para mostrar que o comportamento de um caso de uso é incluído dentro do comportamento do outro no qual está relacionado.
 </li>
 <li>
 Relacionamento de extensão: Utilizado quando existem casos alternativos derivados de um outro caso de uso.
