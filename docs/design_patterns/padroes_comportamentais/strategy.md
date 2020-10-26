@@ -44,6 +44,14 @@
       <td>Adicionando explicação da aplicação do padrão strategy no projeto e as facilidades que esse padrão oferece.</td>
       <td>0.4</td>
     </tr>
+    <tr>
+      <td>26/10/2020</td>
+      <td>
+        Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>)
+      </td>
+      <td>Adicionando modelagem strategy.</td>
+      <td>0.5</td>
+    </tr>
   </tbody>
 </table>
 
@@ -77,6 +85,8 @@ Este padrão sugere que você pegue uma classe que faz algo específico em diver
 
 
 ## Aplicações no Projeto(QRodízio)
+
+### Trecho do código
 
 ```
 def permission_strategy_factory(role):
@@ -114,8 +124,12 @@ Este trecho de código pode ser encontrado no repositório do backend do projeto
 O trecho de código acima descreve um padão strategy utilizado no projeto(QRodízio), onde foram feitas classes que definem as permissões dos diferentes usuários no sistema. Cada classe dessas tem o mesmo objetivo que é definir a permissão do usuário, mas trata esse objetivo de maneiras diferentes, em classes separadas strategy para as permissões básicas do funcionário, as permissões do administrador e a de nenhuma permissão.
 </p>
 
+### Modelagem
+
+![Estrutura Strategy](../../images/design_patterns/modelagemStrategy.png)
+
 <p align="justify">&emsp;
-Algumas das facilidades que esse padrão ofereceu ao projeto foram: o poder de introduzir novas strategy, se necessário, sem mudar o contexto original; Isolar os detalhes da implementação de cada classe.
+Algumas das facilidades que esse padrão ofereceu ao projeto foram: - o poder de introduzir novas strategy, se necessário, sem mudar o contexto original; - Isolar os detalhes da implementação de cada classe.
 </p>
 
 
