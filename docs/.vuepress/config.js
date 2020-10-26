@@ -102,8 +102,25 @@ module.exports = {
             collapsable: true,
             children: [
               "/design_patterns/padroes_comportamentais/strategy",
+              "/design_patterns/padroes_comportamentais/observer",
             ],
           },
+          {
+            title: "Criacionais",
+            collapsable: true,
+            children: [
+              "/design_patterns/padoes_criacionais/builder",
+              "/design_patterns/padoes_criacionais/factory",
+              "/design_patterns/padoes_criacionais/singleton",
+            ]
+          },
+          {
+            title: "Estruturais",
+            collapsable: true,
+            children: [
+              "/design_patterns/padroes_estruturais/decorator",
+            ]
+          }
         ],
       },
 
