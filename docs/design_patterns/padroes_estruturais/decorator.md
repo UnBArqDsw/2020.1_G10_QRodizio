@@ -21,6 +21,14 @@
       <td>Adicionando utilização do decorator no projeto</td>
       <td>0.1</td>
     </tr>
+        <tr>
+      <td>27/10/2020</td>
+      <td>
+        Fábio Teixeira(<a target="blank" href="https://github.com/fabio1079">fabio1079</a>)
+      </td>
+      <td>Correções básicas</td>
+      <td>0.2</td>
+    </tr>
   </tbody>
 </table>
 
@@ -37,13 +45,13 @@ O Decorator é um padrão de projeto estrutural que permite que você acople nov
 ## Aplicações no Projeto(QRodízio)
 
 ### Disclaimer
-Primeiramente é bom deixar claro que nosso projeto está utilizando de linguagens multi-paradigmas(python e javascript) sendo assim, adaptações ao padões são necessárias para não fugir do esttilo do código utilizado pelo linguegem.
+Primeiramente é bom deixar claro que nosso projeto está utilizando de linguagens multi-paradigmas(python e javascript) sendo assim, adaptações aos padrões são necessárias para não fugir do estilo do código utilizado.
 
 A Linguem python possui em seu "zen of python" a seguinte declaração: "Simple is better than complex". Seguindo a filosifia do "zen of python" **decidimos que, se algo pode ser feito em uma função, então será feito em uma função**.
 
 ### Utilização
 
-A linguem python possue uma forma bem singular de decorar funções e classes. E que é muito util para fazer validações antes que uma função seja executada, sendo assim optamos por utilizar do decorator para autentificação de usuário na API.
+A linguem python possui uma forma bem singular de decorar funções e classes. E que é muito util para fazer validações antes que uma função seja executada, sendo assim optamos por utilizar do decorator para autentificação de usuário na API.
 
 Segue um exemplo do uso de decorator no código do qrcode:
 
