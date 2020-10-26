@@ -36,10 +36,12 @@ O Builder é um padrão de criacional que permite construir objetos complexos pa
 
 ## Aplicações no Projeto(QRodízio)
 
+### Disclaimer
 Primeiramente é bom deixar claro que nosso projeto está utilizando de linguagens multi-paradigmas(python e javascript) sendo assim, adaptações ao padões são necessárias para não fugir do esttilo do código utilizado pelo linguegem.
 
 A Linguem python possui em seu "zen of python" a seguinte declaração: "Simple is better than complex". Seguindo a filosifia do "zen of python" **decidimos que, se algo pode ser feito em uma função, então será feito em uma função**.
 
+### Utilização
 Em nossa base de código percemos que a API estava tendo muito código repedido e verboso para instancia os models, sendo assim optamos em exportar essa instanciação mais verbosa para builders para cada model.
 
 Uma vantagem é que esses mesmos builders acabaram por ser utilizado tanto nos comandos de ternimal quanto nos testes unitários.

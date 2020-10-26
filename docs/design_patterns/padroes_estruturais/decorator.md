@@ -36,9 +36,12 @@ O Decorator é um padrão de projeto estrutural que permite que você acople nov
 
 ## Aplicações no Projeto(QRodízio)
 
+### Disclaimer
 Primeiramente é bom deixar claro que nosso projeto está utilizando de linguagens multi-paradigmas(python e javascript) sendo assim, adaptações ao padões são necessárias para não fugir do esttilo do código utilizado pelo linguegem.
 
 A Linguem python possui em seu "zen of python" a seguinte declaração: "Simple is better than complex". Seguindo a filosifia do "zen of python" **decidimos que, se algo pode ser feito em uma função, então será feito em uma função**.
+
+### Utilização
 
 A linguem python possue uma forma bem singular de decorar funções e classes. E que é muito util para fazer validações antes que uma função seja executada, sendo assim optamos por utilizar do decorator para autentificação de usuário na API.
 

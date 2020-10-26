@@ -36,10 +36,12 @@ O Observer é um padrão de projeto comportamental que permite que você defina 
 
 ## Aplicações no Projeto(QRodízio)
 
+### Disclaimer
 Primeiramente é bom deixar claro que nosso projeto está utilizando de linguagens multi-paradigmas(python e javascript) sendo assim, adaptações ao padões são necessárias para não fugir do esttilo do código utilizado pelo linguegem.
 
 A Linguem python possui em seu "zen of python" a seguinte declaração: "Simple is better than complex". Seguindo a filosifia do "zen of python" **decidimos que, se algo pode ser feito em uma função, então será feito em uma função**.
 
+### Utilização
 Em nossa base de código o padrão observer está previsto para ser utilizado mas nao está implementado no momento. Isto se deve ao fato de que ele será utilizado em todo o sistema de notificações(notificar funcionários de pedidos, notificar mesa de status dos pedidos, etc). Porém, toda a parte de notificações está prevista para a próxima sprint e ficou fora dessa release. 
 
 

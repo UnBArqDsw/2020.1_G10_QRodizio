@@ -36,10 +36,12 @@ O Factory Method é um padrão criacional de projeto que fornece uma interface p
 
 ## Aplicações no Projeto(QRodízio)
 
+### Disclaimer
 Primeiramente é bom deixar claro que nosso projeto está utilizando de linguagens multi-paradigmas(python e javascript) sendo assim, adaptações ao padões são necessárias para não fugir do esttilo do código utilizado pelo linguegem.
 
 A Linguem python possui em seu "zen of python" a seguinte declaração: "Simple is better than complex". Seguindo a filosifia do "zen of python" **decidimos que, se algo pode ser feito em uma função, então será feito em uma função**.
 
+### Utilização
 Em nossa base de código o padrão factory é utilizado para definir qual estratégia de verificação de autorização de usuário será utilizada
 
 Segue um exemplo de uso do padrão factory em [authentication](https://github.com/UnBArqDsw/2020.1_G10_QRodizio_Backend/blob/develop/qrodizio/ext/authentication.py):
