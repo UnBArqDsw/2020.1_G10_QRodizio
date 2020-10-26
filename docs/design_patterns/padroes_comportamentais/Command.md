@@ -17,7 +17,7 @@
         Lucas Midlhey(<a target="blank" href="https://github.com/lucasmidlhey">lucasmidlhey</a>)
       </td>
       <td>Noçoes e introdução ao command</td>
-      <td>0.1</td>
+      <td>0.2</td>
     </tr>
   </tbody>
 </table>
