@@ -119,6 +119,7 @@ module.exports = {
             collapsable: true,
             children: [
               "/design_patterns/padroes_estruturais/decorator",
+              "/design_patterns/padroes_estruturais/proxy",
             ]
           }
         ],
