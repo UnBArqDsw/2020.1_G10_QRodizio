@@ -31,7 +31,7 @@ module.exports = {
             title: "Backlog v2",
             path: "/backlog/backlog_produtov2.md",
           },
-        ]
+        ],
       },
       {
         title: "Termo de Abertura",
@@ -60,7 +60,7 @@ module.exports = {
           "/base/lexicos",
           "/base/metodologia",
           "/base/diagrama_comunicacao",
-          "/base/modelagem_BPMN"
+          "/base/modelagem_BPMN",
         ],
       },
       {
@@ -74,8 +74,8 @@ module.exports = {
               "/modelagem/diagramas_dinamicos/diagramas_atividade",
               "/modelagem/diagramas_dinamicos/diagrama_sequencia",
               "/modelagem/diagramas_dinamicos/diagramas_estado",
-              "/modelagem/diagramas_dinamicos/diagrama_casos_de_uso"
-            ]
+              "/modelagem/diagramas_dinamicos/diagrama_casos_de_uso",
+            ],
           },
           {
             title: "Diagramas Estáticos",
@@ -84,8 +84,26 @@ module.exports = {
               "/modelagem/diagramas_estaticos/diagrama_classes",
               "/modelagem/diagramas_estaticos/diagramas_pacote",
               "/modelagem/diagramas_estaticos/diagrama_componentes",
-            ]
-          }
+            ],
+          },
+        ],
+      },
+
+      {
+        title: "Design Patterns",
+        collapsable: true,
+        children: [
+          {
+            title: "Correções",
+            path: "/design_patterns/iniciativas_extra/documentos_corrigidos",
+          },
+          {
+            title: "Comportamentais",
+            collapsable: true,
+            children: [
+              "/design_patterns/padroes_comportamentais/strategy",
+            ],
+          },
         ],
       },
 
@@ -96,7 +114,7 @@ module.exports = {
           "/iniciativas_extra/branches",
           "/iniciativas_extra/issues",
           "/iniciativas_extra/CODE_OF_CONDUCT",
-          "/iniciativas_extra/NFR"
+          "/iniciativas_extra/NFR",
         ],
       },
 
@@ -108,7 +126,7 @@ module.exports = {
           "/reunioes/sprint1",
           "/reunioes/sprint2",
           "/reunioes/sprint3",
-          "/reunioes/sprint4"
+          "/reunioes/sprint4",
         ],
       },
     ],

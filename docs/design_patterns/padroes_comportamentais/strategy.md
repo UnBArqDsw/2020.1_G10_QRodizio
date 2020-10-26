@@ -88,7 +88,7 @@ Este padrão sugere que você pegue uma classe que faz algo específico em diver
 
 ### Trecho do código
 
-```
+```python
 def permission_strategy_factory(role):
     """Given a role, returns a permission strategy for that role"""
     if role == EmployeeRole.basic:
@@ -115,8 +115,6 @@ def manager_permission_strategy(employee):
 def basic_permission_strategy(employee):
     """Baasic permission user just need to be logged"""
     return True
-
-
 ```
 Este trecho de código pode ser encontrado no repositório do backend do projeto QRodízio, no seguinte [arquivo](https://github.com/UnBArqDsw/2020.1_G10_QRodizio_Backend/blob/crud_tables/qrodizio/ext/authentication.py).
 
