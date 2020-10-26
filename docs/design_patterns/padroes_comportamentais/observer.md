@@ -1,0 +1,59 @@
+## Observer
+
+## Histórico de Versão
+
+<table>
+  <thead>
+    <tr>
+      <th>Data</th>
+      <th>Autor(es)</th>
+      <th>Descrição</th>
+      <th>Versão</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>26/10/2020</td>
+      <td>
+        Fábio Teixeira(<a target="blank" href="https://github.com/fabio1079">fabio1079</a>)
+      </td>
+      <td>Adicionando utilização do observer no projeto</td>
+      <td>0.1</td>
+    </tr>
+  </tbody>
+</table>
+
+## Introdução
+
+<p align="justify">&emsp;
+O Observer é um padrão de projeto comportamental que permite que você defina um mecanismo de assinatura para notificar múltiplos objetos sobre quaisquer eventos que aconteçam com o objeto que eles estão observando.
+</p>
+
+## Estrutura
+
+![Estrutura observer](../../images/design_patterns/observer.png)
+
+## Aplicações no Projeto(QRodízio)
+
+Primeiramente é bom deixar claro que nosso projeto está utilizando de linguagens multi-paradigmas(python e javascript) sendo assim, adaptações ao padões são necessárias para não fugir do esttilo do código utilizado pelo linguegem.
+
+A Linguem python possui em seu "zen of python" a seguinte declaração: "Simple is better than complex". Seguindo a filosifia do "zen of python" **decidimos que, se algo pode ser feito em uma função, então será feito em uma função**.
+
+Em nossa base de código o padrão observer está previsto para ser utilizado mas nao está implementado no momento. Isto se deve ao fato de que ele será utilizado em todo o sistema de notificações(notificar funcionários de pedidos, notificar mesa de status dos pedidos, etc). Porém, toda a parte de notificações está prevista para a próxima sprint e ficou fora dessa release. 
+
+
+Toda a parte de notificações está modelada no [diagrama de classes](http://localhost:8080/2020.1_G10_QRodizio/modelagem/diagramas_estaticos/diagrama_classes.html#historico-de-versao) do projeto.
+
+Segue um recorte do diagrama de classes com a utilização do padrão observer
+
+![recorte observer](../../images/design_patterns/recorte-observer.png)
+
+Basicamente será utilizado um strategy(NotificationStrategy) para definir como será a mensagem da notificação.
+
+## Referências
+<ul>
+<li>
+REFACTORING.GURU. Strategy. Disponível em: https://refactoring.guru/pt-br/design-patterns/observer . Acesso em: 26 de outubro. 2020.
+</li>
+</ul>
