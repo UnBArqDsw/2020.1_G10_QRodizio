@@ -1,4 +1,11 @@
 # Sprint 6
+
+| Versão | Descrição | Autor |
+| :----: | :-------- | :---: |
+| 1.0 | Documentação da Sprint 6 do projeto | [Cauê](https://github.com/caue96) |
+
+***
+
 <p align="justify">&emsp;
 A sprint 6 marcou o início do desenvolvimento do sistema em si. Foram planejadas as primeiras histórias de usuários a serem completadas. Além disso, já foram planejadas as aplicações dos GOF's no projeto.
 </p>
@@ -7,7 +14,7 @@ Começamos com três issues básicas para podermos nos acostumar com a dinâmica
 </p>
 
 ## Planejamento
-* **Período:** 05/10/20 - 12/10/20
+* **Período:** 06/10/20 - 12/10/20
 
 ## Objetivos da Sprint
 

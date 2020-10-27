@@ -1,4 +1,11 @@
 # Sprint 7
+
+| Versão | Descrição | Autor |
+| :----: | :-------- | :---: |
+| 1.0 | Documentação da Sprint 7 do projeto | [Cauê](https://github.com/caue96) |
+
+***
+
 <p align="justify">&emsp;
 Na sprint 7, foi decidido fazer os outros cruds mais importantes do sistema, para que tívessemos já um "core" da aplicação, para aplicarmos depois os refinamentos .
 </p>
@@ -7,7 +14,7 @@ Além disso, foi dada continuação à busca por padrões de projetos aplicávei
 </p>
 
 ## Planejamento
-* **Período:** 12/10/20 - 19/10/20
+* **Período:** 13/10/20 - 19/10/20
 
 ## Objetivos da Sprint
 

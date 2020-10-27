@@ -1,4 +1,11 @@
 # Sprint 8
+
+| Versão | Descrição | Autor |
+| :----: | :-------- | :---: |
+| 1.0 | Documentação da Sprint 8 do projeto | [Cauê](https://github.com/caue96) |
+
+***
+
 <p align="justify">&emsp;
 
 Na sprint 8, foi decidido que seriam terminadas as dívidas da [sprint 7](docs/reunioes/sprint7.md), já que são features muito importantes para o projeto e a constinuação do sistema dependeria delas.
@@ -12,7 +19,7 @@ Já que tem apenas resolução de dívidas e documentação de padrões, os pare
 
 
 ## Planejamento
-* **Período:** 19/10/20 - 26/10/20
+* **Período:** 20/10/20 - 26/10/20
 
 ## Objetivos da Sprint
 

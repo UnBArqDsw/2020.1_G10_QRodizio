@@ -1,10 +1,17 @@
 # Sprint 5
+
+| Versão | Descrição | Autor |
+| :----: | :-------- | :---: |
+| 1.0 | Documentação da Sprint 5 do projeto | [Cauê](https://github.com/caue96) |
+
+***
+
 <p align="justify">&emsp;
 A sprint 5 foi focada em revisar os documentos das entregas passadas e completar o que faltava e corrigir os documentos segundo os feedbacks do monitor e da professora.
 </p>
 
 ## Planejamento
-* **Período:** 28/09/20 - 05/10/20
+* **Período:** 29/09/20 - 05/10/20
 
 ## Objetivos da Sprint
 
