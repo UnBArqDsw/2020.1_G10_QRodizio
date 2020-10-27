@@ -27,7 +27,7 @@
         Cauê(<a target="blank" href="https://github.com/caue96">caue96</a>)
       </td>
       <td>Incrementando a introdução do que é o padrão builder</td>
-      <td>0.1</td>
+      <td>0.2</td>
     </tr>
   </tbody>
 </table>

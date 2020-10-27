@@ -24,10 +24,18 @@
     <tr>
       <td>26/10/2020</td>
       <td>
-        Fábio Teixeira(<a target="blank" href="https://github.com/lucasmidlhey">lucasmidlhey</a>)
+        Lucas Midlhey(<a target="blank" href="https://github.com/lucasmidlhey">lucasmidlhey</a>)
       </td>
       <td>Aplicabilidade</td>
       <td>0.2</td>
+    </tr>
+    <tr>
+      <td>26/10/2020</td>
+      <td>
+        Cauê(<a target="blank" href="https://github.com/caue96">caue96</a>)
+      </td>
+      <td>Incrementando a introdução do que é o padrão factory</td>
+      <td>0.3</td>
     </tr>
   </tbody>
 </table>
@@ -35,7 +43,10 @@
 ## Introdução
 
 <p align="justify">&emsp;
-O Factory Method é um padrão criacional de projeto que fornece uma interface para criar objetos em uma superclasse, mas permite que as subclasses alterem o tipo de objetos que serão criados.
+O Factory é um padrão criacional de projeto que fornece uma interface para criar objetos em uma superclasse, mas permite que as subclasses alterem o tipo de objetos que serão criados.
+</p>
+<p align="justify">&emsp;
+O padrão Factory sugere que seja substituido chamadas diretas de construção de objetos por chamadas para um método especial. A mudança de chamada do construtor passa de uma parte do programa para outra, agora pode sobrescrever o método em uma subclasse e alterar as classes que estão sendo criados pelo método.
 </p>
 
 ## Estrutura
