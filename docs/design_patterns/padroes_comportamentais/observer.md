@@ -11,7 +11,6 @@
       <th>Versão</th>
     </tr>
   </thead>
-
   <tbody>
     <tr>
       <td>26/10/2020</td>
@@ -27,7 +26,15 @@
         Lucas Midlhey(<a target="blank" href="https://github.com/lucasmidlhey">lucasmidlhey</a>)
       </td>
       <td>Adicionando referencia e aplicabilidade</td>
-      <td>0.1</td>
+      <td>0.2</td>
+    </tr>
+    <tr>
+      <td>26/10/2020</td>
+      <td>
+        Cauê(<a target="blank" href="https://github.com/caue96">caue96</a>)
+      </td>
+      <td>Incrementando a introdução do que é o padrão observer</td>
+      <td>0.3</td>
     </tr>
   </tbody>
 </table>
@@ -35,7 +42,10 @@
 ## Introdução
 
 <p align="justify">&emsp;
-O Observer é um padrão de projeto comportamental que permite que você defina um mecanismo de assinatura para notificar múltiplos objetos sobre quaisquer eventos que aconteçam com o objeto que eles estão observando.
+O Observer é um padrão de projeto comportamental que permite definir um mecanismo de assinatura para notificar múltiplos objetos sobre quaisquer eventos que aconteçam com o objeto que eles estão observando.
+</p>
+<p align="justify">&emsp;
+O padrão Observer sugere que seja adicionado um mecanismo de assinatura para a classe que notifica outros objetos sobre as mudanças em seu estado, para que objetos individuais possam assinar ou desassinar uma corrente de eventos vindo dessa classe. Esse mecanismo consiste em 2 estapas: 1 - Um vetor para armazenar uma lista de referências aos objetos que querem saber das mudanças do estado da classe notificadora; 2 - Alguns métodos públicos que permitem adicionar os objetos que querem saber das mudanças do estado da classe notificadora e removê-los da lista.
 </p>
 
 ## Estrutura
