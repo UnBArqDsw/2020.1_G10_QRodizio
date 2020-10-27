@@ -98,6 +98,10 @@ module.exports = {
             path: "/design_patterns/iniciativas_extra/documentos_corrigidos",
           },
           {
+            title: "GRASP(s)",
+            path: "/design_patterns/grasps/grasps",
+          },
+          {
             title: "Comportamentais",
             collapsable: true,
             children: [

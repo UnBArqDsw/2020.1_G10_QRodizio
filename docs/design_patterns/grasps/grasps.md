@@ -20,8 +20,18 @@
       <td>Adicionando introdução GRASPS </td>
       <td>0.1</td>
     </tr>
+    <tr>
+      <td>26/10/2020</td>
+      <td>
+        Cauê(<a target="blank" href="https://github.com/caue96">caue96</a>)
+      </td>
+      <td>Adicionando pontos do código de aplicação dos padrões GRASP(s)</td>
+      <td>0.2</td>
+    </tr>
   </tbody>
 </table>
+
+***
 
 ## Introdução
 
@@ -34,16 +44,14 @@ A sigla GRASPS vem de "General Responsibility Assignment Software Patterns", ele
 
 ### GRASPS aplicados no projeto (QRodízio)
 
-<ul>
-<li>Information Expert(Especialista de informação): Determina quando devemos delegar a responsabilidade para um outro objeto que seja especialista naquele domínio.</li>
-(COLOCAR LINKS e EXPLICAR)
-<li>Creator(Criador): Determina qual classe deve ser responsável pela criação certos objetos.</li>
-(COLOCAR LINKS e EXPLICAR)
-<li>Low Coupling(Baixo acoplamento): Determina que as classes não devem depender de objetos concretos e sim de abstrações, para permitir que haja mudanças sem impacto.</li>
-(COLOCAR LINKS e EXPLICAR)
-<li>High Cohesion(Alta coesão): este princípio determina que as classes devem se focar apenas na sua responsabilidade.</li>
-(COLOCAR LINKS e EXPLICAR)
-</ul>
+* Information Expert(Especialista de informação): Determina quando devemos delegar a responsabilidade para um outro objeto que seja especialista naquele domínio.<br>
+  * A classe [Menu](https://github.com/UnBArqDsw/2020.1_G10_QRodizio_Backend/blob/master/qrodizio/models/menus.py) é especialista da classe [Item](https://github.com/UnBArqDsw/2020.1_G10_QRodizio_Backend/blob/master/qrodizio/models/menus.py);
+  * A classe [TableSession](https://github.com/UnBArqDsw/2020.1_G10_QRodizio_Backend/blob/master/qrodizio/models/tables.py) é especialista da classe "Conta", classe essa que ainda não foi implementada;
+  * A classe "Conta", que ainda não foi implementada, é especialista da classe [Demand](https://github.com/UnBArqDsw/2020.1_G10_QRodizio_Backend/blob/master/qrodizio/models/demands.py).
+* Creator(Criador): Determina qual classe deve ser responsável pela criação certos objetos.
+  * A classe [User](https://github.com/UnBArqDsw/2020.1_G10_QRodizio_Backend/blob/master/qrodizio/models/users.py) é criadora da classe "Conta", classe essa que ainda não foi implementada.
+* Polimorfism(Polimorfismo): As responsabilidades devem ser atribuídas a abstrações e não a objetos concretos, permitindo que eles possam variar conforme a necessidade.
+  * A função de notificação, ainda não implementada, utilizará do polimorfismos para envio de mensagens tanto para usuários quanto para funcionários que irá variar de acordo com o que se deseja. Exemplo: a mesma função retornará mensagens diferentes para quando o usuário fizer um pedido, para quando um usuário fechar a conta, para quando o usuário pagar a conta, etc, sempre mostrando diferentes mensagens a depender de onde a requisição venha.
 
 
 ## Referências
