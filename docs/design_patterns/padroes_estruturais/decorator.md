@@ -29,13 +29,27 @@
       <td>Correções básicas</td>
       <td>0.2</td>
     </tr>
+    <tr>
+      <td>26/10/2020</td>
+      <td>
+        Cauê(<a target="blank" href="https://github.com/caue96">caue96</a>)
+      </td>
+      <td>Incrementando a introdução do que é o padrão decorator</td>
+      <td>0.3</td>
+    </tr>
   </tbody>
 </table>
 
 ## Introdução
 
 <p align="justify">&emsp;
-O Decorator é um padrão de projeto estrutural que permite que você acople novos comportamentos para objetos ao colocá-los dentro de invólucros de objetos que contém os comportamentos.
+O Decorator é um padrão de projeto estrutural que permite acoplar novos comportamentos para objetos ao colocá-los dentro de invólucros de objetos que contém os comportamentos.
+</p>
+<p align="justify">&emsp;
+“Envoltório” ou “wrapper é o apelido alternativo para o padrão Decorator que expressa claramente a ideia principal dele. Um envoltório é um objeto que pode ser ligado com outro objeto alvo. O envoltório contém o mesmo conjunto de métodos que o alvo e delega a ele todos os pedidos que recebe. Contudo, o envoltório pode alterar o resultado fazendo alguma coisa ou antes ou depois de passar o pedido para o alvo.
+</p>
+<p align="justify">&emsp;
+O envoltório implementa a mesma interface que o objeto envolvido. É por isso que da perspectiva do cliente esses objetos são idênticos. É necessário fazer o campo de referência do envoltório aceitar qualquer objeto que segue aquela interface. Com isso será permitido cobrir um objeto em múltiplos envoltórios, adicionando o comportamento combinado de todos os envoltórios a ele.
 </p>
 
 ## Estrutura
