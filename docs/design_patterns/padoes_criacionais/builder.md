@@ -21,13 +21,24 @@
       <td>Adicionando utilização do builder no projeto</td>
       <td>0.1</td>
     </tr>
+    <tr>
+      <td>26/10/2020</td>
+      <td>
+        Cauê(<a target="blank" href="https://github.com/caue96">caue96</a>)
+      </td>
+      <td>Incrementando a introdução do que é o padrão builder</td>
+      <td>0.1</td>
+    </tr>
   </tbody>
 </table>
 
 ## Introdução
 
 <p align="justify">&emsp;
-O Builder é um padrão de criacional que permite construir objetos complexos passo a passo. O padrão permite que você produza diferentes tipos e representações de um objeto usando o mesmo código de construção.
+O Builder é um padrão de criacional que permite construir objetos complexos. O padrão permite que você produza diferentes tipos e representações de um objeto usando o mesmo código de construção.
+</p>
+<p align="justify">&emsp;
+O padrão Builder sugere que se extraia o código de construção do objeto para fora de sua própria classe e mova ele para objetos separados chamados construtores ou builders. 
 </p>
 
 ## Estrutura
