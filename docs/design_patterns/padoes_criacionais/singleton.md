@@ -24,10 +24,18 @@
     <tr>
       <td>26/10/2020</td>
       <td>
-        Fábio Teixeira(<a target="blank" href="https://github.com/lucasmidlhey">lucasmidlhey</a>)
+        Lucas Midlhey(<a target="blank" href="https://github.com/lucasmidlhey">lucasmidlhey</a>)
       </td>
       <td>Aplicabilidade de projeto</td>
       <td>0.2</td>
+    </tr>
+    <tr>
+      <td>26/10/2020</td>
+      <td>
+        Cauê(<a target="blank" href="https://github.com/caue96">caue96</a>)
+      </td>
+      <td>Incrementando a introdução do que é o padrão singleton</td>
+      <td>0.3</td>
     </tr>
   </tbody>
 </table>
@@ -35,7 +43,10 @@
 ## Introdução
 
 <p align="justify">&emsp;
-O Singleton é um padrão de projeto criacional que permite a você garantir que uma classe tenha apenas uma instância, enquanto provê um ponto de acesso global para essa instância.
+O Singleton é um padrão de projeto criacional que permite garantir que uma classe tenha apenas uma instância, enquanto provê um ponto de acesso global para essa instância.
+</p>
+<p align="justify">&emsp;
+O padrão singleton tem 2 característica que todos os códigos que a implementam possuem: 1 - Um construtor padrão privado, para prevenir que outros objetos usem o operador new com a classe singleton; 2 - Um método estático de criação que age como um construtor. Esse método chama o construtor privado rodando de forma escondida para criar um objeto e o salva em um campo estático. Todas as chamadas seguintes para esse método retornam o objeto em cache.
 </p>
 
 ## Estrutura
