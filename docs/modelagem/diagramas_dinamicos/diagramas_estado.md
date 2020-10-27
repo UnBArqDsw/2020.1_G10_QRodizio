@@ -103,6 +103,20 @@ Utilizamos os diagramas de estados para mostrar as transições de estados dos f
 
 ![Diagrama estados cardápio](../../images/UML/DiagramaEstadoCardapio.png)
 
+### Rastreabilidade
+
+Os diagramas acima ilustram as seguintes funcionalidades do [Backlog](/docs/backlog/backlog_produtov2.md)
+
+
+|ID|Descrição|
+|--|--|
+|a05|O sistema deve permitir Cadastrar cardápio geral|
+|c02|O cliente deve poder acessar o cardápio|
+|c03|O cliente deve poder realizar pedidos|
+|c07|O cliente deve poder escolher forma de pagamento|
+|f05|O sistema deve permitir Cadastrar cardápio do dia|
+
+
 ## Referências
 <ul>
 <li>LUCIDCHART.
