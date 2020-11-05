@@ -93,7 +93,7 @@ A aplicação deverá ser suportada pelos navegadores, Mozilla Firefox, Google C
 
 Para facilitar no desenvolvimento a ferramenta Docker será utilizada garantindo que todos no desenvolvimento estão utilizando o mesmo ambiente e configurações.
 
-## 4 . Casos de Uso
+## 4. Casos de Uso
 
 O diagrama de casos de uso auxiliam a comunicação entre os papéis dentro do software apresentando as principais funcionalidades focando no cliente, descrevendo cenários de interação entre as partes internas e externas do sistema com foco no usuário.
 
@@ -103,7 +103,7 @@ Nossos casos de uso foram criados no inicio do projeto para auxiliar o levantame
 
 [Rastreabilidade](https://unbarqdsw.github.io/2020.1_G10_QRodizio/modelagem/diagramas_dinamicos/diagrama_casos_de_uso.html#versoes-2-0)
 
-## 5 Visão lógica
+## 5. Visão lógica
 
 Descrevemos como o sistema é estruturado, em termos de unidades de implementação. Os elementos são pacotes, classes e interfaces. O relacionamento entre os elementos mostra as dependências, as realizações de interface, os relacionamentos parte-todo e assim por diante.
 
@@ -111,12 +111,12 @@ Descrevemos como o sistema é estruturado, em termos de unidades de implementaç
 
 Muito utilizado para ilustrar a arquitetura de um sistema mostrando o agrupamento de suas classes dividindo entre pedaços do sistema lógico e dependência entre eles.
 
-[diagrama de pacotes]()
+[diagrama de pacotes](https://unbarqdsw.github.io/2020.1_G10_QRodizio/modelagem/diagramas_estaticos/diagramas_pacote.html#versoes-1-0)
 
-## 6 Visão de processos
+## 6. Visão de processos
 
-## 7 Visão de implantação
+## 7. Visão de implantação
 
-## 8 Tamanho e Desempenho
+## 8. Tamanho e Desempenho
 
-## 9 Qualidade
+## 9. Qualidade
