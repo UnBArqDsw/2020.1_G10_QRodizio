@@ -25,7 +25,7 @@ Fábio Teixeira(<a  target="blank"  href="https://github.com/fabio1079">fabio107
 <td>
 Lucas Midlhey(<a  target="blank"  href="https://github.com/lucasmidlhey">lucasmidlhey</a>)
 </td>
-<td></td>
+<td>Visão geral, Visão lógica, diagram de pacotes</td>
 <td>0.2</td>
 </tr>
 </tbody>
@@ -104,3 +104,19 @@ Nossos casos de uso foram criados no inicio do projeto para auxiliar o levantame
 [Rastreabilidade](https://unbarqdsw.github.io/2020.1_G10_QRodizio/modelagem/diagramas_dinamicos/diagrama_casos_de_uso.html#versoes-2-0)
 
 ## 5 Visão lógica
+
+Descrevemos como o sistema é estruturado, em termos de unidades de implementação. Os elementos são pacotes, classes e interfaces. O relacionamento entre os elementos mostra as dependências, as realizações de interface, os relacionamentos parte-todo e assim por diante.
+
+### 5.1 Visão de pacotes
+
+Muito utilizado para ilustrar a arquitetura de um sistema mostrando o agrupamento de suas classes dividindo entre pedaços do sistema lógico e dependência entre eles.
+
+[diagrama de pacotes]()
+
+## 6 Visão de processos
+
+## 7 Visão de implantação
+
+## 8 Tamanho e Desempenho
+
+## 9 Qualidade
