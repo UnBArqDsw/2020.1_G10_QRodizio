@@ -36,6 +36,14 @@ Lucas Midlhey(<a  target="blank"  href="https://github.com/lucasmidlhey">lucasmi
   <td>Adicionando Visão de Processos</td>
   <td>0.3</td>
 </tr>
+<tr>
+  <td>10/11/2020</td>
+  <td>
+    Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>)
+  </td>
+  <td>Começando tópico de qualidade</td>
+  <td>0.4</td>
+</tr>
 </tbody>
 </table>
 
@@ -138,3 +146,15 @@ A visão de processos ilustra a interação e os comportamentos de um conjuto de
 ## 8. Tamanho e Desempenho
 
 ## 9. Qualidade
+
+
+Os padrões de projeto aplicados(GRASPS e GOF's) no sistema têm várias características que aumentam a qualidade do código e, consequentemente, o projeto como um todo.
+Tais Padrões podem ser vistos na [documentação dos padrões de projeto](https://github.com/UnBArqDsw/2020.1_G10_QRodizio/tree/master/docs/design_patterns).
+
+Esses padrões agregam pontos no projeto como:
+
+-
+-
+-
+
+Além disso, foram feitos [NFR's](https://github.com/UnBArqDsw/2020.1_G10_QRodizio/blob/master/docs/iniciativas_extra/NFR.md), que ilustram requisitos não funcionais, que também objetivam aumentar a qualidade do sistema, mas em aspectos como eficiência, segurança, etc.
