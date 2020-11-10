@@ -36,6 +36,14 @@ Lucas Midlhey(<a  target="blank"  href="https://github.com/lucasmidlhey">lucasmi
   <td>Adicionando Visão de Processos</td>
   <td>0.3</td>
 </tr>
+<tr>
+  <td>10/11/2020</td>
+  <td>
+    Lucas Midlhey(<a target="blank" href="https://github.com/lucasmidlhey">lucasmidlhey</a>)
+  </td>
+  <td>Visão de implementação</td>
+  <td>0.4</td>
+</tr>
 </tbody>
 </table>
 
@@ -132,6 +140,41 @@ A visão de processos ilustra a interação e os comportamentos de um conjuto de
 [Diagramas de Atividade](https://github.com/UnBArqDsw/2020.1_G10_QRodizio/blob/master/docs/modelagem/diagramas_dinamicos/diagramas_atividade.md)
 
 ## 7. Visão de implantação
+
+## 8. Visão de implementação
+
+A visão de implementação permite compreender a distribuição física do sistema analisando o fluxo de trabalho sob o design. Seu principal foco é ilustrar a distribuição do processamento em conjunto de nós do sistema, incluindo uma distriução física dos processos.
+
+As camadas do nossos software são:
+
+- Funcionário
+- Pedidos
+- Cliente
+- Banco de dados
+
+Cada camada existem sub camadas que tem uma função específica e nelas um relacionamento de processos capaz de gerir e manter o sistema.
+
+O [diagrama de componentes](https://unbarqdsw.github.io/2020.1_G10_QRodizio/modelagem/diagramas_estaticos/diagrama_componentes.html) ilustra bem as camadas e subcamadas.
+
+### 8.1 Camadas e subcamadas
+
+Para entender cada camada se faz uma analise do [diagrama de classes](https://unbarqdsw.github.io/2020.1_G10_QRodizio/modelagem/diagramas_estaticos/diagrama_classes.html#diagrama) onde mostra com mais detalhes cada método de cada subcamada
+
+- 1.Funcionário
+  - 1.1. Autenticação
+  - 1.2. Autenticação gerente
+    </br>
+- 2.Pedidos
+  - 2.1. Pedidos pendentes
+  - 2.2. Pedidos finalizados
+  - 2.3. Novo pedido
+    </br>
+- 3.Cliente
+  - 3.1. Mesa
+  - 3.2. pagamento
+    </br>
+- 4.Banco de dados
+  - 4.1. dados
 
 ## 8. Tamanho e Desempenho
 
