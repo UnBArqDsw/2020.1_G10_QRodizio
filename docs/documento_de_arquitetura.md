@@ -143,6 +143,28 @@ A visão de processos ilustra a interação e os comportamentos de um conjuto de
 
 ## 7. Visão de implantação
 
+Pode-se descrever, em alto nível, as seguintes etapas para a implantação do software nos ambientes de produção:
+
+1- Pull request da funcionalidade para a branch de desenvolvimento;
+2- Análise estática do código e build do software através de um sistema de integração contínua;
+3- Mesclagem do código na branch de desenvolvimento;
+4- Deploy do software para o ambiente de homologação (staging);
+5- Mesclagem do código na branch master;
+6- Deploy do software para o ambiente de produção.
+
+Ferramentas: 
+
+1 - Docker
+2 - Gitlab
+3 - Github
+4 - Pytest
+
+### 7.1. Back-end (API)
+O processo de implantação para a API contém múltiplas etapas para assegurar que o código que chegue aos ambientes de produção foi verificado e validado com o uso de ferramentas automáticas e a prática de code review.
+
+### 7.2. Front-end (UI)
+As implantações na interface de usuário seguirão o mesmo princípio, mudando apenas, se necessário, as ferramentas automáticas. Além disso, é importante que a interface de usuário seja validada através de testes com pessoas.
+
 ## 8. Tamanho e Desempenho
 
 ## 9. Qualidade
