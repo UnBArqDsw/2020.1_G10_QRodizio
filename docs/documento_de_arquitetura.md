@@ -63,6 +63,8 @@ O QRodízio visa ser uma ferramenta que auxilia no gerenciamento de mesas de rod
 
 - Diretriz: Visão Arquitetural. Disponível em: https://www.trt9.jus.br/pds/v1-1/pdstrt9/guidances/guidelines/architectural_view_FF6EDA37.html#:~:text=Vis%C3%A3o%20de%20Processo%3A%20Descreve%20como,de%20tempo%2Dde%2Dexecu%C3%A7%C3%A3o.&text=Vis%C3%A3o%20de%20Implanta%C3%A7%C3%A3o%3A%20Descreve%20como,uso%20das%20Vis%C3%B5es%204%2B1. Acesso em: 10 de novembro. 2020.
 
+- Visões Arquiteturais. Disponível em: http://www.inf.ufpr.br/andrey/ci163/VisoesAl.pdf. Acesso em: 10 de novembro. 2020.
+
 ### 1.5 Visão Geral
 
 Neste documento traremos alguns pontos que elucidam melhor a arquitetura do projeto detalhando suas representações e casos. Iremos abordar representação da arquitetura, objetivos e restrições, visão caso de uso, lógica, processos e implantação, qualidade, tamanho e desempenho.
