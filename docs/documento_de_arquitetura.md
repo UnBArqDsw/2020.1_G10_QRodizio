@@ -44,6 +44,14 @@ Lucas Midlhey(<a  target="blank"  href="https://github.com/lucasmidlhey">lucasmi
   <td>Começando tópico de qualidade</td>
   <td>0.4</td>
 </tr>
+<tr>
+  <td>10/11/2020</td>
+  <td>
+    Joao Pedro Gomes(<a target="blank" href="https://github.com/jppgomes">jppgomes</a>)
+  </td>
+  <td>Começando tópico de implantacao</td>
+  <td>0.5</td>
+</tr>
 </tbody>
 </table>
 
@@ -145,19 +153,19 @@ A visão de processos ilustra a interação e os comportamentos de um conjuto de
 
 Pode-se descrever, em alto nível, as seguintes etapas para a implantação do software nos ambientes de produção:
 
-1- Pull request da funcionalidade para a branch de desenvolvimento;
-2- Análise estática do código e build do software através de um sistema de integração contínua;
-3- Mesclagem do código na branch de desenvolvimento;
-4- Deploy do software para o ambiente de homologação (staging);
-5- Mesclagem do código na branch master;
-6- Deploy do software para o ambiente de produção.
+- Pull request da funcionalidade para a branch de desenvolvimento;
+- Análise estática do código e build do software através de um sistema de integração contínua;
+- Mesclagem do código na branch de desenvolvimento;
+- Deploy do software para o ambiente de homologação (staging);
+- Mesclagem do código na branch master;
+- Deploy do software para o ambiente de produção.
 
 Ferramentas: 
 
-1 - Docker
-2 - Gitlab
-3 - Github
-4 - Pytest
+- Docker
+- Gitlab
+- Github
+- Pytest
 
 ### 7.1. Back-end (API)
 O processo de implantação para a API contém múltiplas etapas para assegurar que o código que chegue aos ambientes de produção foi verificado e validado com o uso de ferramentas automáticas e a prática de code review.
