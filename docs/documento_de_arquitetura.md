@@ -173,6 +173,8 @@ O processo de implantação para a API contém múltiplas etapas para assegurar 
 ### 7.2. Front-end (UI)
 As implantações na interface de usuário seguirão o mesmo princípio, mudando apenas, se necessário, as ferramentas automáticas. Além disso, é importante que a interface de usuário seja validada através de testes com pessoas.
 
+[![GITFLOW](./images/arquitetura/gitflow.png)](https://ibb.co/J2M5wqB)
+
 ## 8. Tamanho e Desempenho
 
 ## 9. Qualidade
