@@ -44,6 +44,14 @@ Lucas Midlhey(<a  target="blank"  href="https://github.com/lucasmidlhey">lucasmi
   <td>Visão de implementação</td>
   <td>0.4</td>
 </tr>
+<tr>
+  <td>10/11/2020</td>
+  <td>
+    Lucas Midlhey(<a target="blank" href="https://github.com/lucasmidlhey">lucasmidlhey</a>)
+  </td>
+  <td>qualidade sob modelo de arquitetura</td>
+  <td>0.5</td>
+</tr>
 </tbody>
 </table>
 
@@ -181,3 +189,8 @@ Para entender cada camada se faz uma analise do [diagrama de classes](https://un
 ## 8. Tamanho e Desempenho
 
 ## 9. Qualidade
+
+A arquitetura adotada, utilizada como adaptação MVT, oferece uma organização das camadas da aplicação possibilitando aos desenvolvedores uma fácil manutenção.
+Seguimos alguns padrões [GRASP](https://unbarqdsw.github.io/2020.1_G10_QRodizio/design_patterns/grasps/grasps.html). Para ter uma extensibilidade podendo acomplar novos comportamentos para objetos utilizamos como padrão estrutural o [Decorator](https://unbarqdsw.github.io/2020.1_G10_QRodizio/design_patterns/padroes_estruturais/decorator.html#decorator).
+Para manutenção, portabilidade e futuras features utilizamos padrões criacionais entre eles [builder](https://unbarqdsw.github.io/2020.1_G10_QRodizio/design_patterns/padoes_criacionais/builder.html#builder), [factory](https://unbarqdsw.github.io/2020.1_G10_QRodizio/design_patterns/padoes_criacionais/factory.html#factory), [singleton](https://unbarqdsw.github.io/2020.1_G10_QRodizio/design_patterns/padoes_criacionais/singleton.html).
+E seguimos alguns padrões comportamentais capazes de trazer confiabilidade tais como [strategy](https://unbarqdsw.github.io/2020.1_G10_QRodizio/design_patterns/padroes_comportamentais/strategy.html#strategy) e [observer](https://unbarqdsw.github.io/2020.1_G10_QRodizio/design_patterns/padroes_comportamentais/observer.html#historico-de-versao).
