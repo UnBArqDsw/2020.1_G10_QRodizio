@@ -52,6 +52,14 @@ Lucas Midlhey(<a  target="blank"  href="https://github.com/lucasmidlhey">lucasmi
   <td>Começando tópico de implantacao</td>
   <td>0.5</td>
 </tr>
+<tr>
+  <td>10/11/2020</td>
+  <td>
+    Lucas Midlhey(<a target="blank" href="https://github.com/lucasmidlhey">lucasmidlhey</a>)
+  </td>
+  <td>Começando tópico de implantacao</td>
+  <td>0.6</td>
+</tr>
 </tbody>
 </table>
 
@@ -160,7 +168,7 @@ Pode-se descrever, em alto nível, as seguintes etapas para a implantação do s
 - Mesclagem do código na branch master;
 - Deploy do software para o ambiente de produção.
 
-Ferramentas: 
+Ferramentas:
 
 - Docker
 - Gitlab
@@ -168,25 +176,61 @@ Ferramentas:
 - Pytest
 
 ### 7.1. Back-end (API)
+
 O processo de implantação para a API contém múltiplas etapas para assegurar que o código que chegue aos ambientes de produção foi verificado e validado com o uso de ferramentas automáticas e a prática de code review.
 
 ### 7.2. Front-end (UI)
+
 As implantações na interface de usuário seguirão o mesmo princípio, mudando apenas, se necessário, as ferramentas automáticas. Além disso, é importante que a interface de usuário seja validada através de testes com pessoas.
 
+<<<<<<< HEAD
 [![GITFLOW](./images/arquitetura/gitflow.png)](https://ibb.co/J2M5wqB)
+
+## 8. Tamanho e Desempenho
+=======
+## 8. Visão de implementação
+>>>>>>> 6292a2526326f7456a6aac0e8b8801f35ac9961f
+
+A visão de implementação permite compreender a distribuição física do sistema analisando o fluxo de trabalho sob o design. Seu principal foco é ilustrar a distribuição do processamento em conjunto de nós do sistema, incluindo uma distriução física dos processos.
+
+As camadas do nossos software são:
+
+- Funcionário
+- Pedidos
+- Cliente
+- Banco de dados
+
+Cada camada existem sub camadas que tem uma função específica e nelas um relacionamento de processos capaz de gerir e manter o sistema.
+
+O [diagrama de componentes](https://unbarqdsw.github.io/2020.1_G10_QRodizio/modelagem/diagramas_estaticos/diagrama_componentes.html) ilustra bem as camadas e subcamadas.
+
+### 8.1 Camadas e subcamadas
+
+Para entender cada camada se faz uma analise do [diagrama de classes](https://unbarqdsw.github.io/2020.1_G10_QRodizio/modelagem/diagramas_estaticos/diagrama_classes.html#diagrama) onde mostra com mais detalhes cada método de cada subcamada
+
+- 1.Funcionário
+  - 1.1. Autenticação
+  - 1.2. Autenticação gerente
+    </br>
+- 2.Pedidos
+  - 2.1. Pedidos pendentes
+  - 2.2. Pedidos finalizados
+  - 2.3. Novo pedido
+    </br>
+- 3.Cliente
+  - 3.1. Mesa
+  - 3.2. pagamento
+    </br>
+- 4.Banco de dados
+  - 4.1. dados
 
 ## 8. Tamanho e Desempenho
 
 ## 9. Qualidade
 
-
-Os padrões de projeto aplicados(GRASPS e GOF's) no sistema têm várias características que aumentam a qualidade do código e, consequentemente, o projeto como um todo.
-Tais Padrões podem ser vistos na [documentação dos padrões de projeto](https://github.com/UnBArqDsw/2020.1_G10_QRodizio/tree/master/docs/design_patterns).
-
-Esses padrões agregam pontos no projeto como:
-
--
--
--
+A arquitetura adotada, utilizada como adaptação MVT, oferece uma organização das camadas da aplicação possibilitando aos desenvolvedores uma fácil manutenção.
+Seguimos alguns padrões [GRASP](https://unbarqdsw.github.io/2020.1_G10_QRodizio/design_patterns/grasps/grasps.html). Para ter uma extensibilidade podendo acomplar novos comportamentos para objetos utilizamos como padrão estrutural o [Decorator](https://unbarqdsw.github.io/2020.1_G10_QRodizio/design_patterns/padroes_estruturais/decorator.html#decorator).
+Para manutenção, portabilidade e futuras features utilizamos padrões criacionais entre eles [builder](https://unbarqdsw.github.io/2020.1_G10_QRodizio/design_patterns/padoes_criacionais/builder.html#builder), [factory](https://unbarqdsw.github.io/2020.1_G10_QRodizio/design_patterns/padoes_criacionais/factory.html#factory), [singleton](https://unbarqdsw.github.io/2020.1_G10_QRodizio/design_patterns/padoes_criacionais/singleton.html).
+E seguimos alguns padrões comportamentais capazes de trazer confiabilidade tais como [strategy](https://unbarqdsw.github.io/2020.1_G10_QRodizio/design_patterns/padroes_comportamentais/strategy.html#strategy) e [observer](https://unbarqdsw.github.io/2020.1_G10_QRodizio/design_patterns/padroes_comportamentais/observer.html#historico-de-versao).
 
 Além disso, foram feitos [NFR's](https://github.com/UnBArqDsw/2020.1_G10_QRodizio/blob/master/docs/iniciativas_extra/NFR.md), que ilustram requisitos não funcionais, que também objetivam aumentar a qualidade do sistema, mas em aspectos como eficiência, segurança, etc.
