@@ -39,18 +39,26 @@ Lucas Midlhey(<a  target="blank"  href="https://github.com/lucasmidlhey">lucasmi
 <tr>
   <td>10/11/2020</td>
   <td>
-    Lucas Midlhey(<a target="blank" href="https://github.com/lucasmidlhey">lucasmidlhey</a>)
+    Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>)
   </td>
-  <td>Visão de implementação</td>
+  <td>Começando tópico de qualidade</td>
   <td>0.4</td>
+</tr>
+<tr>
+  <td>10/11/2020</td>
+  <td>
+    Joao Pedro Gomes(<a target="blank" href="https://github.com/jppgomes">jppgomes</a>)
+  </td>
+  <td>Começando tópico de implantacao</td>
+  <td>0.5</td>
 </tr>
 <tr>
   <td>10/11/2020</td>
   <td>
     Lucas Midlhey(<a target="blank" href="https://github.com/lucasmidlhey">lucasmidlhey</a>)
   </td>
-  <td>qualidade sob modelo de arquitetura</td>
-  <td>0.5</td>
+  <td>Começando tópico de implantacao</td>
+  <td>0.6</td>
 </tr>
 </tbody>
 </table>
@@ -151,6 +159,30 @@ A visão de processos ilustra a interação e os comportamentos de um conjuto de
 
 ## 7. Visão de implantação
 
+Pode-se descrever, em alto nível, as seguintes etapas para a implantação do software nos ambientes de produção:
+
+- Pull request da funcionalidade para a branch de desenvolvimento;
+- Análise estática do código e build do software através de um sistema de integração contínua;
+- Mesclagem do código na branch de desenvolvimento;
+- Deploy do software para o ambiente de homologação (staging);
+- Mesclagem do código na branch master;
+- Deploy do software para o ambiente de produção.
+
+Ferramentas:
+
+- Docker
+- Gitlab
+- Github
+- Pytest
+
+### 7.1. Back-end (API)
+
+O processo de implantação para a API contém múltiplas etapas para assegurar que o código que chegue aos ambientes de produção foi verificado e validado com o uso de ferramentas automáticas e a prática de code review.
+
+### 7.2. Front-end (UI)
+
+As implantações na interface de usuário seguirão o mesmo princípio, mudando apenas, se necessário, as ferramentas automáticas. Além disso, é importante que a interface de usuário seja validada através de testes com pessoas.
+
 ## 8. Visão de implementação
 
 A visão de implementação permite compreender a distribuição física do sistema analisando o fluxo de trabalho sob o design. Seu principal foco é ilustrar a distribuição do processamento em conjunto de nós do sistema, incluindo uma distriução física dos processos.
@@ -194,3 +226,5 @@ A arquitetura adotada, utilizada como adaptação MVT, oferece uma organização
 Seguimos alguns padrões [GRASP](https://unbarqdsw.github.io/2020.1_G10_QRodizio/design_patterns/grasps/grasps.html). Para ter uma extensibilidade podendo acomplar novos comportamentos para objetos utilizamos como padrão estrutural o [Decorator](https://unbarqdsw.github.io/2020.1_G10_QRodizio/design_patterns/padroes_estruturais/decorator.html#decorator).
 Para manutenção, portabilidade e futuras features utilizamos padrões criacionais entre eles [builder](https://unbarqdsw.github.io/2020.1_G10_QRodizio/design_patterns/padoes_criacionais/builder.html#builder), [factory](https://unbarqdsw.github.io/2020.1_G10_QRodizio/design_patterns/padoes_criacionais/factory.html#factory), [singleton](https://unbarqdsw.github.io/2020.1_G10_QRodizio/design_patterns/padoes_criacionais/singleton.html).
 E seguimos alguns padrões comportamentais capazes de trazer confiabilidade tais como [strategy](https://unbarqdsw.github.io/2020.1_G10_QRodizio/design_patterns/padroes_comportamentais/strategy.html#strategy) e [observer](https://unbarqdsw.github.io/2020.1_G10_QRodizio/design_patterns/padroes_comportamentais/observer.html#historico-de-versao).
+
+Além disso, foram feitos [NFR's](https://github.com/UnBArqDsw/2020.1_G10_QRodizio/blob/master/docs/iniciativas_extra/NFR.md), que ilustram requisitos não funcionais, que também objetivam aumentar a qualidade do sistema, mas em aspectos como eficiência, segurança, etc.
