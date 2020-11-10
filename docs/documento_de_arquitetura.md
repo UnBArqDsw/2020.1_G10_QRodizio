@@ -125,7 +125,7 @@ Muito utilizado para ilustrar a arquitetura de um sistema mostrando o agrupament
 
 ## 6. Visão de processos
 
-A visão de processos ilustra a interação e os comportamentos de um conjuto de elementos em tempo-de-execução(Processos, threads, atividades, etc.). A visão dos processos empregados no projetos podem ser encontradas nos seguintes documentos:
+A visão de processos ilustra a interação e os comportamentos de um conjuto de elementos em tempo-de-execução(Processos, threads, atividades, etc.) e mostra como se dá a comunicação e a concorrência dessas threads. A visão dos processos empregados no projeto, que ilustram os principais fluxos de comunicações do sistema, podem ser encontradas nos seguintes documentos:
 
 [Diagamas de Sequência](https://github.com/UnBArqDsw/2020.1_G10_QRodizio/blob/master/docs/modelagem/diagramas_dinamicos/diagrama_sequencia.md)
 
