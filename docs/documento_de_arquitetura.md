@@ -28,6 +28,14 @@ Lucas Midlhey(<a  target="blank"  href="https://github.com/lucasmidlhey">lucasmi
 <td>Visão geral, Visão lógica, diagram de pacotes</td>
 <td>0.2</td>
 </tr>
+<tr>
+  <td>10/11/2020</td>
+  <td>
+    Caio César Beleza(<a target="blank" href="https://github.com/Caiocbeleza">Caiocbeleza</a>)
+  </td>
+  <td>Adicionando Visão de Processos</td>
+  <td>0.3</td>
+</tr>
 </tbody>
 </table>
 
@@ -52,6 +60,8 @@ O QRodízio visa ser uma ferramenta que auxilia no gerenciamento de mesas de rod
 - Socket.IO. Em: WIKIPÉDIA: a enciclopédia livre. Disponível em: [https://en.wikipedia.org/wiki/Socket.IO)](https://en.wikipedia.org/wiki/Socket.IO). Acesso em: 2 de outubro de 2020.
 
 - O que é Vuex? Em: vuex.vuejs.org. Disponível em: [https://vuex.vuejs.org/ptbr/](https://vuex.vuejs.org/ptbr/). Acesso em: 2 de outubro de 2020.
+
+- Diretriz: Visão Arquitetural. Disponível em: https://www.trt9.jus.br/pds/v1-1/pdstrt9/guidances/guidelines/architectural_view_FF6EDA37.html#:~:text=Vis%C3%A3o%20de%20Processo%3A%20Descreve%20como,de%20tempo%2Dde%2Dexecu%C3%A7%C3%A3o.&text=Vis%C3%A3o%20de%20Implanta%C3%A7%C3%A3o%3A%20Descreve%20como,uso%20das%20Vis%C3%B5es%204%2B1. Acesso em: 10 de novembro. 2020.
 
 ### 1.5 Visão Geral
 
@@ -114,6 +124,12 @@ Muito utilizado para ilustrar a arquitetura de um sistema mostrando o agrupament
 [diagrama de pacotes](https://unbarqdsw.github.io/2020.1_G10_QRodizio/modelagem/diagramas_estaticos/diagramas_pacote.html#versoes-1-0)
 
 ## 6. Visão de processos
+
+A visão de processos ilustra a interação e os comportamentos de um conjuto de elementos em tempo-de-execução(Processos, threads, atividades, etc.). A visão dos processos empregados no projetos podem ser encontradas nos seguintes documentos:
+
+[Diagamas de Sequência](https://github.com/UnBArqDsw/2020.1_G10_QRodizio/blob/master/docs/modelagem/diagramas_dinamicos/diagrama_sequencia.md)
+
+[Diagramas de Atividade](https://github.com/UnBArqDsw/2020.1_G10_QRodizio/blob/master/docs/modelagem/diagramas_dinamicos/diagramas_atividade.md)
 
 ## 7. Visão de implantação
 
