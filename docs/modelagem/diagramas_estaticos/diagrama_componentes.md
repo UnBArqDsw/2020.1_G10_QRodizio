@@ -23,6 +23,16 @@
       </td>
       <td>0.1</td>
     </tr>
+    <tr>
+      <td>10/11/2020</td>
+      <td>
+        Lucas Midlhey(<a target="blank" href="https://github.com/lucasmidlhey">lucasmidlhey</a>)
+      </td>
+      <td>
+        1 -Novas subcamadas para funcionario e cliente
+      </td>
+      <td>0.2</td>
+    </tr>
   </tbody>
 </table>
 
@@ -34,9 +44,8 @@ O diagrama de componentes é essencial para criar um sistema de software. Eles p
 
 ### Versão atual
 
-[![Diagrama de classes](../../images/UML/DiagramaComponentes.png)](https://ibb.co/jDd97Cv)
-
+[![Diagrama de componentes](../../images/UML/componentes_v2.png)](https://ibb.co/RNC0qVK)
 
 ## Versões anteriores
 
-
+[![Diagrama de classes](../../images/UML/DiagramaComponentes.png)](https://ibb.co/jDd97Cv)
