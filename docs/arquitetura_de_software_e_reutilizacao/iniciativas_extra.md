@@ -28,4 +28,4 @@
 
 |Documento|Link|Correções|
 |--|--|--|
-|Diagramas de Pacotes|[Diagrama de Pacotes](/modelagem/diagramas_estaticos/diagramas_pacote.md)|<ul><li>Foi feita a versão 2.0 do diagrama de pacotes e adicionada a justificativa, levando em consideração o feedback da professora.|
+|Diagramas de Pacotes|[Diagrama de Pacotes](../modelagem/diagramas_estaticos/diagramas_pacote.md)|<ul><li>Foi feita a versão 2.0 do diagrama de pacotes e adicionada a justificativa, levando em consideração o feedback da professora.|
