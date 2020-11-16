@@ -48,16 +48,19 @@ O padrão Builder sugere que se extraia o código de construção do objeto para
 ## Aplicações no Projeto(QRodízio)
 
 ### Disclaimer
+
 Primeiramente é bom deixar claro que nosso projeto está utilizando de linguagens multi-paradigmas(python e javascript) sendo assim, adaptações aos padrões são necessárias para não fugir do estilo do código utilizado.
 
 A Linguem python possui em seu "zen of python" a seguinte declaração: "Simple is better than complex". Seguindo a filosifia do "zen of python" **decidimos que, se algo pode ser feito em uma função, então será feito em uma função**.
 
 ### Utilização
-Em nossa base de código percemos que a API estava tendo muito código repedido e verboso para instancia os models, sendo assim optamos em exportar essa instanciação mais verbosa para builders para cada model.
+
+Em nossa base de código percemos que a API estava tendo muito código repetido e verboso para instancia os models, sendo assim optamos em exportar essa instanciação mais verbosa para builders para cada model.
 
 Uma vantagem é que esses mesmos builders acabaram por ser utilizado tanto nos comandos de ternimal quanto nos testes unitários.
 
 Segue um exemplo de um de nossos [builders](https://github.com/UnBArqDsw/2020.1_G10_QRodizio_Backend/blob/develop/qrodizio/builders.py):
+
 ```python
 def customer_tables_builder(**customer_table_atrrs):
     customer_table = CustomerTable()
@@ -77,7 +80,7 @@ def customer_tables_builder(**customer_table_atrrs):
         setattr(customer_table, key, customer_table_atrrs[key])
 
     return customer_table
-  
+
 def employee_builder(**employee_attrs):
   ...
 
@@ -88,7 +91,12 @@ def demand_builder(**demand_attrs):
   ...
 ```
 
+## Justificativa
+
+Utilizar esse padrão foi de suma importancia para popular o banco de dados, tendo apenas um trabalho no inicio que foi de criar este padrão e depois para qualquer novo teste com as models foi bem mais simples em nível de código.
+
 ## Referências
+
 <ul>
 <li>
 REFACTORING.GURU. Strategy. Disponível em: https://refactoring.guru/pt-br/design-patterns/builder . Acesso em: 26 de outubro. 2020.
