@@ -29,6 +29,14 @@
       <td>Incrementando a introdução do que é o padrão builder</td>
       <td>0.2</td>
     </tr>
+    <tr>
+      <td>16/11/2020</td>
+      <td>
+        Lucas(<a target="blank" href="https://github.com/lucasmidlhey">lucasmidlhey</a>)
+      </td>
+      <td>Justificativa</td>
+      <td>0.3</td>
+    </tr>
   </tbody>
 </table>
 

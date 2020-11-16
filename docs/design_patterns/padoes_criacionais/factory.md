@@ -37,6 +37,15 @@
       <td>Incrementando a introdução do que é o padrão factory</td>
       <td>0.3</td>
     </tr>
+    <tr>
+      <td>16/11/2020</td>
+      <td>
+        Lucas Midlhey(<a target="blank" href="https://github.com/lucasmidlhey">lucasmidlhey</a>)
+      </td>
+      <td>Justificativa</td>
+      <td>0.4</td>
+    </tr>
+    <tr>
   </tbody>
 </table>
 
@@ -93,6 +102,11 @@ def permission_strategy_factory(role):
 Use o Abstract Factory quando seu código precisa trabalhar com diversas famílias de produtos relacionados, mas que você não quer depender de classes concretas daqueles produtos-eles podem ser desconhecidos de antemão ou você simplesmente quer permitir uma futura escalabilidade.
 
 O Abstract Factory fornece a você uma interface para a criação de objetos de cada classe das famílias de produtos. Desde que seu código crie objetos a partir dessa interface, você não precisará se preocupar em criar uma variante errada de um produto que não coincida com produtos já criados por sua aplicação.
+
+## Justificativa
+
+Analisando nosso vasto diagrama de [classes](https://unbarqdsw.github.io/2020.1_G10_QRodizio/modelagem/diagramas_estaticos/diagrama_classes.html#diagrama) foi possível perceber varios padrões de factory capazes de ser superclasse podendo ter abstração referente aos seus objetos.
+Alimentamos mais o nosso diagrama de classes com novos metodos que quando analisados com os padrões criacionais foi de grande importância na abstração do nosso software.
 
 ## Referências
 

@@ -32,7 +32,7 @@
     <tr>
       <td>16/11/2020</td>
       <td>
-        Cauê(<a target="blank" href="https://github.com/lucasmidlhey">lucasmidlhey</a>)
+        Lucas(<a target="blank" href="https://github.com/lucasmidlhey">lucasmidlhey</a>)
       </td>
       <td>Justificativa</td>
       <td>0.4</td>
