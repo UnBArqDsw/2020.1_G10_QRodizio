@@ -1,4 +1,4 @@
-## Decorator
+## Proxy
 
 ## Histórico de Versão
 
@@ -21,6 +21,14 @@
       <td>Adicionando utilização do proxy no projeto</td>
       <td>0.1</td>
     </tr>
+    <tr>
+      <td>16/11/2020</td>
+      <td>
+        Lucas(<a target="blank" href="https://github.com/lucasmidlhey">lucasmidlhey</a>)
+      </td>
+      <td>justificativa e link para artefatos</td>
+      <td>0.2</td>
+    </tr>
   </tbody>
 </table>
 
@@ -39,9 +47,9 @@ O padrão de proxy costuma ser utilizado quando se possui procedimentos complexo
 Outros papéis importantes do padrão são os seguintes:
 </p>
 
-* Providenciar um substituto para um objeto controlar o acesso às classes;
-* Usar um nível extra de delegação para fornecer acesso controlado a um objeto;
-* Adicionar um agrupador e distribuidor para proteger um componente real de complexidade indevida.
+- Providenciar um substituto para um objeto controlar o acesso às classes;
+- Usar um nível extra de delegação para fornecer acesso controlado a um objeto;
+- Adicionar um agrupador e distribuidor para proteger um componente real de complexidade indevida.
 </p>
 
 ## Estrutura
@@ -51,6 +59,7 @@ Outros papéis importantes do padrão são os seguintes:
 Segue um exemplo do uso de proxy no código do qrcode:
 
 ### Definição do proxy em [qrcode.py](https://github.com/UnBArqDsw/2020.1_G10_QRodizio_Backend/blob/master/qrodizio/views/api/qrcode.py)
+
 ```python
 def auth_required(role=EmployeeRole.basic):
     """
@@ -79,16 +88,22 @@ class QrcodeTable(Qrcode):
 class QrcodeProxy(Qrcode):
     def __init__(self):
         self.qrcode = QrcodeTable()
-        
+
     def generate(self):
         qrcode = QrcodeProxy()
         if(self.qrcode is not None):
             qrcode.generate()
-            
+
         qrcode.generate()
 ```
 
+## Justificativa
+
+O padrão Pattern Proxy é muito necessário em nosso sistema em por exemplo, lazy-loading tecnica utilizada para utilizar o banco apenas quando for necessário, otimizações em banco, permitindo criar rotinas de log e controle de acesso, e permitindo deixar claro o endereço do objeto real, afim de tornar mais pratico.
+Analisando nosso sistema acreditamos que utilizar o proxy foi uma medica paleativa e correta principalmente para reutilização do software.
+
 ## Referências
+
 <ul>
 <li>
 REFACTORING.GURU. Strategy. Disponível em: https://refactoring.guru/pt-br/design-patterns/proxy . Acesso em: 26 de outubro. 2020.
