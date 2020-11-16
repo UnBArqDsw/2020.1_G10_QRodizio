@@ -64,7 +64,7 @@ A Linguem python possui em seu "zen of python" a seguinte declaração: "Simple 
 
 Em nossa base de código o padrão observer está previsto para ser utilizado mas nao está implementado no momento. Isto se deve ao fato de que ele será utilizado em todo o sistema de notificações(notificar funcionários de pedidos, notificar mesa de status dos pedidos, etc). Porém, toda a parte de notificações está prevista para a próxima sprint e ficou fora dessa release.
 
-Toda a parte de notificações está modelada no [diagrama de classes](http://localhost:8080/2020.1_G10_QRodizio/modelagem/diagramas_estaticos/diagrama_classes.html#historico-de-versao) do projeto.
+Toda a parte de notificações está modelada no [diagrama de classes](https://unbarqdsw.github.io/2020.1_G10_QRodizio/modelagem/diagramas_estaticos/diagrama_classes.html#historico-de-versao) do projeto.
 
 Segue um recorte do diagrama de classes com a utilização do padrão observer
 
