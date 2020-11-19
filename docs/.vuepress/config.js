@@ -4,7 +4,7 @@ module.exports = {
   title: "QRodízio",
 
   themeConfig: {
-    logo: "/qr_code_icon.png",
+    logo: "/Logov.png",
     nav: [
       { text: "Documentação", link: "/documentacao" },
       {
@@ -92,6 +92,18 @@ module.exports = {
           }
         ],
       },
+      {
+        title: "Arquitetura de Software e Reutilização",
+        collapsable: true,
+        children: [
+          {
+            title: "Iniciativas extra",
+            collapsable: true,
+            children: [
+              "/arquitetura_de_software_e_reutilizacao/iniciativas_extra",
+
+            ]
+          },
 
       {
         title: "Iniciativas extra",
