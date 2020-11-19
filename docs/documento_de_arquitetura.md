@@ -66,7 +66,7 @@ Lucas Midlhey(<a  target="blank"  href="https://github.com/lucasmidlhey">lucasmi
     Lucas Midlhey(<a target="blank" href="https://github.com/lucasmidlhey">lucasmidlhey</a>)
   </td>
   <td>Definições, Acrônimos e Abreviações</td>
-  <td>0.7</td>
+  <td>0.</td>
 </tr>
 </tbody>
 </table>
@@ -143,9 +143,25 @@ O Vuex é um padrão de gerenciamento de estado + biblioteca para aplicativos Vu
 
 ## 3. Objetivos e Restrições de Arquitetura
 
-A aplicação deverá ser suportada pelos navegadores, Mozilla Firefox, Google Chrome e Microsoft Edge. Toda parte do frontend será construída utilizando Vuejs, biblioteca de JavaScript para criar interfaces para o usuário, juntamente com Vuex para o gerenciamento de stado da aplicação pelo lado do usuário. A aplicação também utilizará do microframework Flask, que é construído em python e que juntamente com a biblioteca Socket.IO/Flask-Socket.IO fará a comunicação em tempo real entre usuário e servidor.
+### 3.1 Objetivos
+
+O software deve ter acesso a uma camera e internet para poder ser utilizado. Seu objetivo é poder automatizar um restaurante com principal foco em rodízio.
+
+### 3.2 Restrições
+
+#### 3.2.1 Suportabilidade
+
+A aplicação deverá ser suportada pelos navegadores, Mozilla Firefox, Google Chrome e Microsoft Edge.
+
+#### 3.2.2 Ferramentas
+
+Toda parte do frontend será construída utilizando Vuejs, biblioteca de JavaScript para criar interfaces para o usuário, juntamente com Vuex para o gerenciamento de stado da aplicação pelo lado do usuário. A aplicação também utilizará do microframework Flask, que é construído em python e que juntamente com a biblioteca Socket.IO/Flask-Socket.IO fará a comunicação em tempo real entre usuário e servidor.
 
 Para facilitar no desenvolvimento a ferramenta Docker(2) será utilizada garantindo que todos no desenvolvimento estão utilizando o mesmo ambiente e configurações.
+
+#### 3.2.3 Usabilidade
+
+O software nao necessita de download tornando de mais facil acesso para o usuário.
 
 ## 4. Casos de Uso
 
@@ -238,9 +254,9 @@ Para entender cada camada se faz uma analise do [diagrama de classes](https://un
 - 4.Banco de dados
   - 4.1. dados
 
-## 8. Tamanho e Desempenho
+## 9. Tamanho e Desempenho
 
-## 9. Qualidade
+## 10. Qualidade
 
 A arquitetura adotada, utilizada como adaptação MVT(6), oferece uma organização das camadas da aplicação possibilitando aos desenvolvedores uma fácil manutenção.
 Seguimos alguns padrões [GRASP](https://unbarqdsw.github.io/2020.1_G10_QRodizio/design_patterns/grasps/grasps.html)(7). Para ter uma extensibilidade podendo acomplar novos comportamentos para objetos utilizamos como padrão estrutural o [Decorator](https://unbarqdsw.github.io/2020.1_G10_QRodizio/design_patterns/padroes_estruturais/decorator.html#decorator).
