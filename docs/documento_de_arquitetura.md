@@ -60,6 +60,14 @@ Lucas Midlhey(<a  target="blank"  href="https://github.com/lucasmidlhey">lucasmi
   <td>Começando tópico de implantacao</td>
   <td>0.6</td>
 </tr>
+<tr>
+  <td>19/11/2020</td>
+  <td>
+    Lucas Midlhey(<a target="blank" href="https://github.com/lucasmidlhey">lucasmidlhey</a>)
+  </td>
+  <td>Definições, Acrônimos e Abreviações</td>
+  <td>0.7</td>
+</tr>
 </tbody>
 </table>
 
@@ -74,6 +82,16 @@ Este documento tem como objetivo esboçar uma visão ampla da arquitetura do QRo
 O QRodízio visa ser uma ferramenta que auxilia no gerenciamento de mesas de rodízio e acesso a pedidos.
 
 ### 1.3 Definições, Acrônimos e Abreviações
+
+| Termo            | Descrição                                                                                                                                                        |
+| ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Web Framework(1) | estrutura de software designada para suportar o desenvolvimentos de sites web dinâmicos, aplicações web e serviços web                                           |
+| Docker(2)        | Conjunto de produtos de plataformas como serviços que usam virtualização de nível de sistema operacional para entregar softawre em pacotes chamados containers   |
+| Threads(3)       | Forma de um processo dividir a si mesmo em duas ou mais tarefas que podem ser executadas concorrencialmente                                                      |
+| Build(4)         | versão compilada do software                                                                                                                                     |
+| Code Review(5)   | Revisão de código                                                                                                                                                |
+| MVT(6)           | Padrão de projeto adaptado do MVC(model, view, COntroller), model(dados), View(dados para mostrar), Template(dados apresentados visualmente)                     |
+| GRASP(7)         | General responsibility assignment software patterns, consiste em diretrizes para atribuir responsabilidades a classes e objetos em projetos orientados a objetos |
 
 ### 1.4 Referências
 
@@ -99,7 +117,7 @@ Neste documento traremos alguns pontos que elucidam melhor a arquitetura do proj
 
 #### Vuejs
 
-Web framework progressivo para construção de interfaces de usuário. Vue foi desenhado para ser de fácil utilização e incrementalmente adicionável a qualquer projeto. O foco do Vue está na camada de visualização e criação de single page applications.
+Web framework(1) progressivo para construção de interfaces de usuário. Vue foi desenhado para ser de fácil utilização e incrementalmente adicionável a qualquer projeto. O foco do Vue está na camada de visualização e criação de single page applications.
 
 #### Flask
 
@@ -127,7 +145,7 @@ O Vuex é um padrão de gerenciamento de estado + biblioteca para aplicativos Vu
 
 A aplicação deverá ser suportada pelos navegadores, Mozilla Firefox, Google Chrome e Microsoft Edge. Toda parte do frontend será construída utilizando Vuejs, biblioteca de JavaScript para criar interfaces para o usuário, juntamente com Vuex para o gerenciamento de stado da aplicação pelo lado do usuário. A aplicação também utilizará do microframework Flask, que é construído em python e que juntamente com a biblioteca Socket.IO/Flask-Socket.IO fará a comunicação em tempo real entre usuário e servidor.
 
-Para facilitar no desenvolvimento a ferramenta Docker será utilizada garantindo que todos no desenvolvimento estão utilizando o mesmo ambiente e configurações.
+Para facilitar no desenvolvimento a ferramenta Docker(2) será utilizada garantindo que todos no desenvolvimento estão utilizando o mesmo ambiente e configurações.
 
 ## 4. Casos de Uso
 
@@ -151,7 +169,7 @@ Muito utilizado para ilustrar a arquitetura de um sistema mostrando o agrupament
 
 ## 6. Visão de processos
 
-A visão de processos ilustra a interação e os comportamentos de um conjuto de elementos em tempo-de-execução(Processos, threads, atividades, etc.) e mostra como se dá a comunicação e a concorrência dessas threads. A visão dos processos empregados no projeto, que ilustram os principais fluxos de comunicações do sistema, podem ser encontradas nos seguintes documentos:
+A visão de processos ilustra a interação e os comportamentos de um conjuto de elementos em tempo-de-execução(Processos, threads(3), atividades, etc.) e mostra como se dá a comunicação e a concorrência dessas threads(3). A visão dos processos empregados no projeto, que ilustram os principais fluxos de comunicações do sistema, podem ser encontradas nos seguintes documentos:
 
 [Diagamas de Sequência](https://github.com/UnBArqDsw/2020.1_G10_QRodizio/blob/master/docs/modelagem/diagramas_dinamicos/diagrama_sequencia.md)
 
@@ -170,26 +188,22 @@ Pode-se descrever, em alto nível, as seguintes etapas para a implantação do s
 
 Ferramentas:
 
-- Docker
+- Docker(2)
 - Gitlab
 - Github
 - Pytest
 
 ### 7.1. Back-end (API)
 
-O processo de implantação para a API contém múltiplas etapas para assegurar que o código que chegue aos ambientes de produção foi verificado e validado com o uso de ferramentas automáticas e a prática de code review.
+O processo de implantação para a API contém múltiplas etapas para assegurar que o código que chegue aos ambientes de produção foi verificado e validado com o uso de ferramentas automáticas e a prática de code review(5).
 
 ### 7.2. Front-end (UI)
 
 As implantações na interface de usuário seguirão o mesmo princípio, mudando apenas, se necessário, as ferramentas automáticas. Além disso, é importante que a interface de usuário seja validada através de testes com pessoas.
 
-<<<<<<< HEAD
 [![GITFLOW](./images/arquitetura/gitflow.png)](https://ibb.co/J2M5wqB)
 
 ## 8. Tamanho e Desempenho
-=======
-## 8. Visão de implementação
->>>>>>> 6292a2526326f7456a6aac0e8b8801f35ac9961f
 
 A visão de implementação permite compreender a distribuição física do sistema analisando o fluxo de trabalho sob o design. Seu principal foco é ilustrar a distribuição do processamento em conjunto de nós do sistema, incluindo uma distriução física dos processos.
 
@@ -228,8 +242,8 @@ Para entender cada camada se faz uma analise do [diagrama de classes](https://un
 
 ## 9. Qualidade
 
-A arquitetura adotada, utilizada como adaptação MVT, oferece uma organização das camadas da aplicação possibilitando aos desenvolvedores uma fácil manutenção.
-Seguimos alguns padrões [GRASP](https://unbarqdsw.github.io/2020.1_G10_QRodizio/design_patterns/grasps/grasps.html). Para ter uma extensibilidade podendo acomplar novos comportamentos para objetos utilizamos como padrão estrutural o [Decorator](https://unbarqdsw.github.io/2020.1_G10_QRodizio/design_patterns/padroes_estruturais/decorator.html#decorator).
+A arquitetura adotada, utilizada como adaptação MVT(6), oferece uma organização das camadas da aplicação possibilitando aos desenvolvedores uma fácil manutenção.
+Seguimos alguns padrões [GRASP](https://unbarqdsw.github.io/2020.1_G10_QRodizio/design_patterns/grasps/grasps.html)(7). Para ter uma extensibilidade podendo acomplar novos comportamentos para objetos utilizamos como padrão estrutural o [Decorator](https://unbarqdsw.github.io/2020.1_G10_QRodizio/design_patterns/padroes_estruturais/decorator.html#decorator).
 Para manutenção, portabilidade e futuras features utilizamos padrões criacionais entre eles [builder](https://unbarqdsw.github.io/2020.1_G10_QRodizio/design_patterns/padoes_criacionais/builder.html#builder), [factory](https://unbarqdsw.github.io/2020.1_G10_QRodizio/design_patterns/padoes_criacionais/factory.html#factory), [singleton](https://unbarqdsw.github.io/2020.1_G10_QRodizio/design_patterns/padoes_criacionais/singleton.html).
 E seguimos alguns padrões comportamentais capazes de trazer confiabilidade tais como [strategy](https://unbarqdsw.github.io/2020.1_G10_QRodizio/design_patterns/padroes_comportamentais/strategy.html#strategy) e [observer](https://unbarqdsw.github.io/2020.1_G10_QRodizio/design_patterns/padroes_comportamentais/observer.html#historico-de-versao).
 
