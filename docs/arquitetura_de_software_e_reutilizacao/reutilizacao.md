@@ -64,11 +64,7 @@ Como a arquitetura de um sistema é descrita em termos de identificação de seu
 
 
 <p align="justify">&emsp;
-Como no projeto foi empregada uma arquitetura adaptada do MVC e foi divido em Back-end e Front-end. Com tecnologias separadas e independentes, uma possível reutilização de seus componentes fica bastante simples e eficiente.
-</p>
-
-<p align="justify">&emsp;
-Pelo fato da API ser  independente, ela poder ser consumida facilmente por outros templates, o que aumenta sua portabilidade e possibilita a conexão com vários dispositivos(mobile, outros front-end web, etc.).
+No projeto foi empregada uma arquitetura adaptada do MVC e foi divido em Back-end e Front-end. Com tecnologias separadas e independentes, uma possível reutilização de seus componentes fica bastante simples e eficiente. Pelo fato da API ser  independente, ela poder ser consumida facilmente por outros templates, o que aumenta sua portabilidade e possibilita a conexão com vários dispositivos(mobile, outros front-end web, etc.).
 </p>
 
 ## Código
@@ -134,6 +130,7 @@ employee_builder: Neste Builder instancia a classe de empregados defindo seus at
 DEVMEDIA. Reutilização de Software - Revista Engenharia de Software Magazine 39. Disponível em: https://www.devmedia.com.br/reutilizacao-de-software-revista-engenharia-de-software-magazine-39/21956. Acesso em: 19 de novembro. 2020.
 
 </li>
+<li>
 SANCHES, Mauricio Gruhn et al. Um estudo sobre os riscos inerentes a implantação do reuso de componentes no processo de desenvolvimento de software. 2005.
-<li></li>
+</li>
 </ul>
