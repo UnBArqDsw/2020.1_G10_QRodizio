@@ -51,20 +51,24 @@
 ## Introdução
 
 <p align="justify">&emsp;
-A reutilização de software é baseada na utilização de conceitos, produtos ou soluções previamente elaboradas para a criação de um novo software. Podem ser reutilizadas, de um sistema já desenvolvido, partes como especificações, arquitetura e código fonte. A reutilização ajudar a reduzir o tempo de desenvolvimento de um novo software e, consequentemente os custos. Por isso, no cenário atual de desenvolvimento ágil de software, é um conceito interessante.
+A reutilização de software é baseada na utilização de conceitos, produtos ou soluções previamente elaboradas para a criação de um novo software. Podem ser reutilizadas, de um sistema já desenvolvido, partes como especificações, arquitetura e código fonte. A reutilização ajuda a reduzir o tempo de desenvolvimento de um novo software, já que diminui a quantidade de código necessária a ser produzida e, consequentemente os custos. Por isso, no cenário atual de desenvolvimento ágil de software, é um conceito interessante.
 </p>
 <p align="justify">&emsp;
 Portanto, os tópicos a seguir descrevem as partes reutilizáveis do projeto QRodízio, que foram feitas com o objetivo de facilitar tanto a manutenção do sistema, quanto o potencial de evolução dele.
 </p>
 
 ## Arquitetura
+<p align="justify">&emsp;
+Como a arquitetura de um sistema é descrita em termos de identificação de seus componentes e de como esses componentes estão conectados, ela é uma ponto de partida interessante para a reutilização, apesar de ser mais voltada para o reuso de design, do que de código.
+</p>
+
 
 <p align="justify">&emsp;
-Como no projeto foi empregada uma arquitetura adaptada do MVC e foi divido em Back-end e Front-end, com tecnologias separadas, a reutilização dele fica bastante simples e eficiente.
+Como no projeto foi empregada uma arquitetura adaptada do MVC e foi divido em Back-end e Front-end. Com tecnologias separadas e independentes, uma possível reutilização de seus componentes fica bastante simples e eficiente.
 </p>
 
 <p align="justify">&emsp;
-A API independente pode ser consumida facilmente por outros templates, o que possibilita a conexão com vários dispositivos(mobile, outros front-end web, etc.).
+Pelo fato da API ser  independente, ela poder ser consumida facilmente por outros templates, o que aumenta sua portabilidade e possibilita a conexão com vários dispositivos(mobile, outros front-end web, etc.).
 </p>
 
 ## Código
@@ -130,4 +134,6 @@ employee_builder: Neste Builder instancia a classe de empregados defindo seus at
 DEVMEDIA. Reutilização de Software - Revista Engenharia de Software Magazine 39. Disponível em: https://www.devmedia.com.br/reutilizacao-de-software-revista-engenharia-de-software-magazine-39/21956. Acesso em: 19 de novembro. 2020.
 
 </li>
+SANCHES, Mauricio Gruhn et al. Um estudo sobre os riscos inerentes a implantação do reuso de componentes no processo de desenvolvimento de software. 2005.
+<li></li>
 </ul>
