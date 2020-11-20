@@ -66,7 +66,15 @@ Lucas Midlhey(<a  target="blank"  href="https://github.com/lucasmidlhey">lucasmi
     Lucas Midlhey(<a target="blank" href="https://github.com/lucasmidlhey">lucasmidlhey</a>)
   </td>
   <td>Definições, Acrônimos e Abreviações, Visão lógica</td>
-  <td>0.</td>
+  <td>0.7</td>
+</tr>
+<tr>
+  <td>20/11/2020</td>
+  <td>
+    Lucas Midlhey(<a target="blank" href="https://github.com/lucasmidlhey">lucasmidlhey</a>)
+  </td>
+  <td>Melhorias na secção qualidade do software</td>
+  <td>0.8</td>
 </tr>
 </tbody>
 </table>
@@ -257,8 +265,6 @@ Para entender cada camada se faz uma analise do [diagrama de classes](https://un
 - 4.Banco de dados
   - 4.1. dados
 
-## 9. Tamanho e Desempenho
-
 ## 10. Qualidade
 
 A arquitetura adotada, utilizada como adaptação MVT(6), oferece uma organização das camadas da aplicação possibilitando aos desenvolvedores uma fácil manutenção.
@@ -270,7 +276,7 @@ Além disso, foram feitos [NFR's](https://github.com/UnBArqDsw/2020.1_G10_QRodiz
 
 | Itens         | Descrição                                                                                                                                                                                                                                                                                  |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Segurança     | Fui usado uma biblioteca do python, bcrypt e jwt que são capazez de fazer a encriptação e decodificação de senhas para funcionários. Foi utilizado também tokens para criar varias sessões em uma mesa tornando uma unica sessão para cada usuário que desejar                             |
+| Segurança     | Foi usado uma biblioteca do python, bcrypt e jwt que são capazez de fazer a encriptação e decodificação de senhas para funcionários. Foi utilizado também tokens para criar varias sessões em uma mesa tornando uma unica sessão para cada usuário que desejar                             |
 | Usabilidade   | A manutenção das partes provem das tecnologias escolhidas e o ambiente exclusivo para o back-end podendo assim criar um novo módulo para o Front-end, como por exemplo um app. A utilização de frameworks como socket.io, vue.js auxiliam a curva de aprendizado para novos contribuidores |
 | Portabilidade | A utilização do Docker permite um ambiente estável auxiliando assim possíveis novos módulos. A API permite requisições HTTPs sendo de facil aprimoramento com novos módulos de Front-end                                                                                                   |
 | Eficiencia    | Utilizamos padrões de projeto principalmente na API resolvendo um problema de design existente. A utilização de socket's assíncronos permite uma troca de mensagens mais rápida. A escolha por WebApp permite uma facil execução por parte do usuário                                      |
