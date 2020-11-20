@@ -7,7 +7,7 @@
 | 1.0 | Documentação da Sprint 3 do projeto | [Cauê](https://github.com/caue96) |
 
 ## Planejamento
-* **Período:** 11/09/20 - 20/09/20
+* **Período:** 11/09/20 - 21/09/20
 
 ***
 

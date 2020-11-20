@@ -68,8 +68,8 @@ module.exports = {
               "/modelagem/diagramas_dinamicos/diagramas_atividade",
               "/modelagem/diagramas_dinamicos/diagrama_sequencia",
               "/modelagem/diagramas_dinamicos/diagramas_estado",
-              "/modelagem/diagramas_dinamicos/diagrama_casos_de_uso"
-            ]
+              "/modelagem/diagramas_dinamicos/diagrama_casos_de_uso",
+            ],
           },
           {
             title: "Diagramas Estáticos",
@@ -78,6 +78,46 @@ module.exports = {
               "/modelagem/diagramas_estaticos/diagrama_classes",
               "/modelagem/diagramas_estaticos/diagramas_pacote",
               "/modelagem/diagramas_estaticos/diagrama_componentes",
+            ],
+          },
+        ],
+      },
+
+      {
+        title: "Design Patterns",
+        collapsable: true,
+        children: [
+          {
+            title: "Correções",
+            path: "/design_patterns/iniciativas_extra/documentos_corrigidos",
+          },
+          {
+            title: "GRASP(s)",
+            path: "/design_patterns/grasps/grasps",
+          },
+          {
+            title: "Comportamentais",
+            collapsable: true,
+            children: [
+              "/design_patterns/padroes_comportamentais/strategy",
+              "/design_patterns/padroes_comportamentais/observer",
+            ],
+          },
+          {
+            title: "Criacionais",
+            collapsable: true,
+            children: [
+              "/design_patterns/padoes_criacionais/builder",
+              "/design_patterns/padoes_criacionais/factory",
+              "/design_patterns/padoes_criacionais/singleton",
+            ]
+          },
+          {
+            title: "Estruturais",
+            collapsable: true,
+            children: [
+              "/design_patterns/padroes_estruturais/decorator",
+              "/design_patterns/padroes_estruturais/proxy",
             ]
           },
           {
