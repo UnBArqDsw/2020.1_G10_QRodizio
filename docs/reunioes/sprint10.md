@@ -25,6 +25,6 @@ Na sprint 10, foi decidido que seria exclusivamente para terminar as dívidas da
 
 ## Resultados
 
-Ao final da sprint todas as issues novamente permaneceram sem ser finalizadas, porém houve avanço em todas elas, faltando alguns detalhes para a finalização de todas elas. O documento da visão da arquitetura de todo o projeto ficou incompleto, para ser finalizado na sprint seguinte.
+Ao final da sprint todas as issues novamente permaneceram sem ser finalizadas, porém houve avanço em todas elas, faltando alguns detalhes para a finalização de todas elas. O documento da visão da arquitetura de todo o projeto ficou incompleto, para ser finalizado na sprint seguinte. Alguns bugs também surgiram nas sprints que estão em andamento, com isso além de não terem sido finalizadas possuem algumas correções a serem feitas.
 
 Todas as issues dessa sprint ficaram novamente pendentes para a [Sprint 11](docs/reunioes/sprint11.md)
