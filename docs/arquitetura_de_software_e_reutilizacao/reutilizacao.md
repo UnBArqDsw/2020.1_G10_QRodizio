@@ -51,11 +51,15 @@ Portanto, os tópicos a seguir descrevem as partes reutilizáveis do projeto QRo
 
 <ul>
 <li>
+
 [Style.css](https://github.com/UnBArqDsw/2020.1_G10_QRodizio_Frontend/blob/tables-and-qrcodes/src/assets/styles/styles.css) : O arquivo que contém os estilos utilizados no projeto. É um bom exemplo de reutilização, pois cada estilo definido pode ser acessado e aplicado em vários elementos do sistema, o que diminui repetições e facilita a mudança de estilo dos elementos, já que podem ser mudados vários elementos de uma vez, ao invés de ter que mudar de um por um.
+
 </li>
 
 <li>
-[builders.py](https://github.com/UnBArqDsw/2020.1_G10_QRodizio_Backend/blob/develop/qrodizio/builders.py)Este exemplo onde é utilizado o padrão builder ilustra como você pode reutilizar o mesmo código de construção de objeto.
+
+[builders.py](https://github.com/UnBArqDsw/2020.1_G10_QRodizio_Backend/blob/develop/qrodizio/builders.py) : Este exemplo onde é utilizado o padrão builder ilustra como você pode reutilizar o mesmo código de construção de objeto.
+
 </li>
 
 </ul>
