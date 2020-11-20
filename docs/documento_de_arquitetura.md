@@ -65,7 +65,7 @@ Lucas Midlhey(<a  target="blank"  href="https://github.com/lucasmidlhey">lucasmi
   <td>
     Lucas Midlhey(<a target="blank" href="https://github.com/lucasmidlhey">lucasmidlhey</a>)
   </td>
-  <td>Definições, Acrônimos e Abreviações</td>
+  <td>Definições, Acrônimos e Abreviações, Visão lógica</td>
   <td>0.</td>
 </tr>
 </tbody>
@@ -176,6 +176,9 @@ Nossos casos de uso foram criados no inicio do projeto para auxiliar o levantame
 ## 5. Visão lógica
 
 Descrevemos como o sistema é estruturado, em termos de unidades de implementação. Os elementos são pacotes, classes e interfaces. O relacionamento entre os elementos mostra as dependências, as realizações de interface, os relacionamentos parte-todo e assim por diante.
+O usuário acessa a camada Template no modelo MVT, onde sera responsável por interpretar os eventos do front-end para a comunicação de nossa API, em uma comunicação em requisições HTTP.
+O back-end terá comunicação direta com o banco de dados, gerenciada que camada de View, que no modelo tradicional faria uma função da controller, interpretando, tratando e autenticando dados sendo capaz de diferenciar rotas e alimentando a camada Template.
+A camada Model é capaz de estruturar os esquemas das classes e atributos do software, capaz de modificar os registros do banco de dados.
 
 ### 5.1 Visão de pacotes
 
@@ -219,7 +222,7 @@ As implantações na interface de usuário seguirão o mesmo princípio, mudando
 
 [![GITFLOW](./images/arquitetura/gitflow.png)](https://ibb.co/J2M5wqB)
 
-## 8. Tamanho e Desempenho
+## 8. Visão de Implementação
 
 A visão de implementação permite compreender a distribuição física do sistema analisando o fluxo de trabalho sob o design. Seu principal foco é ilustrar a distribuição do processamento em conjunto de nós do sistema, incluindo uma distriução física dos processos.
 
