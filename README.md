@@ -44,17 +44,18 @@ Gerente:
 
 ![video](./docs/images/App.gif)
 
-![inicial](./docs/images/pagina_inicial.png)![enter image description here](./docs/images/pedidos_cliente.png)
-![enter image description here](./docs/images/pagamento.png)
-![enter image description here](./docs/images/mesas.png)
-![enter image description here](./docs/images/lista_funcionario.png)
+![inicial](./docs/images/pagina_inicial.png)
+![pedidos_cliente](./docs/images/pedidos_cliente.png)
+![pagamento](./docs/images/pagamento.png)
+![mesa](./docs/images/mesas.png)
+![lista funcionario](./docs/images/lista_funcionario.png)
 
 ## Instalação
 
-Para contribuir é necessário utilizar a virtualização do Docker
-[Guia de instalação para Linux](https://docs.docker.com/engine/install/#server)
-[Guia de instalação para Windows](https://docs.docker.com/docker-for-windows/install/)
-[Guia de instalação para Mac](https://docs.docker.com/docker-for-mac/)
+Para contribuir é necessário utilizar a virtualização do Docker <br>
+[Guia de instalação para Linux](https://docs.docker.com/engine/install/#server)<br>
+[Guia de instalação para Windows](https://docs.docker.com/docker-for-windows/install/)<br>
+[Guia de instalação para Mac](https://docs.docker.com/docker-for-mac/)<br>
 
 ## Uso
 
