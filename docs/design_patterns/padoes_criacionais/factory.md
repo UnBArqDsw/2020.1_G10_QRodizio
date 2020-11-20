@@ -11,7 +11,6 @@
       <th>Versão</th>
     </tr>
   </thead>
-
   <tbody>
     <tr>
       <td>26/10/2020</td>
@@ -37,6 +36,14 @@
       <td>Incrementando a introdução do que é o padrão factory</td>
       <td>0.3</td>
     </tr>
+    <tr>
+      <td>16/11/2020</td>
+      <td>
+        Lucas Midlhey(<a target="blank" href="https://github.com/lucasmidlhey">lucasmidlhey</a>)
+      </td>
+      <td>Justificativa</td>
+      <td>0.4</td>
+    </tr>
   </tbody>
 </table>
 
@@ -59,7 +66,7 @@ O padrão Factory sugere que seja substituido chamadas diretas de construção d
 
 Primeiramente é bom deixar claro que nosso projeto está utilizando de linguagens multi-paradigmas(python e javascript) sendo assim, adaptações aos padrões são necessárias para não fugir do estilo do código utilizado.
 
-A Linguem python possui em seu "zen of python" a seguinte declaração: "Simple is better than complex". Seguindo a filosifia do "zen of python" **decidimos que, se algo pode ser feito em uma função, então será feito em uma função**.
+A Linguem python possui em seu "zen of python" a seguinte declaração: "Simple is better than complex". Seguindo essa filosifia, decidimos que, se algo pode ser feito em uma função, então será feito em uma função. Assim mantendo um código mais limpo, simples e fácil de manter.
 
 ### Utilização
 
@@ -93,6 +100,11 @@ def permission_strategy_factory(role):
 Use o Abstract Factory quando seu código precisa trabalhar com diversas famílias de produtos relacionados, mas que você não quer depender de classes concretas daqueles produtos-eles podem ser desconhecidos de antemão ou você simplesmente quer permitir uma futura escalabilidade.
 
 O Abstract Factory fornece a você uma interface para a criação de objetos de cada classe das famílias de produtos. Desde que seu código crie objetos a partir dessa interface, você não precisará se preocupar em criar uma variante errada de um produto que não coincida com produtos já criados por sua aplicação.
+
+## Justificativa
+
+Analisando nosso vasto diagrama de [classes](https://unbarqdsw.github.io/2020.1_G10_QRodizio/modelagem/diagramas_estaticos/diagrama_classes.html#diagrama) foi possível perceber varios padrões de factory capazes de ser superclasse podendo ter abstração referente aos seus objetos.
+Alimentamos mais o nosso diagrama de classes com novos metodos que quando analisados com os padrões criacionais foi de grande importância na abstração do nosso software.
 
 ## Referências
 

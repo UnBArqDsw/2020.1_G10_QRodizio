@@ -1,5 +1,6 @@
 
 
+
 # Mapa mental
 
 ## Histórico de versão
@@ -70,6 +71,14 @@
       0.7
     </td>
   </tr>
+  <tr>
+      <td>02/10/2020</td>
+      <td> Lucas Midlhey(<a target="blank" href="https://github.com/lucasmidlhey">Lucas Midlhey</a>)</td>
+      <td>Primeira versão com referencia</td>
+      <td>
+       1.0
+      </td>
+    </tr>
   </tbody>
 </table>
 
@@ -110,6 +119,7 @@ Nós utilizamos os mapas mentais para termos um apanhado geral de quais funciona
 [![Mapa Mental](../images/mindmap/mind_map_grupo.jpg)](https://ibb.co/N96kG4L)
 
 ## Referências
-<ul>
-  <li>LCM TREINAMENTO. Mapa mental: pra que serve?. Disponível em https://lcmtreinamento.com.br/mapa-mental-para-que-serve/ . Acesso em: 06 set. 2020</li>
-</ul>
+
+[1] Videoaulas e materiais complementares presentes no moodle da disciplina Arquitetura e Desenho de Software. Disponível em [moodle de desenho](https://aprender3.unb.br/course/view.php?id=158)
+
+[2]LCM TREINAMENTO. Mapa mental: pra que serve?. Disponível em https://lcmtreinamento.com.br/mapa-mental-para-que-serve/ . Acesso em: 06 set. 2020

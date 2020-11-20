@@ -1,34 +1,90 @@
 # QRodizio
 
+![enter image description here](./docs/images/Logov.png)
+
 **Número do Grupo**: 10<br>
 **Código da Disciplina**: FGA0208-T01<br>
 
 ## Alunos
-|Matrícula | Aluno |
-| -- | -- |
-| 15/0078692  |  [Caio César de Almeida Beleza](https://github.com/Caiocbeleza) |
-| 14/0056068  |  [Cauê Mateus Oliveira](https://github.com/caue96) |
-| 12/0116928  |  [Fábio Teixeira](https://github.com/fabio1079) |
-| 14/0145842  |  [João Pedro Gomes Cabral Ferreira](https://github.com/jppgomes) |
-| 13/0122254  |  [Lucas Midley](https://github.com/lucasmidlhey) |
 
-## Sobre 
-Por meio de um Qr Code e de um link existente em mesas de restaurantes/pizzarias com rodízio os usuários de cada mesa poderão acessar um sitema de pedidos e marcar os sabores de pizza/petiscos que querem e a central do restaurante/pizzaria poder fazer o controle dos sabores/petiscos mais pedidos e em quais mesas estão sendo desejados. O sistema agilizará no serviço ao cliente de acordo com o que ele deseja comer, entregando a ele tudo o que foi escolhido durante o rodízio, e o restaurante poderá fazer um controle dos sabores, quantidades e horários que sairam por dia ou até mesmo puxar um histórico de sabores, quantidades e horários por semana, mês e ano.
+| Matrícula  | Aluno                                                           |
+| ---------- | --------------------------------------------------------------- |
+| 15/0078692 | [Caio César de Almeida Beleza](https://github.com/Caiocbeleza)  |
+| 14/0056068 | [Cauê Mateus Oliveira](https://github.com/caue96)               |
+| 12/0116928 | [Fábio Teixeira](https://github.com/fabio1079)                  |
+| 14/0145842 | [João Pedro Gomes Cabral Ferreira](https://github.com/jppgomes) |
+| 13/0122254 | [Lucas Midley](https://github.com/lucasmidlhey)                 |
+
+## Sobre
+
+O **QRodízio** é um WebApp que tem como objetivo facilitar a demanda de um restaurante. Seu principal objetivo é ter um fluxo para clientes, funcionários e gerente do restaurante tornando mais prático sem a necessidade de um aplicativo ou um cardápio físico em um restaurante.
+
+### Como Funciona
+
+Cliente:
+
+- Lê-se um QRcode na mesa que o direciona para pagina do WebApp
+- La é possivel fazer, atualizar ou cancelar seu pedido.
+- Pode-se tambem chamar o garçom.
+- Fechar a conta escolhendo forma de pagamento.
+
+Funcionário:
+
+- Valídar uma nova mesa
+- Pode verificar pedidos e alterar para em andamento, fazendo, concluido ou cancelado
+- Pode verificar os clientes que chamaram o atendimento
+- Pode listar todas as mesas
+
+Gerente:
+
+- Tem todos os acessos de funcionário
+- Pode cadastrar ou excluir um novo funcionário
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em termos de interface e funcionamento.
 
-## Instalação 
-**Linguagens**: xxxxxx<br>
-**Tecnologias**: xxxxxx<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
-Insira um manual ou um script para auxiliar ainda mais.
+![video](./docs/images/App.gif)
 
-## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+![inicial](./docs/images/pagina_inicial.png)
+![pedidos_cliente](./docs/images/pedidos_cliente.png)
+![pagamento](./docs/images/pagamento.png)
+![mesa](./docs/images/mesas.png)
+![lista funcionario](./docs/images/lista_funcionario.png)
+
+## Instalação
+
+Para contribuir é necessário utilizar a virtualização do Docker <br>
+[Guia de instalação para Linux](https://docs.docker.com/engine/install/#server)<br>
+[Guia de instalação para Windows](https://docs.docker.com/docker-for-windows/install/)<br>
+[Guia de instalação para Mac](https://docs.docker.com/docker-for-mac/)<br>
+
+## Uso
+
+### Back-end
+
+Apos a instalação do **Docker** os comandos são:
+
+- `docker-compose build`
+- `docker-compose run api flask create-db`
+- `docker-compose run api flask populate-all`
+- `docker-compose up`
+
+Caso necessário deletar o Banco de dados
+
+- `docker-compose run api flask drop-db`
+
+### Front-end
+
+Apos a instalação do **Docker** os comandos são:
+
+- `docker-compose build`
+- `docker-compose up`
+
+Note: Após utilizar muitas vezes `docker-compose up` recomenda-se utilizar docker-compose down`
 
 ## Vídeo
+
 Adicione 1 ou mais vídeos com a execução do projeto final.
 
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+---
+
+**Qualquer dúvida entre em contato com um dos mantenedores**

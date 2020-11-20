@@ -27,5 +27,11 @@ Já que tem apenas resolução de dívidas e documentação de padrões, os pare
 |--|--|--|
 |[#44](https://github.com/UnBArqDsw/2020.1_G10_QRodizio/issues/44)| Criar CRUD básico de pedido|[Fábio](https://github.com/fabio1079) e [Lucas](https://github.com/lucasmidlhey) |
 |[#45](https://github.com/UnBArqDsw/2020.1_G10_QRodizio/issues/45)|Criar CRUD básico de Mesas|[Caio](https://github.com/Caiocbeleza), [Cauê](https://github.com/caue96) e [João](https://github.com/jppgomes)|
+|[#47](https://github.com/UnBArqDsw/2020.1_G10_QRodizio/issues/47)|Documentar GRASP(s) utilizados|[Caio](https://github.com/Caiocbeleza), [Cauê](https://github.com/caue96), [Fábio](https://github.com/fabio1079), [João](https://github.com/jppgomes) e [Lucas](https://github.com/lucasmidlhey)|
+|[#48](https://github.com/UnBArqDsw/2020.1_G10_QRodizio/issues/48)|Documentar GoF(s) utilizados|[Caio](https://github.com/Caiocbeleza), [Cauê](https://github.com/caue96), [Fábio](https://github.com/fabio1079), [João](https://github.com/jppgomes) e [Lucas](https://github.com/lucasmidlhey)|
 
 ## Resultados
+
+Foram mantidas as mesmas issues da sprint passada devido ao grupo não ter conseguido finalizar ambas, além de documentar os padrões de projeto GRASP(s) e GoF(s) utilizados no projeto. Ao final dessa sprint, somente as documentações a de issue de criar CRUD básico de pedidos foram finalizadas, tendo a de criar CRUD básico de mesas ficado ainda pendente.
+
+A issue do CRUD básico de mesas ficou pendente para a [Sprint 9](docs/reunioes/sprint9.md)

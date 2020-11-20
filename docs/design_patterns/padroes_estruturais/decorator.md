@@ -28,14 +28,14 @@
       </td>
       <td>Correções básicas</td>
       <td>0.2</td>
-    </tr>
+    </tr> 
     <tr>
-      <td>26/10/2020</td>
+      <td>16/11/2020</td>
       <td>
-        Cauê(<a target="blank" href="https://github.com/caue96">caue96</a>)
+        Lucas(<a target="blank" href="https://github.com/lucasmidlhey">lucasmidlhey</a>)
       </td>
-      <td>Incrementando a introdução do que é o padrão decorator</td>
-      <td>0.3</td>
+      <td>Justificativa</td>
+      <td>0.4</td>
     </tr>
   </tbody>
 </table>
@@ -59,9 +59,10 @@ O envoltório implementa a mesma interface que o objeto envolvido. É por isso q
 ## Aplicações no Projeto(QRodízio)
 
 ### Disclaimer
+
 Primeiramente é bom deixar claro que nosso projeto está utilizando de linguagens multi-paradigmas(python e javascript) sendo assim, adaptações aos padrões são necessárias para não fugir do estilo do código utilizado.
 
-A Linguem python possui em seu "zen of python" a seguinte declaração: "Simple is better than complex". Seguindo a filosifia do "zen of python" **decidimos que, se algo pode ser feito em uma função, então será feito em uma função**.
+A Linguem python possui em seu "zen of python" a seguinte declaração: "Simple is better than complex". Seguindo essa filosifia, decidimos que, se algo pode ser feito em uma função, então será feito em uma função. Assim mantendo um código mais limpo, simples e fácil de manter.
 
 ### Utilização
 
@@ -70,6 +71,7 @@ A linguem python possui uma forma bem singular de decorar funções e classes. E
 Segue um exemplo do uso de decorator no código do qrcode:
 
 ### Definição do decorator em [authentication.py](https://github.com/UnBArqDsw/2020.1_G10_QRodizio_Backend/blob/develop/qrodizio/ext/authentication.py)
+
 ```python
 def auth_required(role=EmployeeRole.basic):
     """
@@ -101,6 +103,7 @@ def auth_required(role=EmployeeRole.basic):
 ```
 
 ### Exemplo de utilização do decorator em [api/auth.py](https://github.com/UnBArqDsw/2020.1_G10_QRodizio_Backend/blob/develop/qrodizio/views/api/auth.py)
+
 ```python
 @auth_bp.route("/register", methods=["POST"])
 @auth_required(role=EmployeeRole.manager)
@@ -109,6 +112,7 @@ def auth_register_employee(current_employee):
 ```
 
 ### Exemplo de utilização do decorator em [api/demands.py](https://github.com/UnBArqDsw/2020.1_G10_QRodizio_Backend/blob/develop/qrodizio/views/api/demands.py)
+
 ```python
 @demands_bp.route("/<demand_status>", methods=["GET"])
 @auth_required()
@@ -116,7 +120,12 @@ def list_demands_by_status(current_employee, demand_status):
     ...
 ```
 
+## Justificativa
+
+Decorator é muito simples quando se utiliza python, ja que a linguagem ja pre estabelece que o mais simples é o melhor jeito. Desta forma utilizar o decorator para autenticação se torna mais pratico no decorrer de quando necessário na aplicação atraves das views utilizadas.
+
 ## Referências
+
 <ul>
 <li>
 REFACTORING.GURU. Strategy. Disponível em: https://refactoring.guru/pt-br/design-patterns/decorator . Acesso em: 26 de outubro. 2020.
