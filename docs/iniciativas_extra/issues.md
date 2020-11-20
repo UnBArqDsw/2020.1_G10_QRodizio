@@ -1,3 +1,4 @@
+
 # Política de Issues
 
 ## Histórico de versões
@@ -5,6 +6,8 @@
 | Data     | Autor         | Descrição            | Versão |
 | -------- | ------------- | -------------------- | ------ |
 | 29/08/20 | Lucas Midlhey(<a target="blank" href="https://github.com/lucasmidlhey">Lucas Midlhey</a>)| Criação do documento | 0.1    |
+| 29/08/20 | Lucas Midlhey(<a target="blank" href="https://github.com/lucasmidlhey">Lucas Midlhey</a>)| Primeira versao com referencias | 1.0    |
+
 
 ## Padrão de Issue
 
@@ -57,3 +60,8 @@ As issues levantadas são:
 - Reunião: definido em reunião
 - Precisa de atenção: necessita de atenção ou por pendencia ou por dificuldade
 - Ajuda: pessoas que foram atribuídas a ela precisarem de ajuda de outros
+
+## Referências
+
+[1] Github. Configuring issue templates for your repository [Issue template](https://docs.github.com/en/free-pro-team@latest/github/building-a-strong-community/configuring-issue-templates-for-your-repository)
+[2] Gitlab.  Description templates [Issue template](https://docs.gitlab.com/ee/user/project/description_templates.html)

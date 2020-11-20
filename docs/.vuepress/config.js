@@ -4,7 +4,7 @@ module.exports = {
   title: "QRodízio",
 
   themeConfig: {
-    logo: "/qr_code_icon.png",
+    logo: "/Logov.png",
     nav: [
       { text: "Documentação", link: "/documentacao" },
       {
@@ -19,32 +19,7 @@ module.exports = {
     },
     */
     sidebar: [
-      {
-        title: "Backlog",
-        collapsable: true,
-        children: [
-          {
-            title: "Backlog v1",
-            path: "/backlog/backlog_produtov1.md",
-          },
-          {
-            title: "Backlog v2",
-            path: "/backlog/backlog_produtov2.md",
-          },
-        ],
-      },
-      {
-        title: "Termo de Abertura",
-        path: "/termo_de_abertura",
-      },
-      {
-        title: "Plano de Gerenciamento de Riscos",
-        path: "/gerenciamento_risco",
-      },
-      {
-        title: "Protótipo",
-        path: "/prototipo",
-      },
+      
       {
         title: "Base", // required
         // path: "/base/", // optional, link of the title, which should be an absolute path and must exist
@@ -59,8 +34,27 @@ module.exports = {
           "/base/design_sprint",
           "/base/lexicos",
           "/base/metodologia",
-          "/base/diagrama_comunicacao",
           "/base/modelagem_BPMN",
+        
+        {
+          title: "Termo de Abertura",
+          path: "/termo_de_abertura",
+        },
+        {
+          title: "Plano de Gerenciamento de Riscos",
+          path: "/gerenciamento_risco",
+        },
+        {
+          title: "Iniciativas extra",
+          collapsable: true,
+          children: [
+            "/arquitetura_de_software_e_reutilizacao/iniciativas_extra",
+            "/iniciativas_extra/branches",
+            "/iniciativas_extra/issues",
+            "/iniciativas_extra/CODE_OF_CONDUCT",
+            "/iniciativas_extra/NFR"
+          ],
+        },
         ],
       },
       {
@@ -125,21 +119,53 @@ module.exports = {
               "/design_patterns/padroes_estruturais/decorator",
               "/design_patterns/padroes_estruturais/proxy",
             ]
-          }
+          },
+          {
+            title: "Backlog",
+            collapsable: true,
+            children: [
+              {
+                title: "Backlog v1",
+                path: "/backlog/backlog_produtov1.md",
+              },
+              {
+                title: "Backlog v2",
+                path: "/backlog/backlog_produtov2.md",
+              },
+            ],
+          },
+          {
+            title: "Iniciativas extras",
+            collapsable: true,
+            children: [
+              "/base/diagrama_comunicacao",
+              "/prototipo",
+            ]
+          },
         ],
       },
-
       {
-        title: "Iniciativas extra",
+        title: "Arquitetura de Software e Reutilização",
         collapsable: true,
         children: [
-          "/iniciativas_extra/branches",
-          "/iniciativas_extra/issues",
-          "/iniciativas_extra/CODE_OF_CONDUCT",
-          "/iniciativas_extra/NFR",
-        ],
-      },
+          {
+            title: "Documento de Arquitetura",
+            path: "/documento_de_arquitetura"
+          },
+          {
+            title: "Reutilização de Software",
+            path: "/arquitetura_de_software_e_reutilizacao/reutilizacao",
+          },
+          {
+            title: "Iniciativas extra",
+            collapsable: true,
+            children: [
+              "/arquitetura_de_software_e_reutilizacao/iniciativas_extra",
 
+            ]
+          },
+        ],
+      }, 
       {
         title: "Reuniões",
         collapsable: true,
@@ -149,6 +175,15 @@ module.exports = {
           "/reunioes/sprint2",
           "/reunioes/sprint3",
           "/reunioes/sprint4",
+          "/reunioes/sprint5",
+          "/reunioes/sprint6",
+          "/reunioes/sprint7",
+          "/reunioes/sprint8",
+          "/reunioes/sprint9",
+          "/reunioes/sprint10",
+          "/reunioes/sprint11",
+          "/reunioes/sprint12",
+
         ],
       },
     ],
