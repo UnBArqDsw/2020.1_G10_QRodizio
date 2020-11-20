@@ -11,7 +11,6 @@
       <th>Versão</th>
     </tr>
   </thead>
-
   <tbody>
     <tr>
       <td>26/10/2020</td>
@@ -45,7 +44,6 @@
       <td>Justificativa</td>
       <td>0.4</td>
     </tr>
-    <tr>
   </tbody>
 </table>
 

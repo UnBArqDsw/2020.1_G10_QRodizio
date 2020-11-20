@@ -48,7 +48,6 @@ module.exports = {
           title: "Iniciativas extra",
           collapsable: true,
           children: [
-            "/arquitetura_de_software_e_reutilizacao/iniciativas_extra",
             "/iniciativas_extra/branches",
             "/iniciativas_extra/issues",
             "/iniciativas_extra/CODE_OF_CONDUCT",
@@ -157,12 +156,8 @@ module.exports = {
             path: "/arquitetura_de_software_e_reutilizacao/reutilizacao",
           },
           {
-            title: "Iniciativas extra",
-            collapsable: true,
-            children: [
-              "/arquitetura_de_software_e_reutilizacao/iniciativas_extra",
-
-            ]
+            title: "Iniciativas extras",
+            path: "/arquitetura_de_software_e_reutilizacao/iniciativas_extra",
           },
         ],
       }, 

@@ -32,7 +32,7 @@
     <tr>
       <td>15/11/2020</td>
       <td>
-        Cauê(<a target="blank" href="https://github.com/lucasmidlhey">lucasmidlhey</a>)
+        Lucas Midlhey(<a target="blank" href="https://github.com/lucasmidlhey">lucasmidlhey</a>)
       </td>
       <td>justificativas e reflexoes do grupo</td>
       <td>0.3</td>

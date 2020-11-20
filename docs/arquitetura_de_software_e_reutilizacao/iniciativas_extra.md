@@ -29,11 +29,22 @@
       <td>Diagrama de componentes corrigido </td>
       <td>0.2</td>
     </tr>
+    <tr>
+      <td>20/11/2020</td>
+      <td>
+        Lucas Midlhey(<a target="blank" href="https://github.com/lucasmidlhey">lucasmidlhey</a>)
+      </td>
+      <td>Grasp, padroes criacionais e estruturais </td>
+      <td>0.3</td>
+    </tr>
 
   </tbody>
 </table>
 
-| Documento                | Link                                                                                | Correções                                                                                                                             |
-| ------------------------ | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| Diagramas de Pacotes     | [Diagrama de Pacotes](../modelagem/diagramas_estaticos/diagramas_pacote.md)         | <ul><li>Foi feita a versão 2.0 do diagrama de pacotes e adicionada a justificativa, levando em consideração o feedback da professora. |
-| Diagramas de Componentes | [Diagrama de Componentes](../modelagem/diagramas_estaticos/diagrama_componentes.md) | <ul><li>Foi feita um acressimo no diagrama de componentes para ficar mais claro suas ligações                                         |
+| Documento                | Link                                                                                                                      | Correções                                                                                                                     |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| Diagramas de Pacotes     | [Diagrama de Pacotes](../modelagem/diagramas_estaticos/diagramas_pacote.md)                                               | Foi feita a versão 2.0 do diagrama de pacotes e adicionada a justificativa, levando em consideração o feedback da professora. |
+| Diagramas de Componentes | [Diagrama de Componentes](../modelagem/diagramas_estaticos/diagrama_componentes.md)                                       | Foi feita um acressimo no diagrama de componentes para ficar mais claro suas ligações                                         |
+| Grasp                    | [Grasp](../design_patterns/grasps/grasps.md)                                                                              | Acrescimo das justificativas                                                                                                  |
+| Padrçoes criacionais     | [Builder](../design_patterns/padoes_criacionais/builder.md) [factory](../design_patterns/padoes_criacionais/factory.md)   | Acrescimo de justificava e correção de erros ortográficos                                                                     |
+| Padrçoes estruturais     | [Decorator](../design_patterns/padroes_estruturais/decorator.md) [proxy](../design_patterns/padroes_estruturais/proxy.md) | Acrescimo de justificativa, analise do grupo e links para artefatos                                                           |
