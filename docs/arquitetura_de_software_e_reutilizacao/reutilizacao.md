@@ -37,7 +37,14 @@
       <td>Começando o tópico de reutilização a nivel de arquitetura</td>
       <td>0.3</td>
     </tr>
-
+    <tr>
+      <td>20/11/2020</td>
+      <td>
+        Lucas Midlhey(<a target="blank" href="https://github.com/lucasmidlhey">lucasmidlhey</a>)
+      </td>
+      <td>Reutilização do builder por tópicos</td>
+      <td>0.4</td>
+    </tr>
   </tbody>
 </table>
 
@@ -71,8 +78,46 @@ A API independente pode ser consumida facilmente por outros templates, o que pos
 
 <li>
 
-[builders.py](https://github.com/UnBArqDsw/2020.1_G10_QRodizio_Backend/blob/develop/qrodizio/builders.py) : Este exemplo onde é utilizado o padrão builder ilustra como você pode reutilizar o mesmo código de construção de objeto.
+[builders.py](https://github.com/UnBArqDsw/2020.1_G10_QRodizio_Backend/blob/develop/qrodizio/builders.py) : Este exemplo onde é utilizado o padrão builder ilustra como você pode reutilizar o mesmo código de construção de objeto. Nela temos vários construtores que fazem as models em especialmente útil qando precisa criar um objeto com muitas opções possíveis de configuração.
 
+<ul>
+<li>
+   customer_tables_builder: cria diferentes representações para sessions neste caso dentro da Costumer_table e de sessions.
+
+[![builder de cliente](../images/reutilizacao/costumer_table_builder.png)](ttps://ibb.co/bdhHf6k)
+
+</li>
+<li>
+
+\_find_item_or_create_one: Simplesmete procura um item se nao encontrar ela cria. Foi feita para nao haver redundâncias nos items de cardápio.
+[![builder de criar item](../images/reutilizacao/find_item_or_create_one.png)](https://ibb.co/q02jPHt)
+
+</li>
+<li>
+
+demand_builder: Podemos ver que define seus atributos, algum por padrão, e retorna e forma de demand, utilizada tanto para clientes quanto para empregados.
+[![builder de pedido](../images/reutilizacao/demand_builder.png)](https://ibb.co/TKWtC91)
+
+</li>
+<li>
+
+table_session_builder: busca uma sessão na tabela de sessões e define a partir de uma chave que é feita através do QRcode.
+[![builder de sessão da tabela](../images/reutilizacao/table_session_builder.png)](https://ibb.co/8mRLgLS)
+
+</li>
+<li>
+
+menus_builder: Neste builder ele instancia a classe Menu definindo os atributos de item.
+[![builder de menu](../images/reutilizacao/menus_builder.png)](https://ibb.co/CBsQKpj)
+
+</li>
+<li>
+
+employee_builder: Neste Builder instancia a classe de empregados defindo seus atributos e um padrão de hash para a senha
+[![builder de empregado](../images/reutilizacao/employee_builder.png)](https://ibb.co/ws4ryyg)
+
+</li>
+</ul>
 </li>
 
 </ul>
@@ -82,7 +127,7 @@ A API independente pode ser consumida facilmente por outros templates, o que pos
 <ul>
 <li>
 
-DEVMEDIA. Reutilização de Software - Revista Engenharia de Software Magazine 39. Disponível em:  https://www.devmedia.com.br/reutilizacao-de-software-revista-engenharia-de-software-magazine-39/21956. Acesso em: 19 de novembro. 2020.
+DEVMEDIA. Reutilização de Software - Revista Engenharia de Software Magazine 39. Disponível em: https://www.devmedia.com.br/reutilizacao-de-software-revista-engenharia-de-software-magazine-39/21956. Acesso em: 19 de novembro. 2020.
 
 </li>
 </ul>

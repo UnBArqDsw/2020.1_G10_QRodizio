@@ -113,6 +113,10 @@ module.exports = {
             path: "/documento_de_arquitetura"
           },
           {
+            title: "Reutilização de Software",
+            path: "/arquitetura_de_software_e_reutilizacao/reutilizacao",
+          },
+          {
             title: "Iniciativas extra",
             collapsable: true,
             children: [
