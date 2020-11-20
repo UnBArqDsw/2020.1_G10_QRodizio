@@ -58,19 +58,50 @@ O padrão Observer sugere que seja adicionado um mecanismo de assinatura para a 
 
 Primeiramente é bom deixar claro que nosso projeto está utilizando de linguagens multi-paradigmas(python e javascript) sendo assim, adaptações aos padrões são necessárias para não fugir do estilo do código utilizado.
 
-A Linguem python possui em seu "zen of python" a seguinte declaração: "Simple is better than complex". Seguindo a filosifia do "zen of python" **decidimos que, se algo pode ser feito em uma função, então será feito em uma função**.
+A Linguem python possui em seu "zen of python" a seguinte declaração: "Simple is better than complex". Seguindo essa filosifia, decidimos que, se algo pode ser feito em uma função, então será feito em uma função. Assim mantendo um código mais limpo, simples e fácil de manter.
 
 ### Utilização
 
-Em nossa base de código o padrão observer está previsto para ser utilizado mas nao está implementado no momento. Isto se deve ao fato de que ele será utilizado em todo o sistema de notificações(notificar funcionários de pedidos, notificar mesa de status dos pedidos, etc). Porém, toda a parte de notificações está prevista para a próxima sprint e ficou fora dessa release.
+Tinhamos originalmente planejado construir todo um sistema de notificações utilizano a
+implementação padrão de um observer(jaka like e etc). Porém como nossa arquitetura é MVC
+com a view separada em uma outra aplicação com uma base de código completamente diferente e em outra linguagem. Acabamos por utilizar do socketio para o nosso sistema de notificações.
 
-Toda a parte de notificações está modelada no [diagrama de classes](https://unbarqdsw.github.io/2020.1_G10_QRodizio/modelagem/diagramas_estaticos/diagrama_classes.html#historico-de-versao) do projeto.
+No socketio, uma conexão é aberta entre o frontend e o backend, em que, eventos são emitidos por ambos os lados e estes podem escutar por esses eventos. O que faz do socketio
+uma adaptação do padrão observer que funciona de forma distribuída.
 
-Segue um recorte do diagrama de classes com a utilização do padrão observer
+#### exemplo de código
 
-![recorte observer](../../images/design_patterns/recorte-observer.png)
+Quando um cliente pede por atendimento:
+```javascript
+async callForAssistance() {
+  let { url } = this.$route.params;
+  await this.$socket.emit("call_for_assistance", url);
+},
+```
 
-Basicamente será utilizado um strategy(NotificationStrategy) para definir como será a mensagem da notificação.
+A chamada "call_for_assistance" é identificada pelo socketio do backend
+```python
+@socketio.on("call_for_assistance")
+def call_for_assistance(url):
+    query = TableSession.query.filter_by(url=url).first()
+
+    if query == None:
+        # nofity table
+        emit("frontend_employee_called", "Table session not found", json=True)
+        return
+
+    emit("frontend_employee_called", "Employee called", json=True)  # nofity table
+
+    emit(  # notify employees
+        "frontend_call_for_employee_on_table",
+        {"session": query.to_dict()},
+        json=True,
+        broadcast=True,
+    )
+```
+
+Por fim o o socketio do backend dispara 2 eventos "frontend_employee_called" e "frontend_call_for_employee_on_table"
+o primeiro avisa a mesa que um funcionário foi chamado e o segundo notifica todos os funcionários que uma mesa está solicitando por atendimento.
 
 ## Aplicabilidade
 
