@@ -83,7 +83,7 @@ Note: Após utilizar muitas vezes `docker-compose up` recomenda-se utilizar dock
 
 ## Vídeo
 
-Adicione 1 ou mais vídeos com a execução do projeto final.
+[![2020.1_G10_QRodizio](http://img.youtube.com/vi/tAC2JK-sy2Q/0.jpg)](http://www.youtube.com/watch?v=tAC2JK-sy2Q "2020.1_G10_QRodizio")
 
 ---
 
